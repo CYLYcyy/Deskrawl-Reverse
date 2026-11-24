@@ -477,7 +477,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_reader.py",
-   "line": 22,
+   "line": 23,
    "token": "0x0410",
    "value": "0x410",
    "annotation": null,
@@ -490,7 +490,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_reader.py",
-   "line": 48,
+   "line": 49,
    "token": "0x10000",
    "value": "0x10000",
    "annotation": "and",
@@ -503,11 +503,11 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_reader.py",
-   "line": 163,
+   "line": 137,
    "token": "0x1000",
    "value": "0x1000",
    "annotation": "_k32.OpenProcess",
-   "context": "            h = _k32.OpenProcess(",
+   "context": "        h = _k32.OpenProcess(",
    "status": "literal",
    "label": "非地址（白名单/自动规则）",
    "detail": "PROCESS_QUERY_LIMITED_INFORMATION 权限常量（OpenProcess 的 dwDesiredAccess 参数），是访问掩码不是地址",
@@ -516,7 +516,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_reader.py",
-   "line": 298,
+   "line": 332,
    "token": "0xFFFFFFFF",
    "value": "0xffffffff",
    "annotation": null,
@@ -529,7 +529,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_reader.py",
-   "line": 299,
+   "line": 333,
    "token": "0x100000000",
    "value": "0x100000000",
    "annotation": null,
@@ -542,7 +542,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_reader.py",
-   "line": 299,
+   "line": 333,
    "token": "0x80000000",
    "value": "0x80000000",
    "annotation": null,
@@ -555,7 +555,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_reader.py",
-   "line": 317,
+   "line": 351,
    "token": "0x4608E0",
    "value": "0x4608e0",
    "annotation": "Actk.ObscuredInt.Decrypt",
@@ -570,7 +570,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_reader.py",
-   "line": 322,
+   "line": 356,
    "token": "0xFFFFFFFF",
    "value": "0xffffffff",
    "annotation": null,
@@ -583,7 +583,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_reader.py",
-   "line": 324,
+   "line": 358,
    "token": "0x45D400",
    "value": "0x45d400",
    "annotation": "Actk.ObscuredLong.Decrypt",
@@ -598,7 +598,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_reader.py",
-   "line": 331,
+   "line": 365,
    "token": "0x45F850",
    "value": "0x45f850",
    "annotation": "Actk.ObscuredFloat.Decrypt",
@@ -613,7 +613,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_reader.py",
-   "line": 337,
+   "line": 371,
    "token": "0xFF0000FF",
    "value": "0xff0000ff",
    "annotation": null,
@@ -626,7 +626,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_reader.py",
-   "line": 340,
+   "line": 374,
    "token": "0x45EC30",
    "value": "0x45ec30",
    "annotation": "Actk.ObscuredDouble.Decrypt",
@@ -2907,7 +2907,7 @@
    "mode": "klass",
    "ok": true,
    "count": 1,
-   "note": "类 GameConfig 仍存在"
+   "note": "类 gw 仍存在"
   },
   {
    "path": "hero_data.klass",

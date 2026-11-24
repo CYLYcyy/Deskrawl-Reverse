@@ -58,14 +58,14 @@
 | `tools/deskrawl_gui/app.py:804` | `0xC0000409` | 值 0xC0000409 超出映像范围（max_rva=0x42a2e00），是掩码/哨兵而非地址 |
 | `tools/deskrawl_gui/core/glossary.py:51` | `0x0410` | 四位以内的微常量（位掩码/计数/标志），不可能是地址 |
 | `tools/deskrawl_gui/core/memory_reader.py:5` | `0x0410` | 四位以内的微常量（位掩码/计数/标志），不可能是地址 |
-| `tools/deskrawl_gui/core/memory_reader.py:22` | `0x0410` | 四位以内的微常量（位掩码/计数/标志），不可能是地址 |
-| `tools/deskrawl_gui/core/memory_reader.py:48` | `0x10000` | 用户态指针下限，出现在 `0x10000 <= p < 0x7FFFFFFEFFFF` 的范围比较里，是阈值不是地址 |
-| `tools/deskrawl_gui/core/memory_reader.py:163` | `0x1000` | PROCESS_QUERY_LIMITED_INFORMATION 权限常量（OpenProcess 的 dwDesiredAccess 参数），是访问掩码不是地址 |
-| `tools/deskrawl_gui/core/memory_reader.py:298` | `0xFFFFFFFF` | 值 0xFFFFFFFF 超出映像范围（max_rva=0x42a2e00），是掩码/哨兵而非地址 |
-| `tools/deskrawl_gui/core/memory_reader.py:299` | `0x100000000` | 值 0x100000000 超出映像范围（max_rva=0x42a2e00），是掩码/哨兵而非地址 |
-| `tools/deskrawl_gui/core/memory_reader.py:299` | `0x80000000` | 值 0x80000000 超出映像范围（max_rva=0x42a2e00），是掩码/哨兵而非地址 |
-| `tools/deskrawl_gui/core/memory_reader.py:322` | `0xFFFFFFFF` | 值 0xFFFFFFFF 超出映像范围（max_rva=0x42a2e00），是掩码/哨兵而非地址 |
-| `tools/deskrawl_gui/core/memory_reader.py:337` | `0xFF0000FF` | 值 0xFF0000FF 超出映像范围（max_rva=0x42a2e00），是掩码/哨兵而非地址 |
+| `tools/deskrawl_gui/core/memory_reader.py:23` | `0x0410` | 四位以内的微常量（位掩码/计数/标志），不可能是地址 |
+| `tools/deskrawl_gui/core/memory_reader.py:49` | `0x10000` | 用户态指针下限，出现在 `0x10000 <= p < 0x7FFFFFFEFFFF` 的范围比较里，是阈值不是地址 |
+| `tools/deskrawl_gui/core/memory_reader.py:137` | `0x1000` | PROCESS_QUERY_LIMITED_INFORMATION 权限常量（OpenProcess 的 dwDesiredAccess 参数），是访问掩码不是地址 |
+| `tools/deskrawl_gui/core/memory_reader.py:332` | `0xFFFFFFFF` | 值 0xFFFFFFFF 超出映像范围（max_rva=0x42a2e00），是掩码/哨兵而非地址 |
+| `tools/deskrawl_gui/core/memory_reader.py:333` | `0x100000000` | 值 0x100000000 超出映像范围（max_rva=0x42a2e00），是掩码/哨兵而非地址 |
+| `tools/deskrawl_gui/core/memory_reader.py:333` | `0x80000000` | 值 0x80000000 超出映像范围（max_rva=0x42a2e00），是掩码/哨兵而非地址 |
+| `tools/deskrawl_gui/core/memory_reader.py:356` | `0xFFFFFFFF` | 值 0xFFFFFFFF 超出映像范围（max_rva=0x42a2e00），是掩码/哨兵而非地址 |
+| `tools/deskrawl_gui/core/memory_reader.py:371` | `0xFF0000FF` | 值 0xFF0000FF 超出映像范围（max_rva=0x42a2e00），是掩码/哨兵而非地址 |
 | `tools/deskrawl_gui/selftest_effects.py:29` | `0x1234` | 同上：面板复算自检里「需带状态才生效的换算」用非空状态指针占位，验证跳过 + 告警，不指向任何目标 |
 | `tools/deskrawl_gui/selftest_robustness.py:279` | `0x7FF00000` | 值 0x7FF00000 超出映像范围（max_rva=0x42a2e00），是掩码/哨兵而非地址 |
 | `tools/deskrawl_gui/selftest_robustness.py:288` | `0x7FF00000` | 值 0x7FF00000 超出映像范围（max_rva=0x42a2e00），是掩码/哨兵而非地址 |
@@ -231,7 +231,7 @@
 | `talent_effect_ability_modifier` | const | ✅ | 结构尺寸与声明一致 |
 | `singleton_getters` | rva | ✅ | 全部命中 |
 | `save_system.anchor_rvas` | rva | ✅ | 全部命中 |
-| `generated_items.klass` | klass | ✅ | 类 GameConfig 仍存在 |
+| `generated_items.klass` | klass | ✅ | 类 gw 仍存在 |
 | `hero_data.klass` | klass | ✅ | 类 HeroData 仍存在 |
 | `item_data.klass` | klass | ✅ | 类 ItemData 仍存在 |
 | `generated_item_klass` | klass | ✅ | 类 GeneratedItemData 仍存在 |
