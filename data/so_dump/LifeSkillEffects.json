@@ -1,7 +1,7 @@
 [
  {
   "_name": "IncreasePotionCharge1",
-  "_pathid": 5378,
+  "_pathid": 5748,
   "_file": "resources.assets",
   "_class": "LifeSkillEffect_StatModifier",
   "StatModifiers": [
@@ -30,14 +30,15 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "CapacityNotable",
-  "_pathid": 60171,
+  "_pathid": 64480,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_StatModifier",
   "StatModifiers": [
@@ -66,14 +67,15 @@
      "Name": "value",
      "Format": "0",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "DecreaseFishingTime1",
-  "_pathid": 60172,
+  "_pathid": 64481,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_FishingTime",
   "TimeReduction": 0.10000000149011612,
@@ -81,12 +83,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "DecreaseFishingTime2",
-  "_pathid": 60173,
+  "_pathid": 64482,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_FishingTime",
   "TimeReduction": 0.15000000596046448,
@@ -94,12 +97,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "DecreaseFishingTime3",
-  "_pathid": 60174,
+  "_pathid": 64483,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_FishingTime",
   "TimeReduction": 0.25,
@@ -107,12 +111,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "DecreaseReviveCooldown",
-  "_pathid": 60175,
+  "_pathid": 64484,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_ReviveCooldown",
   "SecondsReduced": {
@@ -137,12 +142,13 @@
    "Name": "value",
    "Format": "0.#",
    "Suffix": "s",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "EnableAutoRecover",
-  "_pathid": 60176,
+  "_pathid": 64485,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_FeatureFlag",
   "Features": [
@@ -151,7 +157,7 @@
  },
  {
   "_name": "EnableAutoRefill",
-  "_pathid": 60177,
+  "_pathid": 64486,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_FeatureFlag",
   "Features": [
@@ -160,7 +166,7 @@
  },
  {
   "_name": "EnableCarriageAutoFillInventory",
-  "_pathid": 60178,
+  "_pathid": 64487,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_FeatureFlag",
   "Features": [
@@ -169,7 +175,7 @@
  },
  {
   "_name": "EnableCarriageAutoSalvage",
-  "_pathid": 60179,
+  "_pathid": 64488,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_FeatureFlag",
   "Features": [
@@ -178,7 +184,7 @@
  },
  {
   "_name": "EnableCarriageAutoSell",
-  "_pathid": 60180,
+  "_pathid": 64489,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_FeatureFlag",
   "Features": [
@@ -187,7 +193,7 @@
  },
  {
   "_name": "EnableOfflineRewards",
-  "_pathid": 60181,
+  "_pathid": 64490,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_FeatureFlag",
   "Features": [
@@ -196,7 +202,7 @@
  },
  {
   "_name": "GoldFindNotable",
-  "_pathid": 60182,
+  "_pathid": 64491,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_StatModifier",
   "StatModifiers": [
@@ -225,14 +231,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "IncreaseCapacity1",
-  "_pathid": 60183,
+  "_pathid": 64492,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_StatModifier",
   "StatModifiers": [
@@ -261,14 +268,15 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "IncreaseFishingSuccess1",
-  "_pathid": 60184,
+  "_pathid": 64493,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_FishingSuccess",
   "SuccessBonus": 0.25,
@@ -276,12 +284,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "IncreaseFishingSuccess2",
-  "_pathid": 60185,
+  "_pathid": 64494,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_FishingSuccess",
   "SuccessBonus": 0.3499999940395355,
@@ -289,12 +298,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "IncreaseGoldFind1",
-  "_pathid": 60186,
+  "_pathid": 64495,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_StatModifier",
   "StatModifiers": [
@@ -323,14 +333,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "IncreaseMagicFind1",
-  "_pathid": 60187,
+  "_pathid": 64496,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_StatModifier",
   "StatModifiers": [
@@ -359,14 +370,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "IncreaseMaterialFind1",
-  "_pathid": 60188,
+  "_pathid": 64497,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_StatModifier",
   "StatModifiers": [
@@ -395,14 +407,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "IncreaseOfflineCap1",
-  "_pathid": 60189,
+  "_pathid": 64498,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_OfflineTimeCap",
   "HoursAdded": 2.0,
@@ -410,12 +423,13 @@
    "Name": "value",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "IncreasePotionFind1",
-  "_pathid": 60190,
+  "_pathid": 64499,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_StatModifier",
   "StatModifiers": [
@@ -444,82 +458,123 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "IncreaseSoulCap1",
-  "_pathid": 60191,
+  "_pathid": 64500,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_MaterialCarryCap",
   "Material": {
    "fileID": 0,
-   "pathID": 60088
+   "pathID": 64396
   },
   "CapAdded": 100,
   "Token": {
    "Name": "value",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "IncreaseSoulCap2",
-  "_pathid": 60192,
+  "_pathid": 64501,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_MaterialCarryCap",
   "Material": {
    "fileID": 0,
-   "pathID": 60088
+   "pathID": 64396
   },
   "CapAdded": 200,
   "Token": {
    "Name": "value",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "IncreaseSoulCap3",
-  "_pathid": 60193,
+  "_pathid": 64502,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_MaterialCarryCap",
   "Material": {
    "fileID": 0,
-   "pathID": 60088
+   "pathID": 64396
   },
   "CapAdded": 300,
   "Token": {
    "Name": "value",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "IncreaseSoulCap4",
-  "_pathid": 60194,
+  "_pathid": 64503,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_MaterialCarryCap",
   "Material": {
    "fileID": 0,
-   "pathID": 60088
+   "pathID": 64396
   },
   "CapAdded": 400,
   "Token": {
    "Name": "value",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
+  }
+ },
+ {
+  "_name": "IncreaseSoulCap5",
+  "_pathid": 64504,
+  "_file": "sharedassets0.assets",
+  "_class": "LifeSkillEffect_MaterialCarryCap",
+  "Material": {
+   "fileID": 0,
+   "pathID": 64396
+  },
+  "CapAdded": 500,
+  "Token": {
+   "Name": "value",
+   "Format": "0",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  }
+ },
+ {
+  "_name": "IncreaseSoulCap6",
+  "_pathid": 64505,
+  "_file": "sharedassets0.assets",
+  "_class": "LifeSkillEffect_MaterialCarryCap",
+  "Material": {
+   "fileID": 0,
+   "pathID": 64396
+  },
+  "CapAdded": 500,
+  "Token": {
+   "Name": "value",
+   "Format": "0",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "IncreaseXPGain1",
-  "_pathid": 60195,
+  "_pathid": 64506,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_StatModifier",
   "StatModifiers": [
@@ -548,14 +603,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "MagicFindNotable",
-  "_pathid": 60196,
+  "_pathid": 64507,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_StatModifier",
   "StatModifiers": [
@@ -584,14 +640,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "MaterialFindNotable",
-  "_pathid": 60197,
+  "_pathid": 64508,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_StatModifier",
   "StatModifiers": [
@@ -620,14 +677,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "OfflineCapNotable",
-  "_pathid": 60198,
+  "_pathid": 64509,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_OfflineTimeCap",
   "HoursAdded": 4.0,
@@ -635,12 +693,13 @@
    "Name": "value",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "PotionFindNotable",
-  "_pathid": 60199,
+  "_pathid": 64510,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_StatModifier",
   "StatModifiers": [
@@ -669,14 +728,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "ReviveNotable",
-  "_pathid": 60200,
+  "_pathid": 64511,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_ReviveCooldown",
   "SecondsReduced": {
@@ -701,40 +761,59 @@
    "Name": "value",
    "Format": "0.#",
    "Suffix": "s",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "UnlockCombatPotionSlot",
-  "_pathid": 60201,
+  "_pathid": 64512,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_UnlockConsumableSlot",
   "Category": 1
  },
  {
   "_name": "UnlockFoodSlot",
-  "_pathid": 60202,
+  "_pathid": 64513,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_UnlockConsumableSlot",
   "Category": 3
  },
  {
   "_name": "UnlockStoragePage",
-  "_pathid": 60203,
+  "_pathid": 64514,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_UnlockStoragePage",
   "Pages": 1
  },
  {
+  "_name": "UnlockTalentLoadout2",
+  "_pathid": 64515,
+  "_file": "sharedassets0.assets",
+  "_class": "LifeSkillEffect_FeatureFlag",
+  "Features": [
+   7
+  ]
+ },
+ {
+  "_name": "UnlockTalentLoadout3",
+  "_pathid": 64516,
+  "_file": "sharedassets0.assets",
+  "_class": "LifeSkillEffect_FeatureFlag",
+  "Features": [
+   8
+  ]
+ },
+ {
   "_name": "UnlockUtilityPotionSlot",
-  "_pathid": 60204,
+  "_pathid": 64517,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_UnlockConsumableSlot",
   "Category": 2
  },
  {
   "_name": "XPGainNotable",
-  "_pathid": 60205,
+  "_pathid": 64518,
   "_file": "sharedassets0.assets",
   "_class": "LifeSkillEffect_StatModifier",
   "StatModifiers": [
@@ -763,7 +842,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]

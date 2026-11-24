@@ -1,7 +1,7 @@
 [
  {
   "_name": "",
-  "_pathid": 60993,
+  "_pathid": 65336,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -78,28 +78,29 @@
   "SizeRadius": 0.699999988079071,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59864
+    "pathID": 64147
    },
    {
     "fileID": 0,
-    "pathID": 59863
+    "pathID": 64146
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4867
+    "pathID": 5007
    },
    "Volume": 0.699999988079071,
    "Pitch": 2.0
@@ -110,10 +111,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60124
+     "pathID": 64432
     },
     "Chance": 0.0020000000949949026,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -124,7 +126,132 @@
  },
  {
   "_name": "",
-  "_pathid": 60995,
+  "_pathid": 65337,
+  "_file": "sharedassets0.assets",
+  "_level": {
+   "__type__": "ObscuredInt",
+   "hash": 1606771313,
+   "hiddenValue": 145763901,
+   "cryptoKey": 72881950,
+   "value": 1,
+   "__tail__": ""
+  },
+  "BaseMaxHealth": {
+   "__type__": "ObscuredLong",
+   "hash": -670412143,
+   "hiddenValue": -115404380753146108,
+   "cryptoKey": 9165669846478202863,
+   "value": 250,
+   "__tail__": ""
+  },
+  "BaseDamage": {
+   "__type__": "ObscuredLong",
+   "hash": 849128785,
+   "hiddenValue": 145763946,
+   "cryptoKey": 72881970,
+   "value": 10,
+   "__tail__": ""
+  },
+  "BaseMoveSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": -622320125,
+   "hiddenValue": 999195082,
+   "cryptoKey": 72882000,
+   "value": 1.7000000476837158,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritChance": {
+   "__type__": "ObscuredFloat",
+   "hash": 1573529835,
+   "hiddenValue": 970691735,
+   "cryptoKey": 72882010,
+   "value": 0.10000000149011612,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritDamage": {
+   "__type__": "ObscuredFloat",
+   "hash": 159847311,
+   "hiddenValue": 991402084,
+   "cryptoKey": 72882020,
+   "value": 1.5,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseAttackSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 159847311,
+   "hiddenValue": 1201245607,
+   "cryptoKey": 2018351527,
+   "value": 1.5,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseDodgeChance": {
+   "__type__": "ObscuredFloat",
+   "hash": -628755087,
+   "hiddenValue": 1660297790,
+   "cryptoKey": 1555787684,
+   "value": 0.30000001192092896,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseMaxMana": {
+   "__type__": "ObscuredLong",
+   "hash": -637291543,
+   "hiddenValue": 145764200,
+   "cryptoKey": 72882050,
+   "value": 100,
+   "__tail__": ""
+  },
+  "SizeRadius": 0.699999988079071,
+  "OnHitVFXPrefab": {
+   "fileID": 0,
+   "pathID": 6175
+  },
+  "Animator": null,
+  "MinEnemySpacing": 1.0,
+  "HighDifficultyHpOverride": 0,
+  "HighDifficultyDmgOverride": 0,
+  "MythicSize": 2,
+  "StartingStatus": null,
+  "Abilities": [
+   {
+    "fileID": 0,
+    "pathID": 64147
+   },
+   {
+    "fileID": 0,
+    "pathID": 64145
+   }
+  ],
+  "Phases": [],
+  "AbilitySound": {
+   "Clip": {
+    "fileID": 0,
+    "pathID": 5007
+   },
+   "Volume": 0.699999988079071,
+   "Pitch": 2.0
+  },
+  "AbilitySoundChance": 0.30000001192092896,
+  "DropsLoot": true,
+  "SpecialDrops": [
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64432
+    },
+    "Chance": 0.0020000000949949026,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   }
+  ],
+  "PlannedXP": 0,
+  "EncounterType": 0,
+  "IsEncounterBoss": false,
+  "Lane": 0,
+  "LaneZPositions": []
+ },
+ {
+  "_name": "",
+  "_pathid": 65339,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -201,24 +328,25 @@
   "SizeRadius": 0.8999999761581421,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4802
+    "pathID": 4942
    },
    "Volume": 0.8999999761581421,
    "Pitch": 1.0
@@ -229,10 +357,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60119
+     "pathID": 64427
     },
     "Chance": 0.0020000000949949026,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -243,7 +372,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61010,
+  "_pathid": 65356,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -320,24 +449,25 @@
   "SizeRadius": 1.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4811
+    "pathID": 4951
    },
    "Volume": 0.5,
    "Pitch": 0.800000011920929
@@ -348,10 +478,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60121
+     "pathID": 64429
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -362,7 +493,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61021,
+  "_pathid": 65367,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -439,28 +570,29 @@
   "SizeRadius": 1.600000023841858,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 7500,
   "HighDifficultyDmgOverride": 38,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59860
+    "pathID": 64142
    },
    {
     "fileID": 0,
-    "pathID": 59861
+    "pathID": 64143
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4928
+    "pathID": 5070
    },
    "Volume": 1.0,
    "Pitch": 0.800000011920929
@@ -471,42 +603,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60084
+     "pathID": 64392
     },
     "Chance": 1.0,
-    "Difficulties": 1
+    "Difficulties": 1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60086
+     "pathID": 64394
     },
     "Chance": 1.0,
-    "Difficulties": 2
+    "Difficulties": 2,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60085
+     "pathID": 64393
     },
     "Chance": 1.0,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59987
+     "pathID": 64281
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60122
+     "pathID": 64430
     },
-    "Chance": 0.0006000000284984708,
-    "Difficulties": -1
+    "Chance": 0.0008999999845400453,
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -517,7 +654,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61047,
+  "_pathid": 65395,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -594,21 +731,22 @@
   "SizeRadius": 2.5999999046325684,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 6500,
   "HighDifficultyDmgOverride": 38,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    },
    {
     "fileID": 0,
-    "pathID": 59858
+    "pathID": 64139
    }
   ],
   "Phases": [
@@ -617,11 +755,11 @@
     "Abilities": [
      {
       "fileID": 0,
-      "pathID": 59866
+      "pathID": 64149
      },
      {
       "fileID": 0,
-      "pathID": 59858
+      "pathID": 64139
      }
     ]
    },
@@ -630,15 +768,15 @@
     "Abilities": [
      {
       "fileID": 0,
-      "pathID": 59866
+      "pathID": 64149
      },
      {
       "fileID": 0,
-      "pathID": 59858
+      "pathID": 64139
      },
      {
       "fileID": 0,
-      "pathID": 59859
+      "pathID": 64140
      }
     ]
    }
@@ -646,7 +784,7 @@
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5035
+    "pathID": 5178
    },
    "Volume": 1.0,
    "Pitch": 0.8999999761581421
@@ -657,42 +795,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60120
+     "pathID": 64428
     },
-    "Chance": 0.00039999998989515007,
-    "Difficulties": -1
+    "Chance": 0.0006000000284984708,
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60079
+     "pathID": 64386
     },
     "Chance": 0.20000000298023224,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60011
+     "pathID": 64311
     },
     "Chance": 0.004999999888241291,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59972
+     "pathID": 64263
     },
     "Chance": 0.000699999975040555,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -703,7 +846,199 @@
  },
  {
   "_name": "",
-  "_pathid": 61052,
+  "_pathid": 65396,
+  "_file": "sharedassets0.assets",
+  "_level": {
+   "__type__": "ObscuredInt",
+   "hash": 1606771313,
+   "hiddenValue": 147823409,
+   "cryptoKey": 73911704,
+   "value": 1,
+   "__tail__": ""
+  },
+  "BaseMaxHealth": {
+   "__type__": "ObscuredLong",
+   "hash": 686323367,
+   "hiddenValue": 5021952330495252366,
+   "cryptoKey": 2510976165247624511,
+   "value": 6000,
+   "__tail__": ""
+  },
+  "BaseDamage": {
+   "__type__": "ObscuredLong",
+   "hash": -804367127,
+   "hiddenValue": -3452762134260105660,
+   "cryptoKey": 7496990969724722992,
+   "value": 36,
+   "__tail__": ""
+  },
+  "BaseMoveSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 1607085071,
+   "hiddenValue": 2144338793,
+   "cryptoKey": 1087315108,
+   "value": 1.600000023841858,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritChance": {
+   "__type__": "ObscuredFloat",
+   "hash": -649440399,
+   "hiddenValue": 2121409588,
+   "cryptoKey": 1077799854,
+   "value": 0.15000000596046448,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritDamage": {
+   "__type__": "ObscuredFloat",
+   "hash": 1797618913,
+   "hiddenValue": 247065521,
+   "cryptoKey": 1324071345,
+   "value": 2.0,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseAttackSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 180532623,
+   "hiddenValue": 1003300840,
+   "cryptoKey": 73911784,
+   "value": 0.75,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseDodgeChance": {
+   "__type__": "ObscuredFloat",
+   "hash": 723851361,
+   "hiddenValue": 80570354,
+   "cryptoKey": 73911794,
+   "value": 0.0,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseMaxMana": {
+   "__type__": "ObscuredLong",
+   "hash": -637291543,
+   "hiddenValue": 147823508,
+   "cryptoKey": 73911804,
+   "value": 100,
+   "__tail__": ""
+  },
+  "SizeRadius": 2.5999999046325684,
+  "OnHitVFXPrefab": {
+   "fileID": 0,
+   "pathID": 6175
+  },
+  "Animator": null,
+  "MinEnemySpacing": 1.0,
+  "HighDifficultyHpOverride": 6500,
+  "HighDifficultyDmgOverride": 38,
+  "MythicSize": 3,
+  "StartingStatus": null,
+  "Abilities": [
+   {
+    "fileID": 0,
+    "pathID": 64149
+   },
+   {
+    "fileID": 0,
+    "pathID": 64139
+   }
+  ],
+  "Phases": [
+   {
+    "MinHpFraction": 0.5,
+    "Abilities": [
+     {
+      "fileID": 0,
+      "pathID": 64149
+     },
+     {
+      "fileID": 0,
+      "pathID": 64139
+     }
+    ]
+   },
+   {
+    "MinHpFraction": 0.0,
+    "Abilities": [
+     {
+      "fileID": 0,
+      "pathID": 64149
+     },
+     {
+      "fileID": 0,
+      "pathID": 64139
+     },
+     {
+      "fileID": 0,
+      "pathID": 64141
+     }
+    ]
+   }
+  ],
+  "AbilitySound": {
+   "Clip": {
+    "fileID": 0,
+    "pathID": 5178
+   },
+   "Volume": 1.0,
+   "Pitch": 0.8999999761581421
+  },
+  "AbilitySoundChance": 0.5,
+  "DropsLoot": true,
+  "SpecialDrops": [
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64282
+    },
+    "Chance": 0.05000000074505806,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64428
+    },
+    "Chance": 0.00039999998989515007,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64386
+    },
+    "Chance": 0.20000000298023224,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64311
+    },
+    "Chance": 0.004999999888241291,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64263
+    },
+    "Chance": 0.000699999975040555,
+    "Difficulties": 4,
+    "IsBlackMist": false
+   }
+  ],
+  "PlannedXP": 0,
+  "EncounterType": 0,
+  "IsEncounterBoss": false,
+  "Lane": 0,
+  "LaneZPositions": []
+ },
+ {
+  "_name": "",
+  "_pathid": 65401,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -780,27 +1115,28 @@
   "SizeRadius": 1.600000023841858,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54186
+   "pathID": 58172
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5002
+    "pathID": 5145
    },
    "Volume": 1.0,
    "Pitch": 1.0
@@ -811,10 +1147,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60166
+     "pathID": 64474
     },
     "Chance": 0.0020000000949949026,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -825,7 +1162,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61064,
+  "_pathid": 65413,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -902,28 +1239,29 @@
   "SizeRadius": 0.8999999761581421,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    },
    {
     "fileID": 0,
-    "pathID": 59862
+    "pathID": 64144
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4900
+    "pathID": 5040
    },
    "Volume": 0.699999988079071,
    "Pitch": 0.699999988079071
@@ -934,10 +1272,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60123
+     "pathID": 64431
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -948,7 +1287,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61506,
+  "_pathid": 65875,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -1025,31 +1364,32 @@
   "SizeRadius": 1.600000023841858,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54198
+   "pathID": 58184
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 7000,
   "HighDifficultyDmgOverride": 34,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59895
+    "pathID": 64179
    },
    {
     "fileID": 0,
-    "pathID": 59896
+    "pathID": 64180
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5035
+    "pathID": 5178
    },
    "Volume": 1.0,
    "Pitch": 1.0
@@ -1060,42 +1400,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60084
+     "pathID": 64392
     },
     "Chance": 1.0,
-    "Difficulties": 1
+    "Difficulties": 1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60086
+     "pathID": 64394
     },
     "Chance": 1.0,
-    "Difficulties": 2
+    "Difficulties": 2,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60085
+     "pathID": 64393
     },
     "Chance": 1.0,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59987
+     "pathID": 64281
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60163
+     "pathID": 64471
     },
-    "Chance": 0.0003000000142492354,
-    "Difficulties": -1
+    "Chance": 0.00044999999227002263,
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -1106,7 +1451,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61612,
+  "_pathid": 65986,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -1183,27 +1528,28 @@
   "SizeRadius": 0.5,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6000
+   "pathID": 6174
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54173
+   "pathID": 58158
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5030
+    "pathID": 5173
    },
    "Volume": 0.800000011920929,
    "Pitch": 0.8999999761581421
@@ -1214,10 +1560,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60135
+     "pathID": 64443
     },
     "Chance": 0.0020000000949949026,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -1228,7 +1575,171 @@
  },
  {
   "_name": "",
-  "_pathid": 61613,
+  "_pathid": 65987,
+  "_file": "sharedassets0.assets",
+  "_level": {
+   "__type__": "ObscuredInt",
+   "hash": 1606771313,
+   "hiddenValue": -1951674039,
+   "cryptoKey": 1171646629,
+   "value": 1,
+   "__tail__": ""
+  },
+  "BaseMaxHealth": {
+   "__type__": "ObscuredLong",
+   "hash": 686323367,
+   "hiddenValue": -2499518384053507974,
+   "cryptoKey": 7973612844828023269,
+   "value": 6000,
+   "__tail__": ""
+  },
+  "BaseDamage": {
+   "__type__": "ObscuredLong",
+   "hash": -591426815,
+   "hiddenValue": -895277902428000928,
+   "cryptoKey": 8775733085640775353,
+   "value": 30,
+   "__tail__": ""
+  },
+  "BaseMoveSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 149504655,
+   "hiddenValue": 1531707889,
+   "cryptoKey": 1686195441,
+   "value": 1.0,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritChance": {
+   "__type__": "ObscuredFloat",
+   "hash": -649440399,
+   "hiddenValue": 1388478387,
+   "cryptoKey": 1818647337,
+   "value": 0.15000000596046448,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritDamage": {
+   "__type__": "ObscuredFloat",
+   "hash": 1797618913,
+   "hiddenValue": 883108888,
+   "cryptoKey": 1949082392,
+   "value": 2.0,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseAttackSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 962409051,
+   "hiddenValue": 1782510058,
+   "cryptoKey": 1440398325,
+   "value": 0.6700000166893005,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseDodgeChance": {
+   "__type__": "ObscuredFloat",
+   "hash": 723851361,
+   "hiddenValue": 2050179618,
+   "cryptoKey": 2051158818,
+   "value": 0.0,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseMaxMana": {
+   "__type__": "ObscuredLong",
+   "hash": -637291543,
+   "hiddenValue": 3093128834742879610,
+   "cryptoKey": 1546564417371439755,
+   "value": 100,
+   "__tail__": ""
+  },
+  "SizeRadius": 0.800000011920929,
+  "OnHitVFXPrefab": {
+   "fileID": 0,
+   "pathID": 6174
+  },
+  "Animator": {
+   "fileID": 0,
+   "pathID": 58274
+  },
+  "MinEnemySpacing": 0.699999988079071,
+  "HighDifficultyHpOverride": 0,
+  "HighDifficultyDmgOverride": 0,
+  "MythicSize": 3,
+  "StartingStatus": null,
+  "Abilities": [
+   {
+    "fileID": 0,
+    "pathID": 64149
+   },
+   {
+    "fileID": 0,
+    "pathID": 64153
+   }
+  ],
+  "Phases": [],
+  "AbilitySound": {
+   "Clip": {
+    "fileID": 0,
+    "pathID": 5145
+   },
+   "Volume": 1.0,
+   "Pitch": 0.6000000238418579
+  },
+  "AbilitySoundChance": 0.5,
+  "DropsLoot": true,
+  "SpecialDrops": [
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64421
+    },
+    "Chance": 0.00039999998989515007,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64282
+    },
+    "Chance": 0.05000000074505806,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64385
+    },
+    "Chance": 0.20000000298023224,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64291
+    },
+    "Chance": 0.004999999888241291,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64263
+    },
+    "Chance": 0.000699999975040555,
+    "Difficulties": 4,
+    "IsBlackMist": false
+   }
+  ],
+  "PlannedXP": 0,
+  "EncounterType": 0,
+  "IsEncounterBoss": false,
+  "Lane": 0,
+  "LaneZPositions": []
+ },
+ {
+  "_name": "",
+  "_pathid": 65988,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -1305,24 +1816,25 @@
   "SizeRadius": 0.699999988079071,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 5997
+   "pathID": 6171
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4810
+    "pathID": 4950
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -1338,7 +1850,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61614,
+  "_pathid": 65989,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -1415,28 +1927,29 @@
   "SizeRadius": 1.5,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 6000,
   "HighDifficultyDmgOverride": 30,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59886
+    "pathID": 64170
    },
    {
     "fileID": 0,
-    "pathID": 59885
+    "pathID": 64169
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4981
+    "pathID": 5124
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -1447,42 +1960,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60152
+     "pathID": 64460
     },
-    "Chance": 0.00039999998989515007,
-    "Difficulties": -1
+    "Chance": 0.0006000000284984708,
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60087
+     "pathID": 64395
     },
     "Chance": 0.20000000298023224,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60012
+     "pathID": 64312
     },
     "Chance": 0.004999999888241291,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59972
+     "pathID": 64263
     },
     "Chance": 0.000699999975040555,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -1493,7 +2011,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61615,
+  "_pathid": 65990,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -1570,27 +2088,28 @@
   "SizeRadius": 0.4000000059604645,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54259
+   "pathID": 58249
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4808
+    "pathID": 4948
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.0
@@ -1601,10 +2120,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60170
+     "pathID": 64479
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -1615,7 +2135,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61616,
+  "_pathid": 65991,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -1692,24 +2212,25 @@
   "SizeRadius": 2.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6000
+   "pathID": 6174
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54344
+   "pathID": 58337
   },
   "MinEnemySpacing": 0.699999988079071,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59870
+    "pathID": 64154
    },
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
@@ -1724,10 +2245,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 1.0,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -1738,7 +2260,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61617,
+  "_pathid": 65992,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -1815,27 +2337,28 @@
   "SizeRadius": 0.6000000238418579,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54282
+   "pathID": 58273
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59877
+    "pathID": 64161
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4810
+    "pathID": 4950
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -1846,10 +2369,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60140
+     "pathID": 64448
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -1860,7 +2384,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61618,
+  "_pathid": 65993,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -1937,24 +2461,25 @@
   "SizeRadius": 0.699999988079071,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 5997
+   "pathID": 6171
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4810
+    "pathID": 4950
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -1965,74 +2490,83 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64278
     },
     "Chance": 1.0,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 1.0,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 1.0,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60034
+     "pathID": 64335
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60040
+     "pathID": 64342
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60046
+     "pathID": 64349
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60052
+     "pathID": 64356
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60058
+     "pathID": 64363
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60064
+     "pathID": 64370
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -2043,7 +2577,302 @@
  },
  {
   "_name": "",
-  "_pathid": 61619,
+  "_pathid": 65994,
+  "_file": "sharedassets0.assets",
+  "_level": {
+   "__type__": "ObscuredInt",
+   "hash": 1606771313,
+   "hiddenValue": -199003395,
+   "cryptoKey": 2047981950,
+   "value": 1,
+   "__tail__": ""
+  },
+  "BaseMaxHealth": {
+   "__type__": "ObscuredLong",
+   "hash": 860269243,
+   "hiddenValue": 6602341237187545390,
+   "cryptoKey": 3301170618593772841,
+   "value": 300,
+   "__tail__": ""
+  },
+  "BaseDamage": {
+   "__type__": "ObscuredLong",
+   "hash": 1020543229,
+   "hiddenValue": -8159658859177410631,
+   "cryptoKey": 5143542607266070493,
+   "value": 1,
+   "__tail__": ""
+  },
+  "BaseMoveSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 1607085071,
+   "hiddenValue": 1485843634,
+   "cryptoKey": 1742756991,
+   "value": 1.600000023841858,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritChance": {
+   "__type__": "ObscuredFloat",
+   "hash": 1573529835,
+   "hiddenValue": 1238295,
+   "cryptoKey": 1026154202,
+   "value": 0.10000000149011612,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritDamage": {
+   "__type__": "ObscuredFloat",
+   "hash": 159847311,
+   "hiddenValue": 1966590280,
+   "cryptoKey": 1242117960,
+   "value": 1.5,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseAttackSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 159847311,
+   "hiddenValue": 1666710303,
+   "cryptoKey": 1547392799,
+   "value": 1.5,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseDodgeChance": {
+   "__type__": "ObscuredFloat",
+   "hash": -649440399,
+   "hiddenValue": 1363323904,
+   "cryptoKey": 1874189210,
+   "value": 0.15000000596046448,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseMaxMana": {
+   "__type__": "ObscuredLong",
+   "hash": -637291543,
+   "hiddenValue": 4336572624904834202,
+   "cryptoKey": 2168286312452417087,
+   "value": 100,
+   "__tail__": ""
+  },
+  "SizeRadius": 2.0,
+  "OnHitVFXPrefab": {
+   "fileID": 0,
+   "pathID": 6171
+  },
+  "Animator": null,
+  "MinEnemySpacing": 1.0,
+  "HighDifficultyHpOverride": 0,
+  "HighDifficultyDmgOverride": 0,
+  "MythicSize": 2,
+  "StartingStatus": null,
+  "Abilities": [
+   {
+    "fileID": 0,
+    "pathID": 64149
+   }
+  ],
+  "Phases": [],
+  "AbilitySound": {
+   "Clip": {
+    "fileID": 0,
+    "pathID": 4950
+   },
+   "Volume": 0.5,
+   "Pitch": 1.0
+  },
+  "AbilitySoundChance": 0.30000001192092896,
+  "DropsLoot": true,
+  "SpecialDrops": [
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64279
+    },
+    "Chance": 1.0,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64279
+    },
+    "Chance": 1.0,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64336
+    },
+    "Chance": 0.699999988079071,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64343
+    },
+    "Chance": 0.699999988079071,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64350
+    },
+    "Chance": 0.699999988079071,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64357
+    },
+    "Chance": 0.699999988079071,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64364
+    },
+    "Chance": 0.699999988079071,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64371
+    },
+    "Chance": 0.699999988079071,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   }
+  ],
+  "PlannedXP": 0,
+  "EncounterType": 0,
+  "IsEncounterBoss": false,
+  "Lane": 0,
+  "LaneZPositions": []
+ },
+ {
+  "_name": "",
+  "_pathid": 65995,
+  "_file": "sharedassets0.assets",
+  "_level": {
+   "__type__": "ObscuredInt",
+   "hash": 1606771313,
+   "hiddenValue": -199003395,
+   "cryptoKey": 2047981950,
+   "value": 1,
+   "__tail__": ""
+  },
+  "BaseMaxHealth": {
+   "__type__": "ObscuredLong",
+   "hash": -591426815,
+   "hiddenValue": -8864328818137143842,
+   "cryptoKey": 4791207627786203892,
+   "value": 30,
+   "__tail__": ""
+  },
+  "BaseDamage": {
+   "__type__": "ObscuredLong",
+   "hash": 1020543229,
+   "hiddenValue": -8159658859177410631,
+   "cryptoKey": 5143542607266070493,
+   "value": 1,
+   "__tail__": ""
+  },
+  "BaseMoveSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 1607085071,
+   "hiddenValue": 1485843634,
+   "cryptoKey": 1742756991,
+   "value": 1.600000023841858,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritChance": {
+   "__type__": "ObscuredFloat",
+   "hash": 1573529835,
+   "hiddenValue": 1238295,
+   "cryptoKey": 1026154202,
+   "value": 0.10000000149011612,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritDamage": {
+   "__type__": "ObscuredFloat",
+   "hash": 159847311,
+   "hiddenValue": 1966590280,
+   "cryptoKey": 1242117960,
+   "value": 1.5,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseAttackSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 159847311,
+   "hiddenValue": 1666710303,
+   "cryptoKey": 1547392799,
+   "value": 1.5,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseDodgeChance": {
+   "__type__": "ObscuredFloat",
+   "hash": -649440399,
+   "hiddenValue": 1363323904,
+   "cryptoKey": 1874189210,
+   "value": 0.15000000596046448,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseMaxMana": {
+   "__type__": "ObscuredLong",
+   "hash": -637291543,
+   "hiddenValue": 4336572624904834202,
+   "cryptoKey": 2168286312452417087,
+   "value": 100,
+   "__tail__": ""
+  },
+  "SizeRadius": 0.699999988079071,
+  "OnHitVFXPrefab": {
+   "fileID": 0,
+   "pathID": 6171
+  },
+  "Animator": null,
+  "MinEnemySpacing": 1.0,
+  "HighDifficultyHpOverride": 0,
+  "HighDifficultyDmgOverride": 0,
+  "MythicSize": 2,
+  "StartingStatus": null,
+  "Abilities": [
+   {
+    "fileID": 0,
+    "pathID": 64149
+   }
+  ],
+  "Phases": [],
+  "AbilitySound": {
+   "Clip": {
+    "fileID": 0,
+    "pathID": 4950
+   },
+   "Volume": 0.5,
+   "Pitch": 1.0
+  },
+  "AbilitySoundChance": 0.30000001192092896,
+  "DropsLoot": true,
+  "SpecialDrops": [],
+  "PlannedXP": 0,
+  "EncounterType": 0,
+  "IsEncounterBoss": false,
+  "Lane": 0,
+  "LaneZPositions": []
+ },
+ {
+  "_name": "",
+  "_pathid": 65996,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -2120,28 +2949,29 @@
   "SizeRadius": 1.2999999523162842,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6000
+   "pathID": 6174
   },
   "Animator": null,
   "MinEnemySpacing": 0.699999988079071,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    },
    {
     "fileID": 0,
-    "pathID": 59854
+    "pathID": 64135
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5002
+    "pathID": 5145
    },
    "Volume": 1.0,
    "Pitch": 1.0
@@ -2152,42 +2982,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60107
+     "pathID": 64415
     },
-    "Chance": 0.00039999998989515007,
-    "Difficulties": -1
+    "Chance": 0.0006000000284984708,
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60077
+     "pathID": 64384
     },
     "Chance": 0.20000000298023224,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59999
+     "pathID": 64297
     },
     "Chance": 0.004999999888241291,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59972
+     "pathID": 64263
     },
     "Chance": 0.000699999975040555,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -2198,7 +3033,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61620,
+  "_pathid": 65997,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -2275,27 +3110,28 @@
   "SizeRadius": 0.6000000238418579,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54298
+   "pathID": 58290
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4858
+    "pathID": 4998
    },
    "Volume": 0.5,
    "Pitch": 1.2000000476837158
@@ -2306,10 +3142,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60125
+     "pathID": 64433
     },
     "Chance": 0.0020000000949949026,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -2320,7 +3157,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61621,
+  "_pathid": 65998,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -2397,24 +3234,25 @@
   "SizeRadius": 0.44999998807907104,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6000
+   "pathID": 6174
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59855
+    "pathID": 64136
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4793
+    "pathID": 4933
    },
    "Volume": 0.5,
    "Pitch": 1.2000000476837158
@@ -2425,10 +3263,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60110
+     "pathID": 64418
     },
     "Chance": 0.0020000000949949026,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -2439,7 +3278,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61622,
+  "_pathid": 65999,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -2516,31 +3355,32 @@
   "SizeRadius": 1.399999976158142,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54333
+   "pathID": 58325
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    },
    {
     "fileID": 0,
-    "pathID": 59876
+    "pathID": 64160
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4936
+    "pathID": 5078
    },
    "Volume": 0.6000000238418579,
    "Pitch": 0.75
@@ -2551,42 +3391,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60084
+     "pathID": 64392
     },
     "Chance": 1.0,
-    "Difficulties": 1
+    "Difficulties": 1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60086
+     "pathID": 64394
     },
     "Chance": 1.0,
-    "Difficulties": 2
+    "Difficulties": 2,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60085
+     "pathID": 64393
     },
     "Chance": 1.0,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59987
+     "pathID": 64281
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60148
+     "pathID": 64456
     },
-    "Chance": 0.0006000000284984708,
-    "Difficulties": -1
+    "Chance": 0.0008999999845400453,
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -2597,7 +3442,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61623,
+  "_pathid": 66000,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -2674,24 +3519,25 @@
   "SizeRadius": 0.8999999761581421,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59867
+    "pathID": 64150
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4802
+    "pathID": 4942
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -2702,10 +3548,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60157
+     "pathID": 64465
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -2716,7 +3563,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61624,
+  "_pathid": 66001,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -2793,27 +3640,28 @@
   "SizeRadius": 0.4000000059604645,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54288
+   "pathID": 58280
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5023
+    "pathID": 5166
    },
    "Volume": 0.800000011920929,
    "Pitch": 0.8999999761581421
@@ -2824,10 +3672,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60116
+     "pathID": 64424
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -2838,7 +3687,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61625,
+  "_pathid": 66002,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -2915,24 +3764,25 @@
   "SizeRadius": 0.699999988079071,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 5997
+   "pathID": 6171
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4810
+    "pathID": 4950
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -2943,82 +3793,83 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64278
     },
     "Chance": 1.0,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64278
     },
     "Chance": 1.0,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 1.0,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59987
-    },
-    "Chance": 1.0,
-    "Difficulties": -1
-   },
-   {
-    "Item": {
-     "fileID": 0,
-     "pathID": 60035
+     "pathID": 64336
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60041
+     "pathID": 64343
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60047
+     "pathID": 64350
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60053
+     "pathID": 64357
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60059
+     "pathID": 64364
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60065
+     "pathID": 64371
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -3029,7 +3880,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61626,
+  "_pathid": 66003,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -3106,28 +3957,29 @@
   "SizeRadius": 1.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    },
    {
     "fileID": 0,
-    "pathID": 59889
+    "pathID": 64173
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4811
+    "pathID": 4951
    },
    "Volume": 0.5,
    "Pitch": 0.8500000238418579
@@ -3138,10 +3990,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60154
+     "pathID": 64462
     },
     "Chance": 0.0020000000949949026,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -3152,7 +4005,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61627,
+  "_pathid": 66004,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -3230,23 +4083,24 @@
   "OnHitVFXPrefab": null,
   "Animator": {
    "fileID": 0,
-   "pathID": 54320
+   "pathID": 58312
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59872
+    "pathID": 64156
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4928
+    "pathID": 5070
    },
    "Volume": 0.6000000238418579,
    "Pitch": 1.2000000476837158
@@ -3257,10 +4111,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60150
+     "pathID": 64458
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -3271,7 +4126,168 @@
  },
  {
   "_name": "",
-  "_pathid": 61628,
+  "_pathid": 66005,
+  "_file": "sharedassets0.assets",
+  "_level": {
+   "__type__": "ObscuredInt",
+   "hash": 1606771313,
+   "hiddenValue": -1868968683,
+   "cryptoKey": 1212999307,
+   "value": 1,
+   "__tail__": ""
+  },
+  "BaseMaxHealth": {
+   "__type__": "ObscuredLong",
+   "hash": -635588849,
+   "hiddenValue": -6462720381146576022,
+   "cryptoKey": 5992011846281463565,
+   "value": 50000,
+   "__tail__": ""
+  },
+  "BaseDamage": {
+   "__type__": "ObscuredLong",
+   "hash": -574091127,
+   "hiddenValue": 2169317783207268290,
+   "cryptoKey": 1084658891603634135,
+   "value": 60,
+   "__tail__": ""
+  },
+  "BaseMoveSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 1802738785,
+   "hiddenValue": 692934429,
+   "cryptoKey": 1769426205,
+   "value": 2.5,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritChance": {
+   "__type__": "ObscuredFloat",
+   "hash": -649440399,
+   "hiddenValue": 1952540431,
+   "cryptoKey": 1249835157,
+   "value": 0.15000000596046448,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritDamage": {
+   "__type__": "ObscuredFloat",
+   "hash": 1797618913,
+   "hiddenValue": 305270004,
+   "cryptoKey": 1376531188,
+   "value": 2.0,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseAttackSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 962409051,
+   "hiddenValue": 1782510058,
+   "cryptoKey": 1440398325,
+   "value": 0.6700000166893005,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseDodgeChance": {
+   "__type__": "ObscuredFloat",
+   "hash": 723851361,
+   "hiddenValue": 1730014290,
+   "cryptoKey": 1743527250,
+   "value": 0.0,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseMaxMana": {
+   "__type__": "ObscuredLong",
+   "hash": -637291543,
+   "hiddenValue": 4745882707535023476,
+   "cryptoKey": 2372941353767511788,
+   "value": 100,
+   "__tail__": ""
+  },
+  "SizeRadius": 0.800000011920929,
+  "OnHitVFXPrefab": {
+   "fileID": 0,
+   "pathID": 6174
+  },
+  "Animator": null,
+  "MinEnemySpacing": 0.699999988079071,
+  "HighDifficultyHpOverride": 0,
+  "HighDifficultyDmgOverride": 0,
+  "MythicSize": 3,
+  "StartingStatus": null,
+  "Abilities": [
+   {
+    "fileID": 0,
+    "pathID": 64182
+   },
+   {
+    "fileID": 0,
+    "pathID": 64183
+   }
+  ],
+  "Phases": [],
+  "AbilitySound": {
+   "Clip": {
+    "fileID": 0,
+    "pathID": 5145
+   },
+   "Volume": 1.0,
+   "Pitch": 1.0
+  },
+  "AbilitySoundChance": 0.5,
+  "DropsLoot": true,
+  "SpecialDrops": [
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64475
+    },
+    "Chance": 0.0006000000284984708,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64276
+    },
+    "Chance": 0.05000000074505806,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64401
+    },
+    "Chance": 0.20000000298023224,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64292
+    },
+    "Chance": 0.004999999888241291,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64263
+    },
+    "Chance": 0.000699999975040555,
+    "Difficulties": 4,
+    "IsBlackMist": false
+   }
+  ],
+  "PlannedXP": 0,
+  "EncounterType": 0,
+  "IsEncounterBoss": false,
+  "Lane": 0,
+  "LaneZPositions": []
+ },
+ {
+  "_name": "",
+  "_pathid": 66006,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -3348,27 +4364,28 @@
   "SizeRadius": 1.600000023841858,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54213
+   "pathID": 58199
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4810
+    "pathID": 4950
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -3379,10 +4396,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60141
+     "pathID": 64449
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -3393,7 +4411,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61629,
+  "_pathid": 66007,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -3470,24 +4488,25 @@
   "SizeRadius": 0.30000001192092896,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 5998
+   "pathID": 6172
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 1,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4876
+    "pathID": 5016
    },
    "Volume": 0.5,
    "Pitch": 0.699999988079071
@@ -3498,10 +4517,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60108
+     "pathID": 64416
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -3512,7 +4532,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61630,
+  "_pathid": 66008,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -3589,27 +4609,28 @@
   "SizeRadius": 1.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6000
+   "pathID": 6174
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54296
+   "pathID": 58288
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59875
+    "pathID": 64159
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4992
+    "pathID": 5135
    },
    "Volume": 0.5,
    "Pitch": 1.2999999523162842
@@ -3620,42 +4641,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60084
+     "pathID": 64392
     },
     "Chance": 1.0,
-    "Difficulties": 1
+    "Difficulties": 1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60086
+     "pathID": 64394
     },
     "Chance": 1.0,
-    "Difficulties": 2
+    "Difficulties": 2,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60085
+     "pathID": 64393
     },
     "Chance": 1.0,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59987
+     "pathID": 64281
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60126
+     "pathID": 64434
     },
-    "Chance": 0.0006000000284984708,
-    "Difficulties": -1
+    "Chance": 0.0008999999845400453,
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -3666,7 +4692,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61631,
+  "_pathid": 66009,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -3743,31 +4769,32 @@
   "SizeRadius": 1.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54352
+   "pathID": 58345
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59883
+    "pathID": 64167
    },
    {
     "fileID": 0,
-    "pathID": 59869
+    "pathID": 64152
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4871
+    "pathID": 5011
    },
    "Volume": 0.5,
    "Pitch": 0.8500000238418579
@@ -3778,10 +4805,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60147
+     "pathID": 64455
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -3792,7 +4820,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61632,
+  "_pathid": 66010,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -3869,27 +4897,28 @@
   "SizeRadius": 0.8999999761581421,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6000
+   "pathID": 6174
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54181
+   "pathID": 58166
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4943
+    "pathID": 5085
    },
    "Volume": 1.0,
    "Pitch": 1.0
@@ -3900,42 +4929,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60134
+     "pathID": 64442
     },
-    "Chance": 0.00039999998989515007,
-    "Difficulties": -1
+    "Chance": 0.0006000000284984708,
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60081
+     "pathID": 64389
     },
     "Chance": 0.20000000298023224,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59997
+     "pathID": 64294
     },
     "Chance": 0.004999999888241291,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59972
+     "pathID": 64263
     },
     "Chance": 0.000699999975040555,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -3946,7 +4980,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61633,
+  "_pathid": 66011,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -4023,27 +5057,28 @@
   "SizeRadius": 0.4000000059604645,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54183
+   "pathID": 58168
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 1,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4939
+    "pathID": 5081
    },
    "Volume": 0.5,
    "Pitch": 1.7999999523162842
@@ -4054,10 +5089,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60159
+     "pathID": 64467
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -4068,7 +5104,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61634,
+  "_pathid": 66012,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -4145,27 +5181,28 @@
   "SizeRadius": 0.4000000059604645,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54270
+   "pathID": 58261
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4813
+    "pathID": 4953
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -4176,10 +5213,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60169
+     "pathID": 64478
     },
     "Chance": 0.0020000000949949026,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -4190,7 +5228,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61635,
+  "_pathid": 66013,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -4267,27 +5305,28 @@
   "SizeRadius": 0.699999988079071,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54328
+   "pathID": 58320
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4810
+    "pathID": 4950
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -4298,10 +5337,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60142
+     "pathID": 64450
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -4312,7 +5352,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61636,
+  "_pathid": 66014,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -4389,27 +5429,28 @@
   "SizeRadius": 0.5,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6000
+   "pathID": 6174
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54205
+   "pathID": 58191
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 4000,
   "HighDifficultyDmgOverride": 26,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59865
+    "pathID": 64148
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4931
+    "pathID": 5073
    },
    "Volume": 1.0,
    "Pitch": 1.0
@@ -4420,42 +5461,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60084
+     "pathID": 64392
     },
     "Chance": 1.0,
-    "Difficulties": 1
+    "Difficulties": 1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60086
+     "pathID": 64394
     },
     "Chance": 1.0,
-    "Difficulties": 2
+    "Difficulties": 2,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60085
+     "pathID": 64393
     },
     "Chance": 1.0,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60118
+     "pathID": 64426
     },
-    "Chance": 0.0006000000284984708,
-    "Difficulties": -1
+    "Chance": 0.0008999999845400453,
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59987
+     "pathID": 64281
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -4466,7 +5512,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61637,
+  "_pathid": 66015,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -4543,27 +5589,28 @@
   "SizeRadius": 0.30000001192092896,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54278
+   "pathID": 58269
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 1,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59897
+    "pathID": 64181
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4900
+    "pathID": 5040
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -4574,10 +5621,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60130
+     "pathID": 64438
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -4588,7 +5636,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61638,
+  "_pathid": 66016,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -4665,24 +5713,25 @@
   "SizeRadius": 0.25,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 5999
+   "pathID": 6173
   },
   "Animator": null,
   "MinEnemySpacing": 0.699999988079071,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59891
+    "pathID": 64175
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4890
+    "pathID": 5030
    },
    "Volume": 0.6000000238418579,
    "Pitch": 1.399999976158142
@@ -4693,42 +5742,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60084
+     "pathID": 64392
     },
     "Chance": 1.0,
-    "Difficulties": 1
+    "Difficulties": 1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60086
+     "pathID": 64394
     },
     "Chance": 1.0,
-    "Difficulties": 2
+    "Difficulties": 2,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60085
+     "pathID": 64393
     },
     "Chance": 1.0,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59987
+     "pathID": 64281
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60132
+     "pathID": 64440
     },
-    "Chance": 0.0006000000284984708,
-    "Difficulties": -1
+    "Chance": 0.0008999999845400453,
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -4739,7 +5793,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61639,
+  "_pathid": 66017,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -4816,24 +5870,25 @@
   "SizeRadius": 0.30000001192092896,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 5998
+   "pathID": 6172
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 1,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4876
+    "pathID": 5016
    },
    "Volume": 0.5,
    "Pitch": 0.699999988079071
@@ -4844,10 +5899,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60108
+     "pathID": 64416
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -4858,7 +5914,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61640,
+  "_pathid": 66018,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -4935,24 +5991,25 @@
   "SizeRadius": 1.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59890
+    "pathID": 64174
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4820
+    "pathID": 4960
    },
    "Volume": 0.5,
    "Pitch": 0.8500000238418579
@@ -4963,10 +6020,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60156
+     "pathID": 64464
     },
     "Chance": 0.0020000000949949026,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -4977,7 +6035,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61641,
+  "_pathid": 66019,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -5054,27 +6112,28 @@
   "SizeRadius": 1.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54316
+   "pathID": 58308
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4823
+    "pathID": 4963
    },
    "Volume": 0.5,
    "Pitch": 1.149999976158142
@@ -5085,10 +6144,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60149
+     "pathID": 64457
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -5099,7 +6159,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61642,
+  "_pathid": 66020,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -5176,27 +6236,28 @@
   "SizeRadius": 1.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54255
+   "pathID": 58245
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4811
+    "pathID": 4951
    },
    "Volume": 0.5,
    "Pitch": 0.8500000238418579
@@ -5207,10 +6268,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60144
+     "pathID": 64452
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -5221,7 +6283,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61643,
+  "_pathid": 66021,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -5299,23 +6361,24 @@
   "OnHitVFXPrefab": null,
   "Animator": {
    "fileID": 0,
-   "pathID": 54321
+   "pathID": 58313
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4928
+    "pathID": 5070
    },
    "Volume": 0.6000000238418579,
    "Pitch": 1.2000000476837158
@@ -5326,10 +6389,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60151
+     "pathID": 64459
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -5340,7 +6404,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61644,
+  "_pathid": 66022,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -5417,28 +6481,29 @@
   "SizeRadius": 1.2999999523162842,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6000
+   "pathID": 6174
   },
   "Animator": null,
   "MinEnemySpacing": 0.699999988079071,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    },
    {
     "fileID": 0,
-    "pathID": 59857
+    "pathID": 64138
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4886
+    "pathID": 5026
    },
    "Volume": 1.0,
    "Pitch": 0.8999999761581421
@@ -5449,42 +6514,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60084
+     "pathID": 64392
     },
     "Chance": 1.0,
-    "Difficulties": 1
+    "Difficulties": 1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60086
+     "pathID": 64394
     },
     "Chance": 1.0,
-    "Difficulties": 2
+    "Difficulties": 2,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60085
+     "pathID": 64393
     },
     "Chance": 1.0,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59987
+     "pathID": 64281
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60112
+     "pathID": 64420
     },
-    "Chance": 0.0006000000284984708,
-    "Difficulties": -1
+    "Chance": 0.0008999999845400453,
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -5495,7 +6565,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61645,
+  "_pathid": 66023,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -5572,24 +6642,25 @@
   "SizeRadius": 1.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54265
+   "pathID": 58255
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 4000,
   "HighDifficultyDmgOverride": 24,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    },
    {
     "fileID": 0,
-    "pathID": 59879
+    "pathID": 64163
    }
   ],
   "Phases": [],
@@ -5604,42 +6675,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60137
+     "pathID": 64445
     },
-    "Chance": 0.0006000000284984708,
-    "Difficulties": -1
+    "Chance": 0.0008999999845400453,
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60084
-    },
-    "Chance": 1.0,
-    "Difficulties": 1
-   },
-   {
-    "Item": {
-     "fileID": 0,
-     "pathID": 60086
+     "pathID": 64392
     },
     "Chance": 1.0,
-    "Difficulties": 2
+    "Difficulties": 1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60085
+     "pathID": 64394
     },
     "Chance": 1.0,
-    "Difficulties": 4
+    "Difficulties": 2,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59987
+     "pathID": 64393
+    },
+    "Chance": 1.0,
+    "Difficulties": 4,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64281
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -5650,7 +6726,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61646,
+  "_pathid": 66024,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -5727,31 +6803,32 @@
   "SizeRadius": 2.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54182
+   "pathID": 58167
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    },
    {
     "fileID": 0,
-    "pathID": 59853
+    "pathID": 64134
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4810
+    "pathID": 4950
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -5762,42 +6839,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60138
+     "pathID": 64446
     },
-    "Chance": 0.00039999998989515007,
-    "Difficulties": -1
+    "Chance": 0.0006000000284984708,
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60082
+     "pathID": 64390
     },
     "Chance": 0.20000000298023224,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60010
+     "pathID": 64310
     },
     "Chance": 0.004999999888241291,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59972
+     "pathID": 64263
     },
     "Chance": 0.000699999975040555,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -5808,7 +6890,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61647,
+  "_pathid": 66025,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -5885,32 +6967,33 @@
   "SizeRadius": 1.600000023841858,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59880
+    "pathID": 64164
    },
    {
     "fileID": 0,
-    "pathID": 59882
+    "pathID": 64166
    },
    {
     "fileID": 0,
-    "pathID": 59881
+    "pathID": 64165
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4865
+    "pathID": 5005
    },
    "Volume": 0.800000011920929,
    "Pitch": 0.75
@@ -5921,42 +7004,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60145
+     "pathID": 64453
     },
-    "Chance": 0.00039999998989515007,
-    "Difficulties": -1
+    "Chance": 0.0006000000284984708,
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60083
+     "pathID": 64391
     },
     "Chance": 0.20000000298023224,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59996
+     "pathID": 64293
     },
     "Chance": 0.004999999888241291,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59972
+     "pathID": 64263
     },
     "Chance": 0.000699999975040555,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -5967,7 +7055,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61648,
+  "_pathid": 66026,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -6044,24 +7132,25 @@
   "SizeRadius": 0.20000000298023224,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 0.699999988079071,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 1,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4890
+    "pathID": 5030
    },
    "Volume": 0.6000000238418579,
    "Pitch": 1.399999976158142
@@ -6072,10 +7161,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60158
+     "pathID": 64466
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -6086,7 +7176,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61649,
+  "_pathid": 66027,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -6163,31 +7253,32 @@
   "SizeRadius": 1.7999999523162842,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54257
+   "pathID": 58247
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59878
+    "pathID": 64162
    },
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4811
+    "pathID": 4951
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -6198,42 +7289,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60129
+     "pathID": 64437
     },
-    "Chance": 0.00039999998989515007,
-    "Difficulties": -1
+    "Chance": 0.0006000000284984708,
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60080
+     "pathID": 64387
     },
     "Chance": 0.20000000298023224,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59993
+     "pathID": 64290
     },
     "Chance": 0.004999999888241291,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59972
+     "pathID": 64263
     },
     "Chance": 0.000699999975040555,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -6244,7 +7340,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61650,
+  "_pathid": 66028,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -6321,24 +7417,25 @@
   "SizeRadius": 0.44999998807907104,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6000
+   "pathID": 6174
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4793
+    "pathID": 4933
    },
    "Volume": 0.5,
    "Pitch": 1.2000000476837158
@@ -6349,10 +7446,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60109
+     "pathID": 64417
     },
     "Chance": 0.0020000000949949026,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -6363,7 +7461,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61651,
+  "_pathid": 66029,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -6440,24 +7538,25 @@
   "SizeRadius": 0.699999988079071,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 5997
+   "pathID": 6171
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4810
+    "pathID": 4950
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -6468,74 +7567,83 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59987
+     "pathID": 64281
     },
     "Chance": 1.0,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 1.0,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 1.0,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60033
+     "pathID": 64334
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60039
+     "pathID": 64341
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60045
+     "pathID": 64348
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60051
+     "pathID": 64355
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60057
+     "pathID": 64362
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60063
+     "pathID": 64369
     },
     "Chance": 0.699999988079071,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -6546,7 +7654,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61652,
+  "_pathid": 66030,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -6623,28 +7731,29 @@
   "SizeRadius": 0.30000001192092896,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    },
    {
     "fileID": 0,
-    "pathID": 59856
+    "pathID": 64137
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4875
+    "pathID": 5015
    },
    "Volume": 0.5,
    "Pitch": 0.800000011920929
@@ -6655,10 +7764,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60111
+     "pathID": 64419
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -6669,7 +7779,185 @@
  },
  {
   "_name": "",
-  "_pathid": 61654,
+  "_pathid": 66031,
+  "_file": "sharedassets0.assets",
+  "_level": {
+   "__type__": "ObscuredInt",
+   "hash": 1606771313,
+   "hiddenValue": -1868968683,
+   "cryptoKey": 1212999307,
+   "value": 1,
+   "__tail__": ""
+  },
+  "BaseMaxHealth": {
+   "__type__": "ObscuredLong",
+   "hash": -1012446151,
+   "hiddenValue": 6873449133664135678,
+   "cryptoKey": 3436724566832126327,
+   "value": 150000,
+   "__tail__": ""
+  },
+  "BaseDamage": {
+   "__type__": "ObscuredLong",
+   "hash": -554226003,
+   "hiddenValue": -172392318961677147,
+   "cryptoKey": 9137175877373937240,
+   "value": 21,
+   "__tail__": ""
+  },
+  "BaseMoveSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 1797618913,
+   "hiddenValue": 994256195,
+   "cryptoKey": 2066039619,
+   "value": 2.0,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritChance": {
+   "__type__": "ObscuredFloat",
+   "hash": -649440399,
+   "hiddenValue": 1952540431,
+   "cryptoKey": 1249835157,
+   "value": 0.15000000596046448,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritDamage": {
+   "__type__": "ObscuredFloat",
+   "hash": 159847311,
+   "hiddenValue": 1598729131,
+   "cryptoKey": 1617644203,
+   "value": 1.5,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseAttackSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 962409051,
+   "hiddenValue": 1782510058,
+   "cryptoKey": 1440398325,
+   "value": 0.6700000166893005,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseDodgeChance": {
+   "__type__": "ObscuredFloat",
+   "hash": 723851361,
+   "hiddenValue": 1730014290,
+   "cryptoKey": 1743527250,
+   "value": 0.0,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseMaxMana": {
+   "__type__": "ObscuredLong",
+   "hash": -637291543,
+   "hiddenValue": 4745882707535023476,
+   "cryptoKey": 2372941353767511788,
+   "value": 100,
+   "__tail__": ""
+  },
+  "SizeRadius": 1.600000023841858,
+  "OnHitVFXPrefab": {
+   "fileID": 0,
+   "pathID": 6174
+  },
+  "Animator": null,
+  "MinEnemySpacing": 0.699999988079071,
+  "HighDifficultyHpOverride": 0,
+  "HighDifficultyDmgOverride": 0,
+  "MythicSize": 3,
+  "StartingStatus": {
+   "fileID": 0,
+   "pathID": 64939
+  },
+  "Abilities": [
+   {
+    "fileID": 0,
+    "pathID": 64186
+   }
+  ],
+  "Phases": [
+   {
+    "MinHpFraction": 0.699999988079071,
+    "Abilities": [
+     {
+      "fileID": 0,
+      "pathID": 64186
+     }
+    ]
+   },
+   {
+    "MinHpFraction": 0.3499999940395355,
+    "Abilities": [
+     {
+      "fileID": 0,
+      "pathID": 64149
+     },
+     {
+      "fileID": 0,
+      "pathID": 64184
+     }
+    ]
+   },
+   {
+    "MinHpFraction": 0.0,
+    "Abilities": [
+     {
+      "fileID": 0,
+      "pathID": 64149
+     },
+     {
+      "fileID": 0,
+      "pathID": 64185
+     }
+    ]
+   }
+  ],
+  "AbilitySound": {
+   "Clip": {
+    "fileID": 0,
+    "pathID": 5054
+   },
+   "Volume": 1.0,
+   "Pitch": 0.699999988079071
+  },
+  "AbilitySoundChance": 0.5,
+  "DropsLoot": true,
+  "SpecialDrops": [
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64286
+    },
+    "Chance": 1.0,
+    "Difficulties": -7,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64285
+    },
+    "Chance": 1.0,
+    "Difficulties": -6,
+    "IsBlackMist": false
+   },
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64284
+    },
+    "Chance": 1.0,
+    "Difficulties": -4,
+    "IsBlackMist": false
+   }
+  ],
+  "PlannedXP": 0,
+  "EncounterType": 0,
+  "IsEncounterBoss": false,
+  "Lane": 0,
+  "LaneZPositions": []
+ },
+ {
+  "_name": "",
+  "_pathid": 66033,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -6746,27 +8034,28 @@
   "SizeRadius": 0.30000001192092896,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54309
+   "pathID": 58301
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 1,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4936
+    "pathID": 5078
    },
    "Volume": 0.699999988079071,
    "Pitch": 1.2000000476837158
@@ -6777,10 +8066,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60133
+     "pathID": 64441
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -6791,7 +8081,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61655,
+  "_pathid": 66034,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -6868,31 +8158,32 @@
   "SizeRadius": 0.800000011920929,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6000
+   "pathID": 6174
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54284
+   "pathID": 58276
   },
   "MinEnemySpacing": 0.699999988079071,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    },
    {
     "fileID": 0,
-    "pathID": 59869
+    "pathID": 64152
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5002
+    "pathID": 5145
    },
    "Volume": 1.0,
    "Pitch": 0.6000000238418579
@@ -6903,42 +8194,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60113
+     "pathID": 64421
     },
-    "Chance": 0.00039999998989515007,
-    "Difficulties": -1
+    "Chance": 0.0006000000284984708,
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60078
+     "pathID": 64385
     },
     "Chance": 0.20000000298023224,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59994
+     "pathID": 64291
     },
     "Chance": 0.004999999888241291,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59972
+     "pathID": 64263
     },
     "Chance": 0.000699999975040555,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -6949,7 +8245,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61656,
+  "_pathid": 66035,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -7026,28 +8322,29 @@
   "SizeRadius": 0.800000011920929,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6000
+   "pathID": 6174
   },
   "Animator": null,
   "MinEnemySpacing": 0.699999988079071,
   "HighDifficultyHpOverride": 4400,
   "HighDifficultyDmgOverride": 28,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    },
    {
     "fileID": 0,
-    "pathID": 59871
+    "pathID": 64155
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5002
+    "pathID": 5145
    },
    "Volume": 1.0,
    "Pitch": 1.0
@@ -7058,42 +8355,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60167
+     "pathID": 64475
     },
-    "Chance": 0.00039999998989515007,
-    "Difficulties": -1
+    "Chance": 0.0006000000284984708,
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60093
+     "pathID": 64401
     },
     "Chance": 0.20000000298023224,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59995
+     "pathID": 64292
     },
     "Chance": 0.004999999888241291,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59972
+     "pathID": 64263
     },
     "Chance": 0.000699999975040555,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -7104,7 +8406,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61657,
+  "_pathid": 66036,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -7181,27 +8483,28 @@
   "SizeRadius": 0.6000000238418579,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54192
+   "pathID": 58178
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4987
+    "pathID": 5130
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -7212,10 +8515,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60128
+     "pathID": 64436
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -7226,7 +8530,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61658,
+  "_pathid": 66037,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -7303,24 +8607,25 @@
   "SizeRadius": 0.25,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 5999
+   "pathID": 6173
   },
   "Animator": null,
   "MinEnemySpacing": 0.699999988079071,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 1,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59891
+    "pathID": 64175
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4890
+    "pathID": 5030
    },
    "Volume": 0.6000000238418579,
    "Pitch": 1.399999976158142
@@ -7331,10 +8636,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60136
+     "pathID": 64444
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -7345,7 +8651,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61659,
+  "_pathid": 66038,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -7422,24 +8728,25 @@
   "SizeRadius": 0.699999988079071,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 5997
+   "pathID": 6171
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4810
+    "pathID": 4950
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -7455,7 +8762,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61660,
+  "_pathid": 66039,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -7532,27 +8839,28 @@
   "SizeRadius": 0.800000011920929,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54202
+   "pathID": 58188
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4810
+    "pathID": 4950
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -7563,10 +8871,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60139
+     "pathID": 64447
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -7577,7 +8886,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61661,
+  "_pathid": 66040,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -7654,32 +8963,33 @@
   "SizeRadius": 1.2000000476837158,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    },
    {
     "fileID": 0,
-    "pathID": 59888
+    "pathID": 64172
    },
    {
     "fileID": 0,
-    "pathID": 59887
+    "pathID": 64171
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4811
+    "pathID": 4951
    },
    "Volume": 0.5,
    "Pitch": 0.8500000238418579
@@ -7690,42 +9000,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60084
+     "pathID": 64392
     },
     "Chance": 1.0,
-    "Difficulties": 1
+    "Difficulties": 1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60086
+     "pathID": 64394
     },
     "Chance": 1.0,
-    "Difficulties": 2
+    "Difficulties": 2,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60085
+     "pathID": 64393
     },
     "Chance": 1.0,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59987
+     "pathID": 64281
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60153
+     "pathID": 64461
     },
-    "Chance": 0.0006000000284984708,
-    "Difficulties": -1
+    "Chance": 0.0008999999845400453,
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -7736,7 +9051,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61662,
+  "_pathid": 66041,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -7813,27 +9128,28 @@
   "SizeRadius": 0.6000000238418579,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54275
+   "pathID": 58266
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59873
+    "pathID": 64157
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4907
+    "pathID": 5047
    },
    "Volume": 0.5,
    "Pitch": 2.0
@@ -7844,10 +9160,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60146
+     "pathID": 64454
     },
     "Chance": 0.0020000000949949026,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -7858,7 +9175,132 @@
  },
  {
   "_name": "",
-  "_pathid": 61663,
+  "_pathid": 66042,
+  "_file": "sharedassets0.assets",
+  "_level": {
+   "__type__": "ObscuredInt",
+   "hash": 1606771313,
+   "hiddenValue": -1773277471,
+   "cryptoKey": 1260844913,
+   "value": 1,
+   "__tail__": ""
+  },
+  "BaseMaxHealth": {
+   "__type__": "ObscuredLong",
+   "hash": 665329281,
+   "hiddenValue": -361691439465193346,
+   "cryptoKey": 9042526317122195999,
+   "value": 40000,
+   "__tail__": ""
+  },
+  "BaseDamage": {
+   "__type__": "ObscuredLong",
+   "hash": 732002853,
+   "hiddenValue": -5773935146256709433,
+   "cryptoKey": 6336404463726421071,
+   "value": 55,
+   "__tail__": ""
+  },
+  "BaseMoveSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 1607085071,
+   "hiddenValue": 1371113044,
+   "cryptoKey": 1850373529,
+   "value": 1.600000023841858,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritChance": {
+   "__type__": "ObscuredFloat",
+   "hash": -649440399,
+   "hiddenValue": 3303009,
+   "cryptoKey": 1048554491,
+   "value": 0.15000000596046448,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseCritDamage": {
+   "__type__": "ObscuredFloat",
+   "hash": 1797618913,
+   "hiddenValue": 1032003307,
+   "cryptoKey": 2099151851,
+   "value": 2.0,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseAttackSpeed": {
+   "__type__": "ObscuredFloat",
+   "hash": 962409051,
+   "hiddenValue": 1782510058,
+   "cryptoKey": 1440398325,
+   "value": 0.6700000166893005,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseDodgeChance": {
+   "__type__": "ObscuredFloat",
+   "hash": 723851361,
+   "hiddenValue": 1143497068,
+   "cryptoKey": 1147218028,
+   "value": 0.0,
+   "__tail__": "00000000000000000000000000000000"
+  },
+  "BaseMaxMana": {
+   "__type__": "ObscuredLong",
+   "hash": -637291543,
+   "hiddenValue": 2709506394432133524,
+   "cryptoKey": 1354753197216066712,
+   "value": 100,
+   "__tail__": ""
+  },
+  "SizeRadius": 1.0,
+  "OnHitVFXPrefab": {
+   "fileID": 0,
+   "pathID": 6175
+  },
+  "Animator": {
+   "fileID": 0,
+   "pathID": 58256
+  },
+  "MinEnemySpacing": 1.0,
+  "HighDifficultyHpOverride": 0,
+  "HighDifficultyDmgOverride": 0,
+  "MythicSize": 3,
+  "StartingStatus": null,
+  "Abilities": [
+   {
+    "fileID": 0,
+    "pathID": 64149
+   },
+   {
+    "fileID": 0,
+    "pathID": 64163
+   }
+  ],
+  "Phases": [],
+  "AbilitySound": {
+   "Clip": null,
+   "Volume": 1.0,
+   "Pitch": 1.0
+  },
+  "AbilitySoundChance": 0.25,
+  "DropsLoot": true,
+  "SpecialDrops": [
+   {
+    "Item": {
+     "fileID": 0,
+     "pathID": 64445
+    },
+    "Chance": 0.0008999999845400453,
+    "Difficulties": -1,
+    "IsBlackMist": false
+   }
+  ],
+  "PlannedXP": 0,
+  "EncounterType": 0,
+  "IsEncounterBoss": false,
+  "Lane": 0,
+  "LaneZPositions": []
+ },
+ {
+  "_name": "",
+  "_pathid": 66043,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -7935,24 +9377,25 @@
   "SizeRadius": 1.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 1,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4811
+    "pathID": 4951
    },
    "Volume": 0.5,
    "Pitch": 0.8500000238418579
@@ -7963,10 +9406,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60155
+     "pathID": 64463
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -7977,7 +9421,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61664,
+  "_pathid": 66044,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -8054,27 +9498,28 @@
   "SizeRadius": 0.6000000238418579,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54304
+   "pathID": 58296
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4987
+    "pathID": 5130
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -8085,10 +9530,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60127
+     "pathID": 64435
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -8099,7 +9545,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61665,
+  "_pathid": 66045,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -8176,27 +9622,28 @@
   "SizeRadius": 3.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54297
+   "pathID": 58289
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59884
+    "pathID": 64168
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5031
+    "pathID": 5174
    },
    "Volume": 0.5,
    "Pitch": 1.0
@@ -8207,42 +9654,47 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60084
+     "pathID": 64392
     },
     "Chance": 1.0,
-    "Difficulties": 1
+    "Difficulties": 1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60086
+     "pathID": 64394
     },
     "Chance": 1.0,
-    "Difficulties": 2
+    "Difficulties": 2,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60085
+     "pathID": 64393
     },
     "Chance": 1.0,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59987
+     "pathID": 64281
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60143
+     "pathID": 64451
     },
-    "Chance": 0.0006000000284984708,
-    "Difficulties": -1
+    "Chance": 0.0008999999845400453,
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -8253,7 +9705,7 @@
  },
  {
   "_name": "",
-  "_pathid": 61881,
+  "_pathid": 66272,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -8330,27 +9782,28 @@
   "SizeRadius": 1.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54230
+   "pathID": 58216
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4867
+    "pathID": 5007
    },
    "Volume": 1.0,
    "Pitch": 1.0
@@ -8361,10 +9814,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60165
+     "pathID": 64473
     },
     "Chance": 0.0020000000949949026,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -8375,7 +9829,7 @@
  },
  {
   "_name": "",
-  "_pathid": 62065,
+  "_pathid": 66467,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -8452,21 +9906,22 @@
   "SizeRadius": 1.600000023841858,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": null,
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 11000,
   "HighDifficultyDmgOverride": 38,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    },
    {
     "fileID": 0,
-    "pathID": 59894
+    "pathID": 64178
    }
   ],
   "Phases": [
@@ -8475,11 +9930,11 @@
     "Abilities": [
      {
       "fileID": 0,
-      "pathID": 59866
+      "pathID": 64149
      },
      {
       "fileID": 0,
-      "pathID": 59894
+      "pathID": 64178
      }
     ]
    },
@@ -8488,11 +9943,11 @@
     "Abilities": [
      {
       "fileID": 0,
-      "pathID": 59866
+      "pathID": 64149
      },
      {
       "fileID": 0,
-      "pathID": 59892
+      "pathID": 64176
      }
     ]
    },
@@ -8501,15 +9956,15 @@
     "Abilities": [
      {
       "fileID": 0,
-      "pathID": 59866
+      "pathID": 64149
      },
      {
       "fileID": 0,
-      "pathID": 59894
+      "pathID": 64178
      },
      {
       "fileID": 0,
-      "pathID": 59893
+      "pathID": 64177
      }
     ]
    }
@@ -8517,7 +9972,7 @@
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5007
+    "pathID": 5150
    },
    "Volume": 1.0,
    "Pitch": 1.0
@@ -8528,50 +9983,56 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59988
+     "pathID": 64282
     },
     "Chance": 0.05000000074505806,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60162
+     "pathID": 64470
     },
-    "Chance": 0.00019999999494757503,
-    "Difficulties": -1
+    "Chance": 0.0003000000142492354,
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60092
+     "pathID": 64400
     },
     "Chance": 0.20000000298023224,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59991
+     "pathID": 64288
     },
-    "Chance": 1.9999999494757503e-05,
-    "Difficulties": -1
+    "Chance": 2.9999999242136255e-05,
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59998
+     "pathID": 64295
     },
     "Chance": 0.004999999888241291,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    },
    {
     "Item": {
      "fileID": 0,
-     "pathID": 59972
+     "pathID": 64263
     },
     "Chance": 0.000699999975040555,
-    "Difficulties": 4
+    "Difficulties": 4,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -8582,7 +10043,7 @@
  },
  {
   "_name": "",
-  "_pathid": 62407,
+  "_pathid": 66834,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -8659,27 +10120,28 @@
   "SizeRadius": 0.800000011920929,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54201
+   "pathID": 58187
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 2,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59866
+    "pathID": 64149
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4907
+    "pathID": 5047
    },
    "Volume": 1.0,
    "Pitch": 2.0
@@ -8690,10 +10152,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60164
+     "pathID": 64472
     },
     "Chance": 0.0024999999441206455,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,
@@ -8704,7 +10167,7 @@
  },
  {
   "_name": "",
-  "_pathid": 62459,
+  "_pathid": 66887,
   "_file": "sharedassets0.assets",
   "_level": {
    "__type__": "ObscuredInt",
@@ -8781,27 +10244,28 @@
   "SizeRadius": 1.0,
   "OnHitVFXPrefab": {
    "fileID": 0,
-   "pathID": 6001
+   "pathID": 6175
   },
   "Animator": {
    "fileID": 0,
-   "pathID": 54165
+   "pathID": 58149
   },
   "MinEnemySpacing": 1.0,
   "HighDifficultyHpOverride": 0,
   "HighDifficultyDmgOverride": 0,
   "MythicSize": 3,
+  "StartingStatus": null,
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59868
+    "pathID": 64151
    }
   ],
   "Phases": [],
   "AbilitySound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5017
+    "pathID": 5160
    },
    "Volume": 1.0,
    "Pitch": 1.0
@@ -8812,10 +10276,11 @@
    {
     "Item": {
      "fileID": 0,
-     "pathID": 60161
+     "pathID": 64469
     },
     "Chance": 0.0020000000949949026,
-    "Difficulties": -1
+    "Difficulties": -1,
+    "IsBlackMist": false
    }
   ],
   "PlannedXP": 0,

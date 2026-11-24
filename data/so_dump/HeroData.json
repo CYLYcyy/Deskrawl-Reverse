@@ -1,23 +1,194 @@
 [
  {
   "_name": "BarbarianHero",
-  "_pathid": 59967,
+  "_pathid": 64258,
   "_file": "sharedassets0.assets",
   "HeroName": "Barbarian",
   "Icon": {
    "fileID": 0,
-   "pathID": 5710
+   "pathID": 5877
   },
   "IsLockedInDemo": false,
   "PrimaryStat": 0,
   "Class": 1,
   "StartingWeapon": {
    "fileID": 0,
-   "pathID": 60013
+   "pathID": 64314
   },
   "CharacterPrefab": {
    "fileID": 0,
-   "pathID": 9592
+   "pathID": 10111
+  },
+  "DeathSound": {
+   "Clip": {
+    "fileID": 0,
+    "pathID": 5168
+   },
+   "Volume": 1.0,
+   "Pitch": 1.0
+  },
+  "Abilities": [
+   {
+    "fileID": 0,
+    "pathID": 64243
+   },
+   {
+    "fileID": 0,
+    "pathID": 64244
+   },
+   {
+    "fileID": 0,
+    "pathID": 64245
+   },
+   {
+    "fileID": 0,
+    "pathID": 64246
+   },
+   {
+    "fileID": 0,
+    "pathID": 64248
+   },
+   {
+    "fileID": 0,
+    "pathID": 64249
+   },
+   {
+    "fileID": 0,
+    "pathID": 64250
+   },
+   {
+    "fileID": 0,
+    "pathID": 64251
+   },
+   {
+    "fileID": 0,
+    "pathID": 64253
+   },
+   {
+    "fileID": 0,
+    "pathID": 64252
+   },
+   {
+    "fileID": 0,
+    "pathID": 64254
+   },
+   {
+    "fileID": 0,
+    "pathID": 64255
+   },
+   {
+    "fileID": 0,
+    "pathID": 64256
+   },
+   {
+    "fileID": 0,
+    "pathID": 64257
+   }
+  ]
+ },
+ {
+  "_name": "HunterHero",
+  "_pathid": 64259,
+  "_file": "sharedassets0.assets",
+  "HeroName": "Hunter",
+  "Icon": {
+   "fileID": 0,
+   "pathID": 6146
+  },
+  "IsLockedInDemo": true,
+  "PrimaryStat": 1,
+  "Class": 4,
+  "StartingWeapon": {
+   "fileID": 0,
+   "pathID": 64315
+  },
+  "CharacterPrefab": {
+   "fileID": 0,
+   "pathID": 27609
+  },
+  "DeathSound": {
+   "Clip": null,
+   "Volume": 1.0,
+   "Pitch": 1.0
+  },
+  "Abilities": [
+   {
+    "fileID": 0,
+    "pathID": 64201
+   },
+   {
+    "fileID": 0,
+    "pathID": 64202
+   },
+   {
+    "fileID": 0,
+    "pathID": 64203
+   },
+   {
+    "fileID": 0,
+    "pathID": 64204
+   },
+   {
+    "fileID": 0,
+    "pathID": 64205
+   },
+   {
+    "fileID": 0,
+    "pathID": 64206
+   },
+   {
+    "fileID": 0,
+    "pathID": 64207
+   },
+   {
+    "fileID": 0,
+    "pathID": 64208
+   },
+   {
+    "fileID": 0,
+    "pathID": 64209
+   },
+   {
+    "fileID": 0,
+    "pathID": 64210
+   },
+   {
+    "fileID": 0,
+    "pathID": 64214
+   },
+   {
+    "fileID": 0,
+    "pathID": 64212
+   },
+   {
+    "fileID": 0,
+    "pathID": 64213
+   },
+   {
+    "fileID": 0,
+    "pathID": 64211
+   }
+  ]
+ },
+ {
+  "_name": "MageHero",
+  "_pathid": 64260,
+  "_file": "sharedassets0.assets",
+  "HeroName": "Sorcerer",
+  "Icon": {
+   "fileID": 0,
+   "pathID": 5924
+  },
+  "IsLockedInDemo": false,
+  "PrimaryStat": 2,
+  "Class": 2,
+  "StartingWeapon": {
+   "fileID": 0,
+   "pathID": 64316
+  },
+  "CharacterPrefab": {
+   "fileID": 0,
+   "pathID": 7701
   },
   "DeathSound": {
    "Clip": {
@@ -30,257 +201,86 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59952
+    "pathID": 64229
    },
    {
     "fileID": 0,
-    "pathID": 59953
+    "pathID": 64230
    },
    {
     "fileID": 0,
-    "pathID": 59954
+    "pathID": 64231
    },
    {
     "fileID": 0,
-    "pathID": 59955
+    "pathID": 64232
    },
    {
     "fileID": 0,
-    "pathID": 59957
+    "pathID": 64239
    },
    {
     "fileID": 0,
-    "pathID": 59958
+    "pathID": 64240
    },
    {
     "fileID": 0,
-    "pathID": 59959
+    "pathID": 64241
    },
    {
     "fileID": 0,
-    "pathID": 59960
+    "pathID": 64242
    },
    {
     "fileID": 0,
-    "pathID": 59962
+    "pathID": 64233
    },
    {
     "fileID": 0,
-    "pathID": 59961
+    "pathID": 64234
    },
    {
     "fileID": 0,
-    "pathID": 59963
+    "pathID": 64235
    },
    {
     "fileID": 0,
-    "pathID": 59964
+    "pathID": 64236
    },
    {
     "fileID": 0,
-    "pathID": 59965
+    "pathID": 64237
    },
    {
     "fileID": 0,
-    "pathID": 59966
-   }
-  ]
- },
- {
-  "_name": "HunterHero",
-  "_pathid": 59968,
-  "_file": "sharedassets0.assets",
-  "HeroName": "Hunter",
-  "Icon": {
-   "fileID": 0,
-   "pathID": 5972
-  },
-  "IsLockedInDemo": true,
-  "PrimaryStat": 1,
-  "Class": 4,
-  "StartingWeapon": {
-   "fileID": 0,
-   "pathID": 60014
-  },
-  "CharacterPrefab": {
-   "fileID": 0,
-   "pathID": 25964
-  },
-  "DeathSound": {
-   "Clip": null,
-   "Volume": 1.0,
-   "Pitch": 1.0
-  },
-  "Abilities": [
-   {
-    "fileID": 0,
-    "pathID": 59910
-   },
-   {
-    "fileID": 0,
-    "pathID": 59911
-   },
-   {
-    "fileID": 0,
-    "pathID": 59912
-   },
-   {
-    "fileID": 0,
-    "pathID": 59913
-   },
-   {
-    "fileID": 0,
-    "pathID": 59914
-   },
-   {
-    "fileID": 0,
-    "pathID": 59915
-   },
-   {
-    "fileID": 0,
-    "pathID": 59916
-   },
-   {
-    "fileID": 0,
-    "pathID": 59917
-   },
-   {
-    "fileID": 0,
-    "pathID": 59918
-   },
-   {
-    "fileID": 0,
-    "pathID": 59919
-   },
-   {
-    "fileID": 0,
-    "pathID": 59923
-   },
-   {
-    "fileID": 0,
-    "pathID": 59921
-   },
-   {
-    "fileID": 0,
-    "pathID": 59922
-   },
-   {
-    "fileID": 0,
-    "pathID": 59920
-   }
-  ]
- },
- {
-  "_name": "MageHero",
-  "_pathid": 59969,
-  "_file": "sharedassets0.assets",
-  "HeroName": "Sorcerer",
-  "Icon": {
-   "fileID": 0,
-   "pathID": 5753
-  },
-  "IsLockedInDemo": false,
-  "PrimaryStat": 2,
-  "Class": 2,
-  "StartingWeapon": {
-   "fileID": 0,
-   "pathID": 60015
-  },
-  "CharacterPrefab": {
-   "fileID": 0,
-   "pathID": 7321
-  },
-  "DeathSound": {
-   "Clip": {
-    "fileID": 0,
-    "pathID": 4885
-   },
-   "Volume": 1.0,
-   "Pitch": 1.0
-  },
-  "Abilities": [
-   {
-    "fileID": 0,
-    "pathID": 59938
-   },
-   {
-    "fileID": 0,
-    "pathID": 59939
-   },
-   {
-    "fileID": 0,
-    "pathID": 59940
-   },
-   {
-    "fileID": 0,
-    "pathID": 59941
-   },
-   {
-    "fileID": 0,
-    "pathID": 59948
-   },
-   {
-    "fileID": 0,
-    "pathID": 59949
-   },
-   {
-    "fileID": 0,
-    "pathID": 59950
-   },
-   {
-    "fileID": 0,
-    "pathID": 59951
-   },
-   {
-    "fileID": 0,
-    "pathID": 59942
-   },
-   {
-    "fileID": 0,
-    "pathID": 59943
-   },
-   {
-    "fileID": 0,
-    "pathID": 59944
-   },
-   {
-    "fileID": 0,
-    "pathID": 59945
-   },
-   {
-    "fileID": 0,
-    "pathID": 59946
-   },
-   {
-    "fileID": 0,
-    "pathID": 59947
+    "pathID": 64238
    }
   ]
  },
  {
   "_name": "MonkHero",
-  "_pathid": 59970,
+  "_pathid": 64261,
   "_file": "sharedassets0.assets",
   "HeroName": "Monk",
   "Icon": {
    "fileID": 0,
-   "pathID": 5503
+   "pathID": 5661
   },
   "IsLockedInDemo": false,
   "PrimaryStat": 1,
   "Class": 8,
   "StartingWeapon": {
    "fileID": 0,
-   "pathID": 60016
+   "pathID": 64317
   },
   "CharacterPrefab": {
    "fileID": 0,
-   "pathID": 22999
+   "pathID": 24473
   },
   "DeathSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4819
+    "pathID": 4959
    },
    "Volume": 1.0,
    "Pitch": 1.0
@@ -288,59 +288,59 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 59924
+    "pathID": 64215
    },
    {
     "fileID": 0,
-    "pathID": 59925
+    "pathID": 64216
    },
    {
     "fileID": 0,
-    "pathID": 59926
+    "pathID": 64217
    },
    {
     "fileID": 0,
-    "pathID": 59927
+    "pathID": 64218
    },
    {
     "fileID": 0,
-    "pathID": 59928
+    "pathID": 64219
    },
    {
     "fileID": 0,
-    "pathID": 59929
+    "pathID": 64220
    },
    {
     "fileID": 0,
-    "pathID": 59930
+    "pathID": 64221
    },
    {
     "fileID": 0,
-    "pathID": 59931
+    "pathID": 64222
    },
    {
     "fileID": 0,
-    "pathID": 59932
+    "pathID": 64223
    },
    {
     "fileID": 0,
-    "pathID": 59933
+    "pathID": 64224
    },
    {
     "fileID": 0,
-    "pathID": 59934
+    "pathID": 64225
    },
    {
     "fileID": 0,
-    "pathID": 59935
+    "pathID": 64226
    },
    {
     "fileID": 0,
-    "pathID": 59936
+    "pathID": 64227
    },
    {
     "fileID": 0,
-    "pathID": 59937
+    "pathID": 64228
    }
   ]
  }

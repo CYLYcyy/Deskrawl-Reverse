@@ -1,11 +1,11 @@
 [
  {
   "_name": "HpPotion1",
-  "_pathid": 60069,
+  "_pathid": 64376,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5543
+   "pathID": 5702
   },
   "InstantHealAmount": 25.0,
   "HotMaxHPFraction": 0.30000001192092896,
@@ -14,11 +14,11 @@
  },
  {
   "_name": "HpPotion2",
-  "_pathid": 60070,
+  "_pathid": 64377,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5482
+   "pathID": 5640
   },
   "InstantHealAmount": 75.0,
   "HotMaxHPFraction": 0.30000001192092896,
@@ -27,11 +27,11 @@
  },
  {
   "_name": "HpPotion3",
-  "_pathid": 60071,
+  "_pathid": 64378,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5494
+   "pathID": 5652
   },
   "InstantHealAmount": 150.0,
   "HotMaxHPFraction": 0.3499999940395355,
@@ -40,11 +40,11 @@
  },
  {
   "_name": "HpPotion4",
-  "_pathid": 60072,
+  "_pathid": 64379,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5233
+   "pathID": 5378
   },
   "InstantHealAmount": 300.0,
   "HotMaxHPFraction": 0.3499999940395355,
@@ -53,11 +53,11 @@
  },
  {
   "_name": "HpPotion5",
-  "_pathid": 60073,
+  "_pathid": 64380,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5718
+   "pathID": 5886
   },
   "InstantHealAmount": 600.0,
   "HotMaxHPFraction": 0.4000000059604645,
@@ -66,11 +66,11 @@
  },
  {
   "_name": "HpPotion6",
-  "_pathid": 60074,
+  "_pathid": 64381,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5481
+   "pathID": 5639
   },
   "InstantHealAmount": 1000.0,
   "HotMaxHPFraction": 0.4000000059604645,
@@ -79,11 +79,11 @@
  },
  {
   "_name": "HpPotion7",
-  "_pathid": 60075,
+  "_pathid": 64382,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5650
+   "pathID": 5812
   },
   "InstantHealAmount": 1500.0,
   "HotMaxHPFraction": 0.44999998807907104,
@@ -92,11 +92,11 @@
  },
  {
   "_name": "HpPotion8",
-  "_pathid": 60076,
+  "_pathid": 64383,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5772
+   "pathID": 5944
   },
   "InstantHealAmount": 2000.0,
   "HotMaxHPFraction": 0.44999998807907104,

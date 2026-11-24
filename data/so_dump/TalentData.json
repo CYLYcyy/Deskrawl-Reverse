@@ -1,11 +1,11 @@
 [
  {
   "_name": "HunterTalent14",
-  "_pathid": 5409,
+  "_pathid": 5783,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 983
+   "pathID": 1113
   },
   "MaxPoints": 1,
   "LevelRequirement": 0,
@@ -16,17 +16,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 5413
+    "pathID": 5787
    }
   ]
  },
  {
   "_name": "HunterTalent15",
-  "_pathid": 5410,
+  "_pathid": 5784,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 739
+   "pathID": 829
   },
   "MaxPoints": 1,
   "LevelRequirement": 0,
@@ -37,17 +37,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 5414
+    "pathID": 5788
    }
   ]
  },
  {
   "_name": "HunterTalent19",
-  "_pathid": 5411,
+  "_pathid": 5785,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 1035
+   "pathID": 1173
   },
   "MaxPoints": 5,
   "LevelRequirement": 0,
@@ -80,7 +80,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -108,7 +109,8 @@
      "Name": "lifeOnHit",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -116,11 +118,11 @@
  },
  {
   "_name": "HunterTalent25",
-  "_pathid": 5412,
+  "_pathid": 5786,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 728
+   "pathID": 818
   },
   "MaxPoints": 1,
   "LevelRequirement": 0,
@@ -131,17 +133,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 5415
+    "pathID": 5789
    }
   ]
  },
  {
   "_name": "MonkTalent35",
-  "_pathid": 5418,
+  "_pathid": 5792,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 2,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -153,11 +155,11 @@
  },
  {
   "_name": "SorcererTalent13",
-  "_pathid": 5419,
+  "_pathid": 5793,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 983
+   "pathID": 1113
   },
   "MaxPoints": 1,
   "LevelRequirement": 15,
@@ -168,17 +170,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 5416
+    "pathID": 5790
    }
   ]
  },
  {
   "_name": "SorcererTalent14",
-  "_pathid": 5420,
+  "_pathid": 5794,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 739
+   "pathID": 829
   },
   "MaxPoints": 1,
   "LevelRequirement": 15,
@@ -189,17 +191,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 5417
+    "pathID": 5791
    }
   ]
  },
  {
   "_name": "WarriorTalent19",
-  "_pathid": 5421,
+  "_pathid": 5795,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 1089
+   "pathID": 1239
   },
   "MaxPoints": 1,
   "LevelRequirement": 40,
@@ -210,17 +212,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 5437
+    "pathID": 5811
    }
   ]
  },
  {
   "_name": "WarriorTalent50",
-  "_pathid": 5422,
+  "_pathid": 5796,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 2,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -232,11 +234,11 @@
  },
  {
   "_name": "WarriorTalent51",
-  "_pathid": 5423,
+  "_pathid": 5797,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 2,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -248,11 +250,11 @@
  },
  {
   "_name": "WarriorTalent52",
-  "_pathid": 5424,
+  "_pathid": 5798,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 2,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -264,11 +266,11 @@
  },
  {
   "_name": "WarriorTalent53",
-  "_pathid": 5425,
+  "_pathid": 5799,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 2,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -280,11 +282,11 @@
  },
  {
   "_name": "WarriorTalent54",
-  "_pathid": 5426,
+  "_pathid": 5800,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 2,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -296,11 +298,11 @@
  },
  {
   "_name": "WarriorTalent55",
-  "_pathid": 5427,
+  "_pathid": 5801,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 2,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -312,11 +314,11 @@
  },
  {
   "_name": "WarriorTalent56",
-  "_pathid": 5428,
+  "_pathid": 5802,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 2,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -328,11 +330,11 @@
  },
  {
   "_name": "WarriorTalent57",
-  "_pathid": 5429,
+  "_pathid": 5803,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 2,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -344,11 +346,11 @@
  },
  {
   "_name": "WarriorTalent58",
-  "_pathid": 5430,
+  "_pathid": 5804,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 2,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -360,11 +362,11 @@
  },
  {
   "_name": "WarriorTalent59",
-  "_pathid": 5431,
+  "_pathid": 5805,
   "_file": "resources.assets",
   "Icon": {
    "fileID": 2,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -376,11 +378,11 @@
  },
  {
   "_name": "HunterTalent0",
-  "_pathid": 60608,
+  "_pathid": 64943,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5944
+   "pathID": 6119
   },
   "MaxPoints": 10,
   "LevelRequirement": 0,
@@ -413,7 +415,8 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -421,11 +424,11 @@
  },
  {
   "_name": "HunterTalent1",
-  "_pathid": 60609,
+  "_pathid": 64944,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5657
+   "pathID": 5821
   },
   "MaxPoints": 8,
   "LevelRequirement": 0,
@@ -458,7 +461,8 @@
      "Name": "value",
      "Format": "0.#%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -466,11 +470,11 @@
  },
  {
   "_name": "HunterTalent10",
-  "_pathid": 60610,
+  "_pathid": 64945,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5439
+   "pathID": 5594
   },
   "MaxPoints": 6,
   "LevelRequirement": 20,
@@ -481,17 +485,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60673
+    "pathID": 65011
    }
   ]
  },
  {
   "_name": "HunterTalent11",
-  "_pathid": 60611,
+  "_pathid": 64946,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5834
+   "pathID": 6007
   },
   "MaxPoints": 8,
   "LevelRequirement": 5,
@@ -502,17 +506,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60681
+    "pathID": 65021
    }
   ]
  },
  {
   "_name": "HunterTalent12",
-  "_pathid": 60612,
+  "_pathid": 64947,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5313
+   "pathID": 5459
   },
   "MaxPoints": 6,
   "LevelRequirement": 20,
@@ -523,17 +527,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60685
+    "pathID": 65026
    }
   ]
  },
  {
   "_name": "HunterTalent13",
-  "_pathid": 60613,
+  "_pathid": 64948,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5267
+   "pathID": 5412
   },
   "MaxPoints": 10,
   "LevelRequirement": 5,
@@ -566,7 +570,8 @@
      "Name": "value1",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -594,7 +599,8 @@
      "Name": "value2",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -602,11 +608,11 @@
  },
  {
   "_name": "HunterTalent16",
-  "_pathid": 60614,
+  "_pathid": 64949,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5407
+   "pathID": 5560
   },
   "MaxPoints": 5,
   "LevelRequirement": 15,
@@ -617,17 +623,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60678
+    "pathID": 65018
    }
   ]
  },
  {
   "_name": "HunterTalent17",
-  "_pathid": 60615,
+  "_pathid": 64950,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5320
+   "pathID": 5467
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -638,21 +644,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60684
+    "pathID": 65025
    },
    {
     "fileID": 0,
-    "pathID": 60682
+    "pathID": 65022
    }
   ]
  },
  {
   "_name": "HunterTalent18",
-  "_pathid": 60616,
+  "_pathid": 64951,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5625
+   "pathID": 5786
   },
   "MaxPoints": 1,
   "LevelRequirement": 30,
@@ -663,17 +669,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60654
+    "pathID": 64991
    }
   ]
  },
  {
   "_name": "HunterTalent2",
-  "_pathid": 60617,
+  "_pathid": 64952,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5887
+   "pathID": 6061
   },
   "MaxPoints": 10,
   "LevelRequirement": 0,
@@ -706,35 +712,37 @@
      "Name": "value1",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
-    "Stat": 3,
-    "Type": 0,
+    "Stat": 20,
+    "Type": 1,
     "Value": {
      "Base": {
       "__type__": "ObscuredFloat",
-      "hash": 170189967,
-      "hiddenValue": 1077159631,
-      "cryptoKey": 2133210319,
-      "value": 0.5,
+      "hash": 1479264653,
+      "hiddenValue": 1410514111,
+      "cryptoKey": 1755301301,
+      "value": 0.009999999776482582,
       "__tail__": "00000000000000000000000000000000"
      },
      "PerLevel": {
       "__type__": "ObscuredFloat",
-      "hash": 170189967,
-      "hiddenValue": 1077159631,
-      "cryptoKey": 2133210319,
-      "value": 0.5,
+      "hash": 1479264653,
+      "hiddenValue": 1410514111,
+      "cryptoKey": 1755301301,
+      "value": 0.009999999776482582,
       "__tail__": "00000000000000000000000000000000"
      }
     },
     "Token": {
      "Name": "value2",
-     "Format": "0.#",
+     "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -742,11 +750,11 @@
  },
  {
   "_name": "HunterTalent20",
-  "_pathid": 60618,
+  "_pathid": 64953,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5338
+   "pathID": 5485
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -757,17 +765,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60674
+    "pathID": 65012
    }
   ]
  },
  {
   "_name": "HunterTalent21",
-  "_pathid": 60619,
+  "_pathid": 64954,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5360
+   "pathID": 5509
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -778,17 +786,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60680
+    "pathID": 65020
    }
   ]
  },
  {
   "_name": "HunterTalent22",
-  "_pathid": 60620,
+  "_pathid": 64955,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5609
+   "pathID": 5769
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -799,17 +807,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60677
+    "pathID": 65017
    }
   ]
  },
  {
   "_name": "HunterTalent23",
-  "_pathid": 60621,
+  "_pathid": 64956,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5711
+   "pathID": 5878
   },
   "MaxPoints": 8,
   "LevelRequirement": 15,
@@ -820,17 +828,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60675
+    "pathID": 65013
    }
   ]
  },
  {
   "_name": "HunterTalent24",
-  "_pathid": 60622,
+  "_pathid": 64957,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5375
+   "pathID": 5526
   },
   "MaxPoints": 6,
   "LevelRequirement": 15,
@@ -841,38 +849,68 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60671
+    "pathID": 65009
    }
   ]
  },
  {
   "_name": "HunterTalent26",
-  "_pathid": 60623,
+  "_pathid": 64958,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5541
+   "pathID": 5700
   },
   "MaxPoints": 6,
   "LevelRequirement": 20,
   "Prerequisite": null,
   "ExclusiveGroup": "",
   "IsLockedInDemo": false,
-  "StatModifiers": [],
+  "StatModifiers": [
+   {
+    "Stat": 62,
+    "Type": 0,
+    "Value": {
+     "Base": {
+      "__type__": "ObscuredFloat",
+      "hash": 1475356959,
+      "hiddenValue": 1854951543,
+      "cryptoKey": 1408452477,
+      "value": 0.07999999821186066,
+      "__tail__": "00000000000000000000000000000000"
+     },
+     "PerLevel": {
+      "__type__": "ObscuredFloat",
+      "hash": 1475356959,
+      "hiddenValue": 113996173,
+      "cryptoKey": 1003625607,
+      "value": 0.07999999821186066,
+      "__tail__": "00000000000000000000000000000000"
+     }
+    },
+    "Token": {
+     "Name": "dot",
+     "Format": "0%",
+     "Suffix": "",
+     "Highlight": true,
+     "Floor": false
+    }
+   }
+  ],
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60667
+    "pathID": 65005
    }
   ]
  },
  {
   "_name": "HunterTalent27",
-  "_pathid": 60624,
+  "_pathid": 64959,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5905
+   "pathID": 6079
   },
   "MaxPoints": 6,
   "LevelRequirement": 15,
@@ -883,38 +921,68 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60663
+    "pathID": 65001
    }
   ]
  },
  {
   "_name": "HunterTalent28",
-  "_pathid": 60625,
+  "_pathid": 64960,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5767
+   "pathID": 5939
   },
   "MaxPoints": 6,
   "LevelRequirement": 40,
   "Prerequisite": null,
   "ExclusiveGroup": "",
   "IsLockedInDemo": false,
-  "StatModifiers": [],
+  "StatModifiers": [
+   {
+    "Stat": 40,
+    "Type": 0,
+    "Value": {
+     "Base": {
+      "__type__": "ObscuredFloat",
+      "hash": 1475356959,
+      "hiddenValue": 1854951543,
+      "cryptoKey": 1408452477,
+      "value": 0.07999999821186066,
+      "__tail__": "00000000000000000000000000000000"
+     },
+     "PerLevel": {
+      "__type__": "ObscuredFloat",
+      "hash": 1475356959,
+      "hiddenValue": 113996173,
+      "cryptoKey": 1003625607,
+      "value": 0.07999999821186066,
+      "__tail__": "00000000000000000000000000000000"
+     }
+    },
+    "Token": {
+     "Name": "damage",
+     "Format": "0%",
+     "Suffix": "",
+     "Highlight": true,
+     "Floor": false
+    }
+   }
+  ],
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60660
+    "pathID": 64998
    }
   ]
  },
  {
   "_name": "HunterTalent29",
-  "_pathid": 60626,
+  "_pathid": 64961,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5578
+   "pathID": 5738
   },
   "MaxPoints": 8,
   "LevelRequirement": 50,
@@ -925,17 +993,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60683
+    "pathID": 65023
+   },
+   {
+    "fileID": 0,
+    "pathID": 65024
    }
   ]
  },
  {
   "_name": "HunterTalent3",
-  "_pathid": 60627,
+  "_pathid": 64962,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5828
+   "pathID": 6000
   },
   "MaxPoints": 8,
   "LevelRequirement": 0,
@@ -968,7 +1040,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -976,11 +1049,11 @@
  },
  {
   "_name": "HunterTalent30",
-  "_pathid": 60628,
+  "_pathid": 64963,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5618
+   "pathID": 5778
   },
   "MaxPoints": 6,
   "LevelRequirement": 40,
@@ -991,17 +1064,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60665
+    "pathID": 65003
    }
   ]
  },
  {
   "_name": "HunterTalent31",
-  "_pathid": 60629,
+  "_pathid": 64964,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5822
+   "pathID": 5994
   },
   "MaxPoints": 3,
   "LevelRequirement": 50,
@@ -1012,17 +1085,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60666
+    "pathID": 65004
    }
   ]
  },
  {
   "_name": "HunterTalent32",
-  "_pathid": 60630,
+  "_pathid": 64965,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5684
+   "pathID": 5849
   },
   "MaxPoints": 6,
   "LevelRequirement": 50,
@@ -1033,21 +1106,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60687
+    "pathID": 65028
    },
    {
     "fileID": 0,
-    "pathID": 60686
+    "pathID": 65027
    }
   ]
  },
  {
   "_name": "HunterTalent33",
-  "_pathid": 60631,
+  "_pathid": 64966,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5310
+   "pathID": 5456
   },
   "MaxPoints": 8,
   "LevelRequirement": 20,
@@ -1058,17 +1131,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60679
+    "pathID": 65019
    }
   ]
  },
  {
   "_name": "HunterTalent34",
-  "_pathid": 60632,
+  "_pathid": 64967,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5971
+   "pathID": 6145
   },
   "MaxPoints": 8,
   "LevelRequirement": 50,
@@ -1079,17 +1152,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60659
+    "pathID": 64997
    }
   ]
  },
  {
   "_name": "HunterTalent35",
-  "_pathid": 60633,
+  "_pathid": 64968,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5925
+   "pathID": 6099
   },
   "MaxPoints": 8,
   "LevelRequirement": 15,
@@ -1100,17 +1173,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60676
+    "pathID": 65014
    }
   ]
  },
  {
   "_name": "HunterTalent36",
-  "_pathid": 60634,
+  "_pathid": 64969,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5616
+   "pathID": 5776
   },
   "MaxPoints": 1,
   "LevelRequirement": 30,
@@ -1121,17 +1194,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60658
+    "pathID": 64996
+   },
+   {
+    "fileID": 0,
+    "pathID": 65016
    }
   ]
  },
  {
   "_name": "HunterTalent37",
-  "_pathid": 60635,
+  "_pathid": 64970,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5624
+   "pathID": 5785
   },
   "MaxPoints": 8,
   "LevelRequirement": 40,
@@ -1142,21 +1219,25 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60668
+    "pathID": 65006
    },
    {
     "fileID": 0,
-    "pathID": 60669
+    "pathID": 65007
+   },
+   {
+    "fileID": 0,
+    "pathID": 64990
    }
   ]
  },
  {
   "_name": "HunterTalent38",
-  "_pathid": 60636,
+  "_pathid": 64971,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5449
+   "pathID": 5605
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -1167,17 +1248,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60657
+    "pathID": 64995
+   },
+   {
+    "fileID": 0,
+    "pathID": 64994
    }
   ]
  },
  {
   "_name": "HunterTalent39",
-  "_pathid": 60637,
+  "_pathid": 64972,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5868
+   "pathID": 6041
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -1188,33 +1273,33 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60653
+    "pathID": 64989
    },
    {
     "fileID": 0,
-    "pathID": 60649
+    "pathID": 64985
    },
    {
     "fileID": 0,
-    "pathID": 60650
+    "pathID": 64986
    },
    {
     "fileID": 0,
-    "pathID": 60651
+    "pathID": 64987
    },
    {
     "fileID": 0,
-    "pathID": 60652
+    "pathID": 64988
    }
   ]
  },
  {
   "_name": "HunterTalent4",
-  "_pathid": 60638,
+  "_pathid": 64973,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5840
+   "pathID": 6013
   },
   "MaxPoints": 6,
   "LevelRequirement": 0,
@@ -1247,7 +1332,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -1255,11 +1341,11 @@
  },
  {
   "_name": "HunterTalent40",
-  "_pathid": 60639,
+  "_pathid": 64974,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5937
+   "pathID": 6112
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -1270,17 +1356,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60656
+    "pathID": 64993
    }
   ]
  },
  {
   "_name": "HunterTalent41",
-  "_pathid": 60640,
+  "_pathid": 64975,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5477
+   "pathID": 5634
   },
   "MaxPoints": 8,
   "LevelRequirement": 50,
@@ -1291,17 +1377,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60655
+    "pathID": 64992
    }
   ]
  },
  {
   "_name": "HunterTalent42",
-  "_pathid": 60641,
+  "_pathid": 64976,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5508
+   "pathID": 5666
   },
   "MaxPoints": 5,
   "LevelRequirement": 40,
@@ -1312,17 +1398,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60661
+    "pathID": 64999
    }
   ]
  },
  {
   "_name": "HunterTalent43",
-  "_pathid": 60642,
+  "_pathid": 64977,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5242
+   "pathID": 5387
   },
   "MaxPoints": 1,
   "LevelRequirement": 30,
@@ -1333,17 +1419,38 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60648
+    "pathID": 64984
+   }
+  ]
+ },
+ {
+  "_name": "HunterTalent44",
+  "_pathid": 64978,
+  "_file": "sharedassets0.assets",
+  "Icon": {
+   "fileID": 0,
+   "pathID": 5635
+  },
+  "MaxPoints": 1,
+  "LevelRequirement": 30,
+  "Prerequisite": null,
+  "ExclusiveGroup": "Capstone30",
+  "IsLockedInDemo": false,
+  "StatModifiers": [],
+  "Effects": [
+   {
+    "fileID": 0,
+    "pathID": 65015
    }
   ]
  },
  {
   "_name": "HunterTalent5",
-  "_pathid": 60643,
+  "_pathid": 64979,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5474
+   "pathID": 5631
   },
   "MaxPoints": 6,
   "LevelRequirement": 5,
@@ -1354,21 +1461,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60670
+    "pathID": 65008
    },
    {
     "fileID": 0,
-    "pathID": 60664
+    "pathID": 65002
    }
   ]
  },
  {
   "_name": "HunterTalent6",
-  "_pathid": 60644,
+  "_pathid": 64980,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5577
+   "pathID": 5737
   },
   "MaxPoints": 6,
   "LevelRequirement": 5,
@@ -1379,17 +1486,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60662
+    "pathID": 65000
    }
   ]
  },
  {
   "_name": "HunterTalent7",
-  "_pathid": 60645,
+  "_pathid": 64981,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5276
+   "pathID": 5421
   },
   "MaxPoints": 8,
   "LevelRequirement": 5,
@@ -1422,7 +1529,8 @@
      "Name": "value1",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -1450,7 +1558,8 @@
      "Name": "value2",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -1458,11 +1567,11 @@
  },
  {
   "_name": "HunterTalent8",
-  "_pathid": 60646,
+  "_pathid": 64982,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5263
+   "pathID": 5408
   },
   "MaxPoints": 8,
   "LevelRequirement": 40,
@@ -1495,7 +1604,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -1503,11 +1613,11 @@
  },
  {
   "_name": "HunterTalent9",
-  "_pathid": 60647,
+  "_pathid": 64983,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5657
+   "pathID": 5821
   },
   "MaxPoints": 8,
   "LevelRequirement": 20,
@@ -1518,17 +1628,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60672
+    "pathID": 65010
    }
   ]
  },
  {
   "_name": "MonkTalent0",
-  "_pathid": 60726,
+  "_pathid": 65068,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5374
+   "pathID": 5525
   },
   "MaxPoints": 10,
   "LevelRequirement": 0,
@@ -1561,7 +1671,8 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -1569,11 +1680,11 @@
  },
  {
   "_name": "MonkTalent1",
-  "_pathid": 60727,
+  "_pathid": 65069,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5657
+   "pathID": 5821
   },
   "MaxPoints": 8,
   "LevelRequirement": 0,
@@ -1606,7 +1717,8 @@
      "Name": "value",
      "Format": "0.#%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -1614,11 +1726,11 @@
  },
  {
   "_name": "MonkTalent10",
-  "_pathid": 60728,
+  "_pathid": 65070,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5633
+   "pathID": 5794
   },
   "MaxPoints": 8,
   "LevelRequirement": 15,
@@ -1629,17 +1741,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60784
+    "pathID": 65126
    }
   ]
  },
  {
   "_name": "MonkTalent11",
-  "_pathid": 60729,
+  "_pathid": 65071,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5234
+   "pathID": 5379
   },
   "MaxPoints": 10,
   "LevelRequirement": 5,
@@ -1672,7 +1784,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -1680,11 +1793,11 @@
  },
  {
   "_name": "MonkTalent12",
-  "_pathid": 60730,
+  "_pathid": 65072,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5764
+   "pathID": 5935
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -1695,17 +1808,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60797
+    "pathID": 65139
    }
   ]
  },
  {
   "_name": "MonkTalent13",
-  "_pathid": 60731,
+  "_pathid": 65073,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5768
+   "pathID": 5940
   },
   "MaxPoints": 8,
   "LevelRequirement": 40,
@@ -1716,17 +1829,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60768
+    "pathID": 65110
    }
   ]
  },
  {
   "_name": "MonkTalent16",
-  "_pathid": 60732,
+  "_pathid": 65074,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5792
+   "pathID": 5964
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -1737,17 +1850,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60785
+    "pathID": 65127
    }
   ]
  },
  {
   "_name": "MonkTalent17",
-  "_pathid": 60733,
+  "_pathid": 65075,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5429
+   "pathID": 5584
   },
   "MaxPoints": 5,
   "LevelRequirement": 15,
@@ -1758,17 +1871,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60789
+    "pathID": 65131
    }
   ]
  },
  {
   "_name": "MonkTalent18",
-  "_pathid": 60734,
+  "_pathid": 65076,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5755
+   "pathID": 5926
   },
   "MaxPoints": 5,
   "LevelRequirement": 50,
@@ -1779,17 +1892,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60798
+    "pathID": 65140
    }
   ]
  },
  {
   "_name": "MonkTalent2",
-  "_pathid": 60735,
+  "_pathid": 65077,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5358
+   "pathID": 5507
   },
   "MaxPoints": 5,
   "LevelRequirement": 5,
@@ -1822,7 +1935,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -1830,11 +1944,11 @@
  },
  {
   "_name": "MonkTalent20",
-  "_pathid": 60736,
+  "_pathid": 65078,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5849
+   "pathID": 6022
   },
   "MaxPoints": 8,
   "LevelRequirement": 20,
@@ -1845,17 +1959,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60769
+    "pathID": 65111
    }
   ]
  },
  {
   "_name": "MonkTalent21",
-  "_pathid": 60737,
+  "_pathid": 65079,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5240
+   "pathID": 5385
   },
   "MaxPoints": 5,
   "LevelRequirement": 15,
@@ -1866,17 +1980,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60778
+    "pathID": 65120
    }
   ]
  },
  {
   "_name": "MonkTalent22",
-  "_pathid": 60738,
+  "_pathid": 65080,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5580
+   "pathID": 5740
   },
   "MaxPoints": 10,
   "LevelRequirement": 50,
@@ -1887,17 +2001,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60783
+    "pathID": 65125
    }
   ]
  },
  {
   "_name": "MonkTalent23",
-  "_pathid": 60739,
+  "_pathid": 65081,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5246
+   "pathID": 5391
   },
   "MaxPoints": 5,
   "LevelRequirement": 20,
@@ -1908,17 +2022,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60793
+    "pathID": 65135
    }
   ]
  },
  {
   "_name": "MonkTalent25",
-  "_pathid": 60740,
+  "_pathid": 65082,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5836
+   "pathID": 6009
   },
   "MaxPoints": 8,
   "LevelRequirement": 20,
@@ -1929,17 +2043,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60782
+    "pathID": 65124
    }
   ]
  },
  {
   "_name": "MonkTalent26",
-  "_pathid": 60741,
+  "_pathid": 65083,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5935
+   "pathID": 6109
   },
   "MaxPoints": 10,
   "LevelRequirement": 15,
@@ -1950,17 +2064,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60770
+    "pathID": 65112
    }
   ]
  },
  {
   "_name": "MonkTalent28",
-  "_pathid": 60742,
+  "_pathid": 65084,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5831
+   "pathID": 6003
   },
   "MaxPoints": 1,
   "LevelRequirement": 30,
@@ -1971,17 +2085,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60792
+    "pathID": 65134
    }
   ]
  },
  {
   "_name": "MonkTalent29",
-  "_pathid": 60743,
+  "_pathid": 65085,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5549
+   "pathID": 5708
   },
   "MaxPoints": 8,
   "LevelRequirement": 20,
@@ -1992,17 +2106,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60796
+    "pathID": 65138
    }
   ]
  },
  {
   "_name": "MonkTalent3",
-  "_pathid": 60744,
+  "_pathid": 65086,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5622
+   "pathID": 5783
   },
   "MaxPoints": 8,
   "LevelRequirement": 0,
@@ -2035,7 +2149,8 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -2043,11 +2158,11 @@
  },
  {
   "_name": "MonkTalent30",
-  "_pathid": 60745,
+  "_pathid": 65087,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5516
+   "pathID": 5675
   },
   "MaxPoints": 6,
   "LevelRequirement": 40,
@@ -2058,17 +2173,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60772
+    "pathID": 65114
    }
   ]
  },
  {
   "_name": "MonkTalent31",
-  "_pathid": 60746,
+  "_pathid": 65088,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5288
+   "pathID": 5433
   },
   "MaxPoints": 6,
   "LevelRequirement": 40,
@@ -2079,17 +2194,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60794
+    "pathID": 65136
    }
   ]
  },
  {
   "_name": "MonkTalent32",
-  "_pathid": 60747,
+  "_pathid": 65089,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5951
+   "pathID": 6125
   },
   "MaxPoints": 8,
   "LevelRequirement": 15,
@@ -2100,17 +2215,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60787
+    "pathID": 65129
    }
   ]
  },
  {
   "_name": "MonkTalent33",
-  "_pathid": 60748,
+  "_pathid": 65090,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5591
+   "pathID": 5751
   },
   "MaxPoints": 10,
   "LevelRequirement": 20,
@@ -2121,17 +2236,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60790
+    "pathID": 65132
    }
   ]
  },
  {
   "_name": "MonkTalent34",
-  "_pathid": 60749,
+  "_pathid": 65091,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5430
+   "pathID": 5585
   },
   "MaxPoints": 8,
   "LevelRequirement": 50,
@@ -2142,21 +2257,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60781
+    "pathID": 65123
    },
    {
     "fileID": 0,
-    "pathID": 60780
+    "pathID": 65122
    }
   ]
  },
  {
   "_name": "MonkTalent36",
-  "_pathid": 60750,
+  "_pathid": 65092,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5642
+   "pathID": 5804
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -2167,17 +2282,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60777
+    "pathID": 65119
    }
   ]
  },
  {
   "_name": "MonkTalent37",
-  "_pathid": 60751,
+  "_pathid": 65093,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5895
+   "pathID": 6069
   },
   "MaxPoints": 6,
   "LevelRequirement": 50,
@@ -2188,17 +2303,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60774
+    "pathID": 65116
    }
   ]
  },
  {
   "_name": "MonkTalent38",
-  "_pathid": 60752,
+  "_pathid": 65094,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5298
+   "pathID": 5444
   },
   "MaxPoints": 5,
   "LevelRequirement": 50,
@@ -2209,17 +2324,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60776
+    "pathID": 65118
    }
   ]
  },
  {
   "_name": "MonkTalent39",
-  "_pathid": 60753,
+  "_pathid": 65095,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5521
+   "pathID": 5681
   },
   "MaxPoints": 1,
   "LevelRequirement": 30,
@@ -2230,17 +2345,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60771
+    "pathID": 65113
    }
   ]
  },
  {
   "_name": "MonkTalent4",
-  "_pathid": 60754,
+  "_pathid": 65096,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5496
+   "pathID": 5654
   },
   "MaxPoints": 5,
   "LevelRequirement": 0,
@@ -2273,7 +2388,8 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -2281,11 +2397,11 @@
  },
  {
   "_name": "MonkTalent41",
-  "_pathid": 60755,
+  "_pathid": 65097,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5505
+   "pathID": 5663
   },
   "MaxPoints": 8,
   "LevelRequirement": 40,
@@ -2296,17 +2412,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60791
+    "pathID": 65133
    }
   ]
  },
  {
   "_name": "MonkTalent42",
-  "_pathid": 60756,
+  "_pathid": 65098,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5517
+   "pathID": 5676
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -2317,17 +2433,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60795
+    "pathID": 65137
    }
   ]
  },
  {
   "_name": "MonkTalent43",
-  "_pathid": 60757,
+  "_pathid": 65099,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5923
+   "pathID": 6097
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -2338,17 +2454,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60779
+    "pathID": 65121
    }
   ]
  },
  {
   "_name": "MonkTalent44",
-  "_pathid": 60758,
+  "_pathid": 65100,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5339
+   "pathID": 5486
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -2359,17 +2475,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60773
+    "pathID": 65115
    }
   ]
  },
  {
   "_name": "MonkTalent45",
-  "_pathid": 60759,
+  "_pathid": 65101,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5911
+   "pathID": 6085
   },
   "MaxPoints": 1,
   "LevelRequirement": 30,
@@ -2380,17 +2496,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60786
+    "pathID": 65128
    }
   ]
  },
  {
   "_name": "MonkTalent46",
-  "_pathid": 60760,
+  "_pathid": 65102,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5441
+   "pathID": 5596
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -2401,17 +2517,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60788
+    "pathID": 65130
    }
   ]
  },
  {
   "_name": "MonkTalent47",
-  "_pathid": 60761,
+  "_pathid": 65103,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5345
+   "pathID": 5492
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -2422,17 +2538,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60775
+    "pathID": 65117
    }
   ]
  },
  {
   "_name": "MonkTalent5",
-  "_pathid": 60762,
+  "_pathid": 65104,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5556
+   "pathID": 5715
   },
   "MaxPoints": 6,
   "LevelRequirement": 5,
@@ -2465,7 +2581,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -2473,11 +2590,11 @@
  },
  {
   "_name": "MonkTalent6",
-  "_pathid": 60763,
+  "_pathid": 65105,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5254
+   "pathID": 5399
   },
   "MaxPoints": 10,
   "LevelRequirement": 0,
@@ -2510,7 +2627,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -2518,11 +2636,11 @@
  },
  {
   "_name": "MonkTalent7",
-  "_pathid": 60764,
+  "_pathid": 65106,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5421
+   "pathID": 5576
   },
   "MaxPoints": 8,
   "LevelRequirement": 5,
@@ -2555,7 +2673,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -2583,7 +2702,8 @@
      "Name": "resistance",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -2591,11 +2711,11 @@
  },
  {
   "_name": "MonkTalent8",
-  "_pathid": 60765,
+  "_pathid": 65107,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5303
+   "pathID": 5449
   },
   "MaxPoints": 5,
   "LevelRequirement": 5,
@@ -2628,7 +2748,8 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -2636,11 +2757,11 @@
  },
  {
   "_name": "MonkTalent9",
-  "_pathid": 60766,
+  "_pathid": 65108,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5666
+   "pathID": 5831
   },
   "MaxPoints": 10,
   "LevelRequirement": 40,
@@ -2651,17 +2772,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60767
+    "pathID": 65109
    }
   ]
  },
  {
   "_name": "SorcererTalent0",
-  "_pathid": 60799,
+  "_pathid": 65141,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5400
+   "pathID": 5551
   },
   "MaxPoints": 10,
   "LevelRequirement": 0,
@@ -2694,7 +2815,8 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -2702,11 +2824,11 @@
  },
  {
   "_name": "SorcererTalent1",
-  "_pathid": 60800,
+  "_pathid": 65142,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5496
+   "pathID": 5654
   },
   "MaxPoints": 8,
   "LevelRequirement": 0,
@@ -2739,7 +2861,8 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -2747,11 +2870,11 @@
  },
  {
   "_name": "SorcererTalent10",
-  "_pathid": 60801,
+  "_pathid": 65143,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5939
+   "pathID": 6114
   },
   "MaxPoints": 8,
   "LevelRequirement": 20,
@@ -2762,17 +2885,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60716
+    "pathID": 65057
    }
   ]
  },
  {
   "_name": "SorcererTalent11",
-  "_pathid": 60802,
+  "_pathid": 65144,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5583
+   "pathID": 5743
   },
   "MaxPoints": 6,
   "LevelRequirement": 5,
@@ -2805,7 +2928,8 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -2813,11 +2937,11 @@
  },
  {
   "_name": "SorcererTalent12",
-  "_pathid": 60803,
+  "_pathid": 65145,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5555
+   "pathID": 5714
   },
   "MaxPoints": 1,
   "LevelRequirement": 30,
@@ -2828,17 +2952,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60690
+    "pathID": 65031
    }
   ]
  },
  {
   "_name": "SorcererTalent15",
-  "_pathid": 60804,
+  "_pathid": 65146,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5371
+   "pathID": 5522
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -2849,17 +2973,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60689
+    "pathID": 65030
    }
   ]
  },
  {
   "_name": "SorcererTalent16",
-  "_pathid": 60805,
+  "_pathid": 65147,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5349
+   "pathID": 5497
   },
   "MaxPoints": 8,
   "LevelRequirement": 15,
@@ -2870,17 +2994,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60725
+    "pathID": 65067
    }
   ]
  },
  {
   "_name": "SorcererTalent17",
-  "_pathid": 60806,
+  "_pathid": 65148,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5961
+   "pathID": 6135
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -2891,17 +3015,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60721
+    "pathID": 65063
    }
   ]
  },
  {
   "_name": "SorcererTalent18",
-  "_pathid": 60807,
+  "_pathid": 65149,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5783
+   "pathID": 5955
   },
   "MaxPoints": 6,
   "LevelRequirement": 5,
@@ -2912,17 +3036,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60688
+    "pathID": 65029
    }
   ]
  },
  {
   "_name": "SorcererTalent19",
-  "_pathid": 60808,
+  "_pathid": 65150,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5623
+   "pathID": 5784
   },
   "MaxPoints": 8,
   "LevelRequirement": 15,
@@ -2955,24 +3079,25 @@
      "Name": "armor",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60708
+    "pathID": 65049
    }
   ]
  },
  {
   "_name": "SorcererTalent2",
-  "_pathid": 60809,
+  "_pathid": 65151,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5452
+   "pathID": 5609
   },
   "MaxPoints": 8,
   "LevelRequirement": 0,
@@ -3005,7 +3130,8 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -3033,7 +3159,8 @@
      "Name": "armor",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -3041,11 +3168,11 @@
  },
  {
   "_name": "SorcererTalent20",
-  "_pathid": 60810,
+  "_pathid": 65152,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5238
+   "pathID": 5383
   },
   "MaxPoints": 10,
   "LevelRequirement": 5,
@@ -3078,7 +3205,8 @@
      "Name": "elite",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -3106,7 +3234,8 @@
      "Name": "lightning",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -3114,11 +3243,11 @@
  },
  {
   "_name": "SorcererTalent21",
-  "_pathid": 60811,
+  "_pathid": 65153,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5330
+   "pathID": 5477
   },
   "MaxPoints": 8,
   "LevelRequirement": 5,
@@ -3151,7 +3280,8 @@
      "Name": "magicResist",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -3179,7 +3309,8 @@
      "Name": "fire",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -3187,11 +3318,11 @@
  },
  {
   "_name": "SorcererTalent22",
-  "_pathid": 60812,
+  "_pathid": 65154,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5746
+   "pathID": 5916
   },
   "MaxPoints": 8,
   "LevelRequirement": 20,
@@ -3202,17 +3333,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60717
+    "pathID": 65058
    }
   ]
  },
  {
   "_name": "SorcererTalent23",
-  "_pathid": 60813,
+  "_pathid": 65155,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5268
+   "pathID": 5413
   },
   "MaxPoints": 6,
   "LevelRequirement": 40,
@@ -3223,17 +3354,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60694
+    "pathID": 65035
    }
   ]
  },
  {
   "_name": "SorcererTalent24",
-  "_pathid": 60814,
+  "_pathid": 65156,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5771
+   "pathID": 5943
   },
   "MaxPoints": 8,
   "LevelRequirement": 20,
@@ -3244,17 +3375,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60712
+    "pathID": 65053
    }
   ]
  },
  {
   "_name": "SorcererTalent25",
-  "_pathid": 60815,
+  "_pathid": 65157,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5784
+   "pathID": 5956
   },
   "MaxPoints": 6,
   "LevelRequirement": 15,
@@ -3265,17 +3396,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60702
+    "pathID": 65043
    }
   ]
  },
  {
   "_name": "SorcererTalent26",
-  "_pathid": 60816,
+  "_pathid": 65158,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5787
+   "pathID": 5959
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -3286,21 +3417,25 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60692
+    "pathID": 65033
    },
    {
     "fileID": 0,
-    "pathID": 60705
+    "pathID": 65046
+   },
+   {
+    "fileID": 0,
+    "pathID": 65062
    }
   ]
  },
  {
   "_name": "SorcererTalent27",
-  "_pathid": 60817,
+  "_pathid": 65159,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5790
+   "pathID": 5962
   },
   "MaxPoints": 1,
   "LevelRequirement": 30,
@@ -3311,17 +3446,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60718
+    "pathID": 65059
    }
   ]
  },
  {
   "_name": "SorcererTalent28",
-  "_pathid": 60818,
+  "_pathid": 65160,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5473
+   "pathID": 5630
   },
   "MaxPoints": 6,
   "LevelRequirement": 15,
@@ -3332,17 +3467,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60706
+    "pathID": 65047
    }
   ]
  },
  {
   "_name": "SorcererTalent29",
-  "_pathid": 60819,
+  "_pathid": 65161,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5903
+   "pathID": 6077
   },
   "MaxPoints": 8,
   "LevelRequirement": 50,
@@ -3353,21 +3488,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60703
+    "pathID": 65044
    },
    {
     "fileID": 0,
-    "pathID": 60704
+    "pathID": 65045
    }
   ]
  },
  {
   "_name": "SorcererTalent3",
-  "_pathid": 60820,
+  "_pathid": 65162,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5958
+   "pathID": 6132
   },
   "MaxPoints": 6,
   "LevelRequirement": 0,
@@ -3378,17 +3513,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60715
+    "pathID": 65056
    }
   ]
  },
  {
   "_name": "SorcererTalent30",
-  "_pathid": 60821,
+  "_pathid": 65163,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5304
+   "pathID": 5450
   },
   "MaxPoints": 5,
   "LevelRequirement": 50,
@@ -3399,17 +3534,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60707
+    "pathID": 65048
    }
   ]
  },
  {
   "_name": "SorcererTalent31",
-  "_pathid": 60822,
+  "_pathid": 65164,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5307
+   "pathID": 5453
   },
   "MaxPoints": 8,
   "LevelRequirement": 40,
@@ -3420,17 +3555,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60713
+    "pathID": 65054
    }
   ]
  },
  {
   "_name": "SorcererTalent32",
-  "_pathid": 60823,
+  "_pathid": 65165,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5759
+   "pathID": 5930
   },
   "MaxPoints": 6,
   "LevelRequirement": 15,
@@ -3441,17 +3576,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60697
+    "pathID": 65038
    }
   ]
  },
  {
   "_name": "SorcererTalent33",
-  "_pathid": 60824,
+  "_pathid": 65166,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5322
+   "pathID": 5469
   },
   "MaxPoints": 5,
   "LevelRequirement": 40,
@@ -3462,17 +3597,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60711
+    "pathID": 65052
    }
   ]
  },
  {
   "_name": "SorcererTalent34",
-  "_pathid": 60825,
+  "_pathid": 65167,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5342
+   "pathID": 5489
   },
   "MaxPoints": 8,
   "LevelRequirement": 40,
@@ -3483,21 +3618,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60699
+    "pathID": 65040
    },
    {
     "fileID": 0,
-    "pathID": 60698
+    "pathID": 65039
    }
   ]
  },
  {
   "_name": "SorcererTalent35",
-  "_pathid": 60826,
+  "_pathid": 65168,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5329
+   "pathID": 5476
   },
   "MaxPoints": 8,
   "LevelRequirement": 50,
@@ -3508,17 +3643,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60701
+    "pathID": 65042
    }
   ]
  },
  {
   "_name": "SorcererTalent36",
-  "_pathid": 60827,
+  "_pathid": 65169,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5262
+   "pathID": 5407
   },
   "MaxPoints": 8,
   "LevelRequirement": 50,
@@ -3529,17 +3664,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60719
+    "pathID": 65060
    }
   ]
  },
  {
   "_name": "SorcererTalent37",
-  "_pathid": 60828,
+  "_pathid": 65170,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5602
+   "pathID": 5762
   },
   "MaxPoints": 6,
   "LevelRequirement": 40,
@@ -3550,17 +3685,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60696
+    "pathID": 65037
    }
   ]
  },
  {
   "_name": "SorcererTalent38",
-  "_pathid": 60829,
+  "_pathid": 65171,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5235
+   "pathID": 5380
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -3593,24 +3728,25 @@
      "Name": "damage",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60695
+    "pathID": 65036
    }
   ]
  },
  {
   "_name": "SorcererTalent39",
-  "_pathid": 60830,
+  "_pathid": 65172,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5853
+   "pathID": 6026
   },
   "MaxPoints": 8,
   "LevelRequirement": 20,
@@ -3621,17 +3757,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60722
+    "pathID": 65064
    }
   ]
  },
  {
   "_name": "SorcererTalent4",
-  "_pathid": 60831,
+  "_pathid": 65173,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5825
+   "pathID": 5997
   },
   "MaxPoints": 6,
   "LevelRequirement": 0,
@@ -3642,17 +3778,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60714
+    "pathID": 65055
    }
   ]
  },
  {
   "_name": "SorcererTalent40",
-  "_pathid": 60832,
+  "_pathid": 65174,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5447
+   "pathID": 5603
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -3663,17 +3799,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60724
+    "pathID": 65066
    }
   ]
  },
  {
   "_name": "SorcererTalent41",
-  "_pathid": 60833,
+  "_pathid": 65175,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5234
+   "pathID": 5379
   },
   "MaxPoints": 5,
   "LevelRequirement": 50,
@@ -3684,17 +3820,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60693
+    "pathID": 65034
    }
   ]
  },
  {
   "_name": "SorcererTalent42",
-  "_pathid": 60834,
+  "_pathid": 65176,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5648
+   "pathID": 5810
   },
   "MaxPoints": 8,
   "LevelRequirement": 20,
@@ -3727,24 +3863,25 @@
      "Name": "resistance",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60720
+    "pathID": 65061
    }
   ]
  },
  {
   "_name": "SorcererTalent5",
-  "_pathid": 60835,
+  "_pathid": 65177,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5312
+   "pathID": 5458
   },
   "MaxPoints": 1,
   "LevelRequirement": 30,
@@ -3755,17 +3892,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60691
+    "pathID": 65032
    }
   ]
  },
  {
   "_name": "SorcererTalent6",
-  "_pathid": 60836,
+  "_pathid": 65178,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5485
+   "pathID": 5643
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -3774,7 +3911,7 @@
   "IsLockedInDemo": false,
   "StatModifiers": [
    {
-    "Stat": 44,
+    "Stat": 64,
     "Type": 0,
     "Value": {
      "Base": {
@@ -3795,27 +3932,28 @@
      }
     },
     "Token": {
-     "Name": "armor",
+     "Name": "reduction",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60723
+    "pathID": 65065
    }
   ]
  },
  {
   "_name": "SorcererTalent7",
-  "_pathid": 60837,
+  "_pathid": 65179,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5851
+   "pathID": 6024
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -3826,21 +3964,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60710
+    "pathID": 65051
    },
    {
     "fileID": 0,
-    "pathID": 60709
+    "pathID": 65050
    }
   ]
  },
  {
   "_name": "SorcererTalent8",
-  "_pathid": 60838,
+  "_pathid": 65180,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5881
+   "pathID": 6055
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -3851,17 +3989,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60700
+    "pathID": 65041
    }
   ]
  },
  {
   "_name": "SorcererTalent9",
-  "_pathid": 60839,
+  "_pathid": 65181,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5314
+   "pathID": 5460
   },
   "MaxPoints": 10,
   "LevelRequirement": 5,
@@ -3894,7 +4032,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -3902,11 +4041,11 @@
  },
  {
   "_name": "WarriorTalent0",
-  "_pathid": 60840,
+  "_pathid": 65182,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5741
+   "pathID": 5911
   },
   "MaxPoints": 10,
   "LevelRequirement": 0,
@@ -3939,7 +4078,8 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -3947,11 +4087,11 @@
  },
  {
   "_name": "WarriorTalent1",
-  "_pathid": 60841,
+  "_pathid": 65183,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5622
+   "pathID": 5783
   },
   "MaxPoints": 6,
   "LevelRequirement": 0,
@@ -3984,7 +4124,8 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -4012,7 +4153,8 @@
      "Name": "regen",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -4020,11 +4162,11 @@
  },
  {
   "_name": "WarriorTalent10",
-  "_pathid": 60842,
+  "_pathid": 65184,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5535
+   "pathID": 5694
   },
   "MaxPoints": 6,
   "LevelRequirement": 5,
@@ -4035,17 +4177,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60886
+    "pathID": 65228
    }
   ]
  },
  {
   "_name": "WarriorTalent11",
-  "_pathid": 60843,
+  "_pathid": 65185,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5747
+   "pathID": 5917
   },
   "MaxPoints": 1,
   "LevelRequirement": 30,
@@ -4056,17 +4198,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60920
+    "pathID": 65262
    }
   ]
  },
  {
   "_name": "WarriorTalent12",
-  "_pathid": 60844,
+  "_pathid": 65186,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5396
+   "pathID": 5547
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -4077,17 +4219,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60893
+    "pathID": 65234
    }
   ]
  },
  {
   "_name": "WarriorTalent13",
-  "_pathid": 60845,
+  "_pathid": 65187,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5627
+   "pathID": 5788
   },
   "MaxPoints": 10,
   "LevelRequirement": 5,
@@ -4120,7 +4262,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -4128,11 +4271,11 @@
  },
  {
   "_name": "WarriorTalent14",
-  "_pathid": 60846,
+  "_pathid": 65188,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5633
+   "pathID": 5794
   },
   "MaxPoints": 5,
   "LevelRequirement": 15,
@@ -4143,17 +4286,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60914
+    "pathID": 65255
    }
   ]
  },
  {
   "_name": "WarriorTalent15",
-  "_pathid": 60847,
+  "_pathid": 65189,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5705
+   "pathID": 5870
   },
   "MaxPoints": 10,
   "LevelRequirement": 50,
@@ -4164,21 +4307,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60905
+    "pathID": 65246
    },
    {
     "fileID": 0,
-    "pathID": 60906
+    "pathID": 65247
    }
   ]
  },
  {
   "_name": "WarriorTalent16",
-  "_pathid": 60848,
+  "_pathid": 65190,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5560
+   "pathID": 5719
   },
   "MaxPoints": 6,
   "LevelRequirement": 20,
@@ -4189,17 +4332,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60915
+    "pathID": 65256
    }
   ]
  },
  {
   "_name": "WarriorTalent17",
-  "_pathid": 60849,
+  "_pathid": 65191,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5894
+   "pathID": 6068
   },
   "MaxPoints": 8,
   "LevelRequirement": 15,
@@ -4210,17 +4353,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60913
+    "pathID": 65254
    }
   ]
  },
  {
   "_name": "WarriorTalent2",
-  "_pathid": 60850,
+  "_pathid": 65192,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5621
+   "pathID": 5782
   },
   "MaxPoints": 5,
   "LevelRequirement": 0,
@@ -4253,7 +4396,8 @@
      "Name": "value1",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -4281,7 +4425,8 @@
      "Name": "value2",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -4289,11 +4434,11 @@
  },
  {
   "_name": "WarriorTalent20",
-  "_pathid": 60851,
+  "_pathid": 65193,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5827
+   "pathID": 5999
   },
   "MaxPoints": 10,
   "LevelRequirement": 15,
@@ -4326,7 +4471,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -4334,11 +4480,11 @@
  },
  {
   "_name": "WarriorTalent22",
-  "_pathid": 60852,
+  "_pathid": 65194,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5698
+   "pathID": 5863
   },
   "MaxPoints": 5,
   "LevelRequirement": 50,
@@ -4349,17 +4495,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60910
+    "pathID": 65251
    }
   ]
  },
  {
   "_name": "WarriorTalent23",
-  "_pathid": 60853,
+  "_pathid": 65195,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5645
+   "pathID": 5807
   },
   "MaxPoints": 5,
   "LevelRequirement": 20,
@@ -4370,17 +4516,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60887
+    "pathID": 65229
    }
   ]
  },
  {
   "_name": "WarriorTalent24",
-  "_pathid": 60854,
+  "_pathid": 65196,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5580
+   "pathID": 5740
   },
   "MaxPoints": 8,
   "LevelRequirement": 40,
@@ -4391,17 +4537,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60903
+    "pathID": 65244
    }
   ]
  },
  {
   "_name": "WarriorTalent25",
-  "_pathid": 60855,
+  "_pathid": 65197,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5950
+   "pathID": 6124
   },
   "MaxPoints": 10,
   "LevelRequirement": 20,
@@ -4412,17 +4558,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60896
+    "pathID": 65237
    }
   ]
  },
  {
   "_name": "WarriorTalent26",
-  "_pathid": 60856,
+  "_pathid": 65198,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5823
+   "pathID": 5995
   },
   "MaxPoints": 8,
   "LevelRequirement": 15,
@@ -4433,17 +4579,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60907
+    "pathID": 65248
    }
   ]
  },
  {
   "_name": "WarriorTalent28",
-  "_pathid": 60857,
+  "_pathid": 65199,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5585
+   "pathID": 5745
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -4454,17 +4600,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60894
+    "pathID": 65235
    }
   ]
  },
  {
   "_name": "WarriorTalent29",
-  "_pathid": 60858,
+  "_pathid": 65200,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5654
+   "pathID": 5817
   },
   "MaxPoints": 2,
   "LevelRequirement": 30,
@@ -4476,11 +4622,11 @@
  },
  {
   "_name": "WarriorTalent3",
-  "_pathid": 60859,
+  "_pathid": 65201,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5558
+   "pathID": 5717
   },
   "MaxPoints": 5,
   "LevelRequirement": 5,
@@ -4491,17 +4637,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60918
+    "pathID": 65260
    }
   ]
  },
  {
   "_name": "WarriorTalent30",
-  "_pathid": 60860,
+  "_pathid": 65202,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5354
+   "pathID": 5502
   },
   "MaxPoints": 10,
   "LevelRequirement": 40,
@@ -4512,17 +4658,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60888
+    "pathID": 65259
    }
   ]
  },
  {
   "_name": "WarriorTalent31",
-  "_pathid": 60861,
+  "_pathid": 65203,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5526
+   "pathID": 5686
   },
   "MaxPoints": 5,
   "LevelRequirement": 30,
@@ -4533,17 +4679,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60901
+    "pathID": 65242
    }
   ]
  },
  {
   "_name": "WarriorTalent32",
-  "_pathid": 60862,
+  "_pathid": 65204,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -4555,11 +4701,11 @@
  },
  {
   "_name": "WarriorTalent33",
-  "_pathid": 60863,
+  "_pathid": 65205,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5610
+   "pathID": 5770
   },
   "MaxPoints": 5,
   "LevelRequirement": 15,
@@ -4570,17 +4716,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60895
+    "pathID": 65236
    }
   ]
  },
  {
   "_name": "WarriorTalent34",
-  "_pathid": 60864,
+  "_pathid": 65206,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5743
+   "pathID": 5913
   },
   "MaxPoints": 10,
   "LevelRequirement": 20,
@@ -4591,21 +4737,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60904
+    "pathID": 65245
    },
    {
     "fileID": 0,
-    "pathID": 60899
+    "pathID": 65240
    }
   ]
  },
  {
   "_name": "WarriorTalent35",
-  "_pathid": 60865,
+  "_pathid": 65207,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -4617,11 +4763,11 @@
  },
  {
   "_name": "WarriorTalent37",
-  "_pathid": 60866,
+  "_pathid": 65208,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5877
+   "pathID": 6051
   },
   "MaxPoints": 1,
   "LevelRequirement": 30,
@@ -4632,17 +4778,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60891
+    "pathID": 65232
    }
   ]
  },
  {
   "_name": "WarriorTalent38",
-  "_pathid": 60867,
+  "_pathid": 65209,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5487
+   "pathID": 5645
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -4653,17 +4799,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60917
+    "pathID": 65258
    }
   ]
  },
  {
   "_name": "WarriorTalent39",
-  "_pathid": 60868,
+  "_pathid": 65210,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5253
+   "pathID": 5398
   },
   "MaxPoints": 5,
   "LevelRequirement": 40,
@@ -4674,17 +4820,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60900
+    "pathID": 65241
    }
   ]
  },
  {
   "_name": "WarriorTalent4",
-  "_pathid": 60869,
+  "_pathid": 65211,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5955
+   "pathID": 6129
   },
   "MaxPoints": 5,
   "LevelRequirement": 0,
@@ -4717,7 +4863,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -4725,11 +4872,11 @@
  },
  {
   "_name": "WarriorTalent40",
-  "_pathid": 60870,
+  "_pathid": 65212,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -4741,11 +4888,11 @@
  },
  {
   "_name": "WarriorTalent41",
-  "_pathid": 60871,
+  "_pathid": 65213,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5781
+   "pathID": 5953
   },
   "MaxPoints": 1,
   "LevelRequirement": 100,
@@ -4757,11 +4904,11 @@
  },
  {
   "_name": "WarriorTalent42",
-  "_pathid": 60872,
+  "_pathid": 65214,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5765
+   "pathID": 5937
   },
   "MaxPoints": 6,
   "LevelRequirement": 50,
@@ -4772,17 +4919,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60889
+    "pathID": 65230
    }
   ]
  },
  {
   "_name": "WarriorTalent43",
-  "_pathid": 60873,
+  "_pathid": 65215,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5818
+   "pathID": 5990
   },
   "MaxPoints": 5,
   "LevelRequirement": 5,
@@ -4793,17 +4940,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60908
+    "pathID": 65249
    }
   ]
  },
  {
   "_name": "WarriorTalent44",
-  "_pathid": 60874,
+  "_pathid": 65216,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5797
+   "pathID": 5970
   },
   "MaxPoints": 1,
   "LevelRequirement": 30,
@@ -4814,17 +4961,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60912
+    "pathID": 65253
    }
   ]
  },
  {
   "_name": "WarriorTalent45",
-  "_pathid": 60875,
+  "_pathid": 65217,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5813
+   "pathID": 5985
   },
   "MaxPoints": 3,
   "LevelRequirement": 50,
@@ -4835,17 +4982,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60916
+    "pathID": 65257
    }
   ]
  },
  {
   "_name": "WarriorTalent46",
-  "_pathid": 60876,
+  "_pathid": 65218,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5951
+   "pathID": 6125
   },
   "MaxPoints": 1,
   "LevelRequirement": 10,
@@ -4856,21 +5003,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60897
+    "pathID": 65238
    },
    {
     "fileID": 0,
-    "pathID": 60898
+    "pathID": 65239
    }
   ]
  },
  {
   "_name": "WarriorTalent47",
-  "_pathid": 60877,
+  "_pathid": 65219,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5965
+   "pathID": 6139
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -4881,17 +5028,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60909
+    "pathID": 65250
    }
   ]
  },
  {
   "_name": "WarriorTalent48",
-  "_pathid": 60878,
+  "_pathid": 65220,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5659
+   "pathID": 5823
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -4902,21 +5049,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60890
+    "pathID": 65231
    },
    {
     "fileID": 0,
-    "pathID": 60902
+    "pathID": 65243
    }
   ]
  },
  {
   "_name": "WarriorTalent49",
-  "_pathid": 60879,
+  "_pathid": 65221,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5506
+   "pathID": 5664
   },
   "MaxPoints": 1,
   "LevelRequirement": 60,
@@ -4927,17 +5074,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60892
+    "pathID": 65233
    }
   ]
  },
  {
   "_name": "WarriorTalent5",
-  "_pathid": 60880,
+  "_pathid": 65222,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5899
+   "pathID": 6073
   },
   "MaxPoints": 8,
   "LevelRequirement": 5,
@@ -4970,7 +5117,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -4978,11 +5126,11 @@
  },
  {
   "_name": "WarriorTalent6",
-  "_pathid": 60881,
+  "_pathid": 65223,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5801
+   "pathID": 5974
   },
   "MaxPoints": 8,
   "LevelRequirement": 0,
@@ -5015,7 +5163,8 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],
@@ -5023,11 +5172,11 @@
  },
  {
   "_name": "WarriorTalent60",
-  "_pathid": 60882,
+  "_pathid": 65224,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5260
+   "pathID": 5405
   },
   "MaxPoints": 10,
   "LevelRequirement": 50,
@@ -5038,17 +5187,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60911
+    "pathID": 65252
    }
   ]
  },
  {
   "_name": "WarriorTalent61",
-  "_pathid": 60883,
+  "_pathid": 65225,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5437
+   "pathID": 5592
   },
   "MaxPoints": 10,
   "LevelRequirement": 40,
@@ -5059,21 +5208,21 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60921
+    "pathID": 65263
    },
    {
     "fileID": 0,
-    "pathID": 60922
+    "pathID": 65264
    }
   ]
  },
  {
   "_name": "WarriorTalent8",
-  "_pathid": 60884,
+  "_pathid": 65226,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5628
+   "pathID": 5789
   },
   "MaxPoints": 6,
   "LevelRequirement": 40,
@@ -5084,17 +5233,17 @@
   "Effects": [
    {
     "fileID": 0,
-    "pathID": 60919
+    "pathID": 65261
    }
   ]
  },
  {
   "_name": "WarriorTalent9",
-  "_pathid": 60885,
+  "_pathid": 65227,
   "_file": "sharedassets0.assets",
   "Icon": {
    "fileID": 0,
-   "pathID": 5464
+   "pathID": 5621
   },
   "MaxPoints": 8,
   "LevelRequirement": 20,
@@ -5127,7 +5276,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ],

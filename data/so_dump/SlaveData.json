@@ -1,7 +1,7 @@
 [
  {
   "_name": "Bull",
-  "_pathid": 5384,
+  "_pathid": 5754,
   "_file": "resources.assets",
   "Species": 1,
   "Rarity": 1,
@@ -10,23 +10,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 2154
+   "pathID": 2324
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 698
+    "pathID": 787
    },
    "Volume": 0.699999988079071,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 0.5,
   "RunAnimSpeedMultiplier": 0.8999999761581421,
+  "CastAnimSpeedMultiplier": 1.5,
+  "ReinFreeSkillLevels": true,
   "Passives": [
    {
     "Icon": {
      "fileID": 2,
-     "pathID": 5321
+     "pathID": 5468
     },
     "Title": "Fast Travel I",
     "Modifier": {
@@ -43,18 +45,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1086064954,
-       "cryptoKey": 1074379834,
-       "value": 0.0,
+       "hash": 1374691251,
+       "hiddenValue": 1272246945,
+       "cryptoKey": 1884357547,
+       "value": 0.004999999888241291,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -63,7 +66,7 @@
  },
  {
   "_name": "ArmoredHorse",
-  "_pathid": 60461,
+  "_pathid": 64789,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 3,
@@ -72,23 +75,25 @@
   "Capacity": 35,
   "Prefab": {
    "fileID": 0,
-   "pathID": 14671
+   "pathID": 15530
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4897
+    "pathID": 5037
    },
    "Volume": 1.0,
    "Pitch": 0.8999999761581421
   },
   "ZoomOutDistance": 0.800000011920929,
   "RunAnimSpeedMultiplier": 0.8999999761581421,
+  "CastAnimSpeedMultiplier": 1.100000023841858,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5321
+     "pathID": 5468
     },
     "Title": "Fast Travel III",
     "Modifier": {
@@ -105,25 +110,26 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1185095126,
-       "cryptoKey": 1176347606,
-       "value": 0.0,
+       "hash": 557103469,
+       "hiddenValue": 1972025347,
+       "cryptoKey": 1238190220,
+       "value": 0.014999999664723873,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    },
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5450
+     "pathID": 5607
     },
     "Title": "Thick Skin I",
     "Modifier": {
@@ -140,18 +146,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1253789416,
-       "cryptoKey": 1246673896,
-       "value": 0.0,
+       "hash": 1374691251,
+       "hiddenValue": 1463461973,
+       "cryptoKey": 1812720991,
+       "value": 0.004999999888241291,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -160,7 +167,7 @@
  },
  {
   "_name": "BeachCrabBoss",
-  "_pathid": 60462,
+  "_pathid": 64790,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 3,
@@ -169,23 +176,25 @@
   "Capacity": 32,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20342
+   "pathID": 21623
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5002
+    "pathID": 5145
    },
    "Volume": 1.0,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 2.5999999046325684,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5584
+     "pathID": 5744
     },
     "Title": "Massive Crab Claws",
     "Modifier": {
@@ -202,25 +211,26 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1976143468,
-       "cryptoKey": 1972291948,
-       "value": 0.0,
+       "hash": 1496042271,
+       "hiddenValue": 2034929532,
+       "cryptoKey": 1152163190,
+       "value": 0.03999999910593033,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    },
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5302
+     "pathID": 5448
     },
     "Title": "Thicker Shell",
     "Modifier": {
@@ -237,18 +247,55 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1080260281,
-       "cryptoKey": 1081500601,
-       "value": 0.0,
+       "hash": 1458579341,
+       "hiddenValue": 1180444654,
+       "cryptoKey": 2055506916,
+       "value": 0.019999999552965164,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
+     }
+    }
+   },
+   {
+    "Icon": {
+     "fileID": 0,
+     "pathID": 6120
+    },
+    "Title": "Heatproof Shell",
+    "Modifier": {
+     "Stat": 52,
+     "Type": 0,
+     "Value": {
+      "Base": {
+       "__type__": "ObscuredFloat",
+       "hash": 1610992765,
+       "hiddenValue": 1494969116,
+       "cryptoKey": 1730664401,
+       "value": 0.20000000298023224,
+       "__tail__": "00000000000000000000000000000000"
+      },
+      "PerLevel": {
+       "__type__": "ObscuredFloat",
+       "hash": 1458579341,
+       "hiddenValue": 1180444654,
+       "cryptoKey": 2055506916,
+       "value": 0.019999999552965164,
+       "__tail__": "00000000000000000000000000000000"
+      }
+     },
+     "Token": {
+      "Name": "value",
+      "Format": "0.#%",
+      "Suffix": "",
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -257,7 +304,7 @@
  },
  {
   "_name": "BeachHermitCrab",
-  "_pathid": 60463,
+  "_pathid": 64791,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -266,23 +313,25 @@
   "Capacity": 20,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20327
+   "pathID": 21607
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4876
+    "pathID": 5016
    },
    "Volume": 0.5,
    "Pitch": 0.699999988079071
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.399999976158142,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5302
+     "pathID": 5448
     },
     "Title": "Thick Shell",
     "Modifier": {
@@ -291,26 +340,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": -649440399,
-       "hiddenValue": 1784845846,
+       "hash": 1610992765,
+       "hiddenValue": 1782039361,
        "cryptoKey": 1418722188,
-       "value": 0.15000000596046448,
+       "value": 0.20000000298023224,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1080260281,
-       "cryptoKey": 1081500601,
-       "value": 0.0,
+       "hash": 1458579341,
+       "hiddenValue": 2005187099,
+       "cryptoKey": 1259950865,
+       "value": 0.019999999552965164,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -319,7 +369,7 @@
  },
  {
   "_name": "BeachNaga",
-  "_pathid": 60464,
+  "_pathid": 64792,
   "_file": "sharedassets0.assets",
   "Species": 0,
   "Rarity": 2,
@@ -328,23 +378,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20315
+   "pathID": 21595
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5019
+    "pathID": 5162
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.2000000476837158
   },
   "ZoomOutDistance": 0.800000011920929,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5496
+     "pathID": 5654
     },
     "Title": "Mana Regen",
     "Modifier": {
@@ -361,10 +413,10 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1898385449,
-       "cryptoKey": 1896884009,
-       "value": 0.0,
+       "hash": -632662781,
+       "hiddenValue": 1920291076,
+       "cryptoKey": 1296624798,
+       "value": 0.6000000238418579,
        "__tail__": "00000000000000000000000000000000"
       }
      },
@@ -372,7 +424,8 @@
       "Name": "value",
       "Format": "0.#",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -381,7 +434,7 @@
  },
  {
   "_name": "BeachSerpent",
-  "_pathid": 60465,
+  "_pathid": 64793,
   "_file": "sharedassets0.assets",
   "Species": 3,
   "Rarity": 2,
@@ -390,23 +443,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20374
+   "pathID": 21655
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4793
+    "pathID": 4933
    },
    "Volume": 0.5,
    "Pitch": 1.2000000476837158
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5296
+     "pathID": 5442
     },
     "Title": "Frost Tongue",
     "Modifier": {
@@ -415,26 +470,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": 1610992765,
-       "hiddenValue": 1761821363,
+       "hash": 132727037,
+       "hiddenValue": 1775210110,
        "cryptoKey": 1460588414,
-       "value": 0.20000000298023224,
+       "value": 0.25,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1080260281,
-       "cryptoKey": 1081500601,
-       "value": 0.0,
+       "hash": 1556752217,
+       "hiddenValue": 1614897090,
+       "cryptoKey": 1553173775,
+       "value": 0.02500000037252903,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -443,7 +499,7 @@
  },
  {
   "_name": "BeachSquid",
-  "_pathid": 60466,
+  "_pathid": 64794,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -452,23 +508,25 @@
   "Capacity": 22,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20392
+   "pathID": 21674
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4875
+    "pathID": 5015
    },
    "Volume": 0.5,
    "Pitch": 0.800000011920929
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.399999976158142,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5318
+     "pathID": 5465
     },
     "Title": "Ink Siphon",
     "Modifier": {
@@ -485,10 +543,10 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1898385449,
-       "cryptoKey": 1896884009,
-       "value": 0.0,
+       "hash": -632662781,
+       "hiddenValue": 1997408390,
+       "cryptoKey": 1209112348,
+       "value": 0.6000000238418579,
        "__tail__": "00000000000000000000000000000000"
       }
      },
@@ -496,7 +554,8 @@
       "Name": "value",
       "Format": "0.#",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -505,7 +564,7 @@
  },
  {
   "_name": "BeachTurtleBoss",
-  "_pathid": 60467,
+  "_pathid": 64795,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 3,
@@ -514,23 +573,25 @@
   "Capacity": 35,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20346
+   "pathID": 21627
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5002
+    "pathID": 5145
    },
    "Volume": 1.0,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 0.800000011920929,
   "RunAnimSpeedMultiplier": 2.4000000953674316,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5450
+     "pathID": 5607
     },
     "Title": "Thick Skin III",
     "Modifier": {
@@ -539,33 +600,34 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": -649440399,
-       "hiddenValue": 1812162432,
+       "hash": -2115551783,
+       "hiddenValue": 1823067433,
        "cryptoKey": 1384028698,
-       "value": 0.15000000596046448,
+       "value": 0.3499999940395355,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1253789416,
-       "cryptoKey": 1246673896,
-       "value": 0.0,
+       "hash": 294485031,
+       "hiddenValue": 2040667085,
+       "cryptoKey": 1142226660,
+       "value": 0.03500000014901161,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    },
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5306
+     "pathID": 5452
     },
     "Title": "Turtle Speed",
     "Modifier": {
@@ -582,18 +644,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1590760550,
-       "cryptoKey": 1578422630,
-       "value": 0.0,
+       "hash": 2045729437,
+       "hiddenValue": 31403046,
+       "cryptoKey": 1024395309,
+       "value": 0.010000000707805157,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -601,13 +664,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60446
+    "pathID": 64773
    }
   ]
  },
  {
   "_name": "BigTreant",
-  "_pathid": 60468,
+  "_pathid": 64796,
   "_file": "sharedassets0.assets",
   "Species": 0,
   "Rarity": 3,
@@ -616,23 +679,25 @@
   "Capacity": 30,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20366
+   "pathID": 21647
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5002
+    "pathID": 5145
    },
    "Volume": 1.0,
    "Pitch": 0.6000000238418579
   },
   "ZoomOutDistance": 1.2999999523162842,
   "RunAnimSpeedMultiplier": 2.5,
+  "CastAnimSpeedMultiplier": 1.25,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5622
+     "pathID": 5783
     },
     "Title": "Health Increase",
     "Modifier": {
@@ -641,26 +706,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": 1573529835,
-       "hiddenValue": 2069662922,
+       "hash": 1610992765,
+       "hiddenValue": 2019298506,
        "cryptoKey": 1178636295,
-       "value": 0.10000000149011612,
+       "value": 0.20000000298023224,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1573065164,
-       "cryptoKey": 1561445324,
-       "value": 0.0,
+       "hash": 1458579341,
+       "hiddenValue": 1240191604,
+       "cryptoKey": 1970355326,
+       "value": 0.019999999552965164,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -668,13 +734,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60448
+    "pathID": 64775
    }
   ]
  },
  {
   "_name": "BlackHorse",
-  "_pathid": 60469,
+  "_pathid": 64797,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 2,
@@ -683,23 +749,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 26212
+   "pathID": 27879
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4897
+    "pathID": 5037
    },
    "Volume": 1.0,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 0.5,
   "RunAnimSpeedMultiplier": 0.8999999761581421,
+  "CastAnimSpeedMultiplier": 1.600000023841858,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5321
+     "pathID": 5468
     },
     "Title": "Fast Travel III",
     "Modifier": {
@@ -716,18 +784,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1080260281,
-       "cryptoKey": 1081500601,
-       "value": 0.0,
+       "hash": 557103469,
+       "hiddenValue": 1663959553,
+       "cryptoKey": 1601694862,
+       "value": 0.014999999664723873,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -736,7 +805,7 @@
  },
  {
   "_name": "BlueMammoth",
-  "_pathid": 60470,
+  "_pathid": 64798,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 3,
@@ -745,23 +814,25 @@
   "Capacity": 35,
   "Prefab": {
    "fileID": 0,
-   "pathID": 26214
+   "pathID": 27881
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5029
+    "pathID": 5172
    },
    "Volume": 0.15000000596046448,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.2999999523162842,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5450
+     "pathID": 5607
     },
     "Title": "Thick Skin III",
     "Modifier": {
@@ -778,25 +849,26 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1253789416,
-       "cryptoKey": 1246673896,
-       "value": 0.0,
+       "hash": 557103469,
+       "hiddenValue": 1681325886,
+       "cryptoKey": 1485501617,
+       "value": 0.014999999664723873,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    },
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5321
+     "pathID": 5468
     },
     "Title": "Fast Travel I",
     "Modifier": {
@@ -813,18 +885,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1185095126,
-       "cryptoKey": 1176347606,
-       "value": 0.0,
+       "hash": 1374691251,
+       "hiddenValue": 1726793468,
+       "cryptoKey": 1566915574,
+       "value": 0.004999999888241291,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -833,7 +906,7 @@
  },
  {
   "_name": "Boar",
-  "_pathid": 60471,
+  "_pathid": 64799,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -842,23 +915,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 13973
+   "pathID": 14730
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5023
+    "pathID": 5166
    },
    "Volume": 0.800000011920929,
    "Pitch": 0.8999999761581421
   },
   "ZoomOutDistance": 0.30000001192092896,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.100000023841858,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5622
+     "pathID": 5783
     },
     "Title": "Vitality I",
     "Modifier": {
@@ -875,10 +950,10 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 2131099265,
-       "cryptoKey": 2147353985,
-       "value": 0.0,
+       "hash": 753531571,
+       "hiddenValue": 978803794,
+       "cryptoKey": 2066503506,
+       "value": 15.0,
        "__tail__": "00000000000000000000000000000000"
       }
      },
@@ -886,7 +961,8 @@
       "Name": "value",
       "Format": "0.#",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -895,7 +971,7 @@
  },
  {
   "_name": "BrownPony",
-  "_pathid": 60472,
+  "_pathid": 64800,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -904,23 +980,25 @@
   "Capacity": 22,
   "Prefab": {
    "fileID": 0,
-   "pathID": 26213
+   "pathID": 27880
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4897
+    "pathID": 5037
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.2000000476837158
   },
   "ZoomOutDistance": 0.5,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.600000023841858,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5321
+     "pathID": 5468
     },
     "Title": "Fast Travel II",
     "Modifier": {
@@ -937,18 +1015,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1145680281,
-       "cryptoKey": 1152469401,
-       "value": 0.0,
+       "hash": 1479264653,
+       "hiddenValue": 1484958696,
+       "cryptoKey": 1686656482,
+       "value": 0.009999999776482582,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -957,7 +1036,7 @@
  },
  {
   "_name": "DarkElfMage",
-  "_pathid": 60473,
+  "_pathid": 64801,
   "_file": "sharedassets0.assets",
   "Species": 0,
   "Rarity": 3,
@@ -966,23 +1045,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20360
+   "pathID": 21641
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4931
+    "pathID": 5073
    },
    "Volume": 1.0,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5426
+     "pathID": 5582
     },
     "Title": "Mana Increase",
     "Modifier": {
@@ -999,27 +1080,28 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1898385449,
-       "cryptoKey": 1896884009,
-       "value": 0.0,
+       "hash": 1556752217,
+       "hiddenValue": 1264868554,
+       "cryptoKey": 2005968903,
+       "value": 0.02500000037252903,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    },
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5739
+     "pathID": 5909
     },
-    "Title": "Fire Damage III",
+    "Title": "Witchfire",
     "Modifier": {
      "Stat": 24,
      "Type": 0,
@@ -1034,18 +1116,55 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": -1316661082,
-       "cryptoKey": -1319598682,
-       "value": 0.0,
+       "hash": 536418157,
+       "hiddenValue": 2009130289,
+       "cryptoKey": 1259340478,
+       "value": 0.029999999329447746,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
+     }
+    }
+   },
+   {
+    "Icon": {
+     "fileID": 0,
+     "pathID": 5478
+    },
+    "Title": "Arcane Affinity",
+    "Modifier": {
+     "Stat": 28,
+     "Type": 0,
+     "Value": {
+      "Base": {
+       "__type__": "ObscuredFloat",
+       "hash": -628755087,
+       "hiddenValue": -645729549,
+       "cryptoKey": -412411031,
+       "value": 0.30000001192092896,
+       "__tail__": "00000000000000000000000000000000"
+      },
+      "PerLevel": {
+       "__type__": "ObscuredFloat",
+       "hash": 536418157,
+       "hiddenValue": 2009130289,
+       "cryptoKey": 1259340478,
+       "value": 0.029999999329447746,
+       "__tail__": "00000000000000000000000000000000"
+      }
+     },
+     "Token": {
+      "Name": "value",
+      "Format": "0.#%",
+      "Suffix": "",
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1054,7 +1173,7 @@
  },
  {
   "_name": "DefaultHorse",
-  "_pathid": 60474,
+  "_pathid": 64802,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 0,
@@ -1063,23 +1182,25 @@
   "Capacity": 20,
   "Prefab": {
    "fileID": 0,
-   "pathID": 26216
+   "pathID": 27883
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4897
+    "pathID": 5037
    },
    "Volume": 1.0,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 0.5,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.600000023841858,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5321
+     "pathID": 5468
     },
     "Title": "Fast Travel I",
     "Modifier": {
@@ -1096,18 +1217,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1590760550,
-       "cryptoKey": 1578422630,
-       "value": 0.0,
+       "hash": 1374691251,
+       "hiddenValue": 1414133953,
+       "cryptoKey": 1868275403,
+       "value": 0.004999999888241291,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1116,7 +1238,7 @@
  },
  {
   "_name": "DefiledKeepAxemaster",
-  "_pathid": 60475,
+  "_pathid": 64803,
   "_file": "sharedassets0.assets",
   "Species": 2,
   "Rarity": 2,
@@ -1125,23 +1247,25 @@
   "Capacity": 27,
   "Prefab": {
    "fileID": 0,
-   "pathID": 6307
+   "pathID": 6559
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4943
+    "pathID": 5085
    },
    "Volume": 0.8999999761581421,
    "Pitch": 0.800000011920929
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.4500000476837158,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5468
+     "pathID": 5625
     },
     "Title": "Grave Cleaver",
     "Modifier": {
@@ -1150,26 +1274,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": 1610992765,
-       "hiddenValue": 1041981083,
+       "hash": 132727037,
+       "hiddenValue": 1054315094,
        "cryptoKey": 1234774,
-       "value": 0.20000000298023224,
+       "value": 0.25,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 14029454,
-       "cryptoKey": 1234574,
-       "value": 0.0,
+       "hash": 1556752217,
+       "hiddenValue": 1962339223,
+       "cryptoKey": 1210530394,
+       "value": 0.02500000037252903,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1178,7 +1303,7 @@
  },
  {
   "_name": "DefiledKeepDragon",
-  "_pathid": 60476,
+  "_pathid": 64804,
   "_file": "sharedassets0.assets",
   "Species": 4,
   "Rarity": 3,
@@ -1187,23 +1312,25 @@
   "Capacity": 34,
   "Prefab": {
    "fileID": 0,
-   "pathID": 6812
+   "pathID": 7174
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4865
+    "pathID": 5005
    },
    "Volume": 1.0,
    "Pitch": 0.8500000238418579
   },
   "ZoomOutDistance": 2.0,
   "RunAnimSpeedMultiplier": 1.2999999523162842,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5309
+     "pathID": 5455
     },
     "Title": "Everliving Blood",
     "Modifier": {
@@ -1220,25 +1347,26 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 14160614,
-       "cryptoKey": 1235174,
-       "value": 0.0,
+       "hash": 1594215147,
+       "hiddenValue": 1674792874,
+       "cryptoKey": 1577262951,
+       "value": 0.05000000074505806,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    },
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5357
+     "pathID": 5506
     },
     "Title": "Sepulchral Scales",
     "Modifier": {
@@ -1247,26 +1375,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": 170189967,
-       "hiddenValue": 1071059492,
+       "hash": 149504655,
+       "hiddenValue": 1071092260,
        "cryptoKey": 1234724,
-       "value": 0.5,
+       "value": 1.0,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 14160464,
-       "cryptoKey": 1235024,
-       "value": 0.0,
+       "hash": 1594215147,
+       "hiddenValue": 2041214800,
+       "cryptoKey": 1144743581,
+       "value": 0.05000000074505806,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1275,7 +1404,7 @@
  },
  {
   "_name": "DefiledKeepOoze",
-  "_pathid": 60477,
+  "_pathid": 64805,
   "_file": "sharedassets0.assets",
   "Species": 5,
   "Rarity": 1,
@@ -1284,23 +1413,25 @@
   "Capacity": 22,
   "Prefab": {
    "fileID": 0,
-   "pathID": 6273
+   "pathID": 6524
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4984
+    "pathID": 5127
    },
    "Volume": 0.6000000238418579,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 0.8999999761581421,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.2000000476837158,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5302
+     "pathID": 5448
     },
     "Title": "Viscous Hide",
     "Modifier": {
@@ -1309,26 +1440,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": 1610992765,
-       "hiddenValue": 1338116201,
+       "hash": 1573529835,
+       "hiddenValue": 1287817321,
        "cryptoKey": 1900285604,
-       "value": 0.20000000298023224,
+       "value": 0.10000000149011612,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1556623381,
-       "cryptoKey": 1546700821,
-       "value": 0.0,
+       "hash": 1479264653,
+       "hiddenValue": 1645787637,
+       "cryptoKey": 1587204095,
+       "value": 0.009999999776482582,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1337,7 +1469,7 @@
  },
  {
   "_name": "DefiledKeepReaper",
-  "_pathid": 60478,
+  "_pathid": 64806,
   "_file": "sharedassets0.assets",
   "Species": 2,
   "Rarity": 3,
@@ -1346,23 +1478,25 @@
   "Capacity": 30,
   "Prefab": {
    "fileID": 0,
-   "pathID": 6294
+   "pathID": 6546
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4979
+    "pathID": 5122
    },
    "Volume": 1.0,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.2999999523162842,
   "RunAnimSpeedMultiplier": 1.100000023841858,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5238
+     "pathID": 5383
     },
     "Title": "Storm of Souls",
     "Modifier": {
@@ -1379,18 +1513,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1754014876,
-       "cryptoKey": 1747225756,
-       "value": 0.0,
+       "hash": 536418157,
+       "hiddenValue": 1930965803,
+       "cryptoKey": 1338432164,
+       "value": 0.029999999329447746,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1398,13 +1533,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60457
+    "pathID": 64785
    }
   ]
  },
  {
   "_name": "DefiledKeepScarab",
-  "_pathid": 60479,
+  "_pathid": 64807,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -1413,23 +1548,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 6424
+   "pathID": 6681
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4876
+    "pathID": 5016
    },
    "Volume": 0.699999988079071,
    "Pitch": 0.699999988079071
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.399999976158142,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5687
+     "pathID": 5853
     },
     "Title": "Gravedigger",
     "Modifier": {
@@ -1446,18 +1583,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1459817381,
-       "cryptoKey": 1460339621,
-       "value": 0.0,
+       "hash": 557103469,
+       "hiddenValue": 1945393721,
+       "cryptoKey": 1328494262,
+       "value": 0.014999999664723873,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1466,7 +1604,7 @@
  },
  {
   "_name": "DefiledKeepSuccubus",
-  "_pathid": 60480,
+  "_pathid": 64808,
   "_file": "sharedassets0.assets",
   "Species": 3,
   "Rarity": 2,
@@ -1475,23 +1613,25 @@
   "Capacity": 27,
   "Prefab": {
    "fileID": 0,
-   "pathID": 6306
+   "pathID": 6558
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5019
+    "pathID": 5162
    },
    "Volume": 0.699999988079071,
    "Pitch": 2.0
   },
   "ZoomOutDistance": 0.8999999761581421,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5331
+     "pathID": 5478
     },
     "Title": "Beguiling Whisper",
     "Modifier": {
@@ -1500,26 +1640,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": 1610992765,
-       "hiddenValue": 2059743487,
+       "hash": -628755087,
+       "hiddenValue": 2056316328,
        "cryptoKey": 1148979506,
-       "value": 0.20000000298023224,
+       "value": 0.30000001192092896,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 14029454,
-       "cryptoKey": 1234574,
-       "value": 0.0,
+       "hash": 536418157,
+       "hiddenValue": 36245688,
+       "cryptoKey": 1055255351,
+       "value": 0.029999999329447746,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1528,7 +1669,7 @@
  },
  {
   "_name": "DesertEagle",
-  "_pathid": 60481,
+  "_pathid": 64809,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 2,
@@ -1537,23 +1678,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20399
+   "pathID": 21681
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4858
+    "pathID": 4998
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5571
+     "pathID": 5731
     },
     "Title": "DesertEagle",
     "Modifier": {
@@ -1570,18 +1713,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 1374691251,
+       "hiddenValue": 1192406127,
+       "cryptoKey": 2081408357,
+       "value": 0.004999999888241291,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1590,7 +1734,7 @@
  },
  {
   "_name": "DesertHarpy",
-  "_pathid": 60482,
+  "_pathid": 64810,
   "_file": "sharedassets0.assets",
   "Species": 3,
   "Rarity": 3,
@@ -1599,23 +1743,25 @@
   "Capacity": 27,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20301
+   "pathID": 21578
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4992
+    "pathID": 5135
    },
    "Volume": 0.6000000238418579,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.399999976158142,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5272
+     "pathID": 5417
     },
     "Title": "DesertHarpy",
     "Modifier": {
@@ -1632,18 +1778,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 536418157,
+       "hiddenValue": 1477158927,
+       "cryptoKey": 1683868032,
+       "value": 0.029999999329447746,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1651,13 +1798,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60454
+    "pathID": 64781
    }
   ]
  },
  {
   "_name": "DesertKoboldThief",
-  "_pathid": 60483,
+  "_pathid": 64811,
   "_file": "sharedassets0.assets",
   "Species": 0,
   "Rarity": 1,
@@ -1666,23 +1813,25 @@
   "Capacity": 20,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20349
+   "pathID": 21630
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4943
+    "pathID": 5085
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5672
+     "pathID": 5837
     },
     "Title": "DesertKoboldThief",
     "Modifier": {
@@ -1699,18 +1848,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 1458579341,
+       "hiddenValue": 1398297693,
+       "cryptoKey": 1878495063,
+       "value": 0.019999999552965164,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1719,7 +1869,7 @@
  },
  {
   "_name": "DesertKoboldWarrior",
-  "_pathid": 60484,
+  "_pathid": 64812,
   "_file": "sharedassets0.assets",
   "Species": 0,
   "Rarity": 1,
@@ -1728,23 +1878,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20347
+   "pathID": 21628
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4943
+    "pathID": 5085
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5450
+     "pathID": 5607
     },
     "Title": "DesertKoboldWarrior",
     "Modifier": {
@@ -1761,18 +1913,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 557103469,
+       "hiddenValue": 28194181,
+       "cryptoKey": 1027632138,
+       "value": 0.014999999664723873,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1781,7 +1934,7 @@
  },
  {
   "_name": "DesertManticoraBoss",
-  "_pathid": 60485,
+  "_pathid": 64813,
   "_file": "sharedassets0.assets",
   "Species": 3,
   "Rarity": 3,
@@ -1790,23 +1943,25 @@
   "Capacity": 35,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20369
+   "pathID": 21650
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4811
+    "pathID": 4951
    },
    "Volume": 0.6000000238418579,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.600000023841858,
+  "CastAnimSpeedMultiplier": 1.100000023841858,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5703
+     "pathID": 5868
     },
     "Title": "DesertManticora",
     "Modifier": {
@@ -1823,18 +1978,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 536418157,
+       "hiddenValue": 1207469369,
+       "cryptoKey": 2070952630,
+       "value": 0.029999999329447746,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1842,13 +1998,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60456
+    "pathID": 64783
    }
   ]
  },
  {
   "_name": "DesertWasp",
-  "_pathid": 60486,
+  "_pathid": 64814,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -1857,23 +2013,25 @@
   "Capacity": 20,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20307
+   "pathID": 21585
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4805
+    "pathID": 4945
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 2.0,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5553
+     "pathID": 5712
     },
     "Title": "DesertWasp",
     "Modifier": {
@@ -1882,26 +2040,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": -649440399,
-       "hiddenValue": 1322773275,
+       "hash": 1610992765,
+       "hiddenValue": 1317191244,
        "cryptoKey": 1894928001,
-       "value": 0.15000000596046448,
+       "value": 0.20000000298023224,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 1458579341,
+       "hiddenValue": 2016683959,
+       "cryptoKey": 1149559741,
+       "value": 0.019999999552965164,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1910,7 +2069,7 @@
  },
  {
   "_name": "FishingWaterDragon",
-  "_pathid": 60487,
+  "_pathid": 64815,
   "_file": "sharedassets0.assets",
   "Species": 4,
   "Rarity": 3,
@@ -1919,23 +2078,25 @@
   "Capacity": 30,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20338
+   "pathID": 21619
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4865
+    "pathID": 5005
    },
    "Volume": 1.0,
    "Pitch": 0.8999999761581421
   },
   "ZoomOutDistance": 0.5,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5774
+     "pathID": 5946
     },
     "Title": "Ocean's Providence",
     "Modifier": {
@@ -1952,18 +2113,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 1374691251,
+       "hiddenValue": 1957521964,
+       "cryptoKey": 1338604070,
+       "value": 0.004999999888241291,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -1971,13 +2133,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60459
+    "pathID": 64787
    }
   ]
  },
  {
   "_name": "ForestSpiderKing",
-  "_pathid": 60488,
+  "_pathid": 64816,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 3,
@@ -1986,23 +2148,25 @@
   "Capacity": 27,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20354
+   "pathID": 21635
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4890
+    "pathID": 5030
    },
    "Volume": 0.6000000238418579,
    "Pitch": 1.2000000476837158
   },
   "ZoomOutDistance": 0.699999988079071,
   "RunAnimSpeedMultiplier": 1.600000023841858,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5501
+     "pathID": 5659
     },
     "Title": "PoisonArmor",
     "Modifier": {
@@ -2011,26 +2175,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": -628755087,
-       "hiddenValue": 1553183522,
+       "hash": 1590307453,
+       "hiddenValue": 1556538997,
        "cryptoKey": 1646922424,
-       "value": 0.30000001192092896,
+       "value": 0.4000000059604645,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 1496042271,
+       "hiddenValue": 1953762632,
+       "cryptoKey": 1227793218,
+       "value": 0.03999999910593033,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2038,13 +2203,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60458
+    "pathID": 64786
    }
   ]
  },
  {
   "_name": "GoblinWarrior",
-  "_pathid": 60489,
+  "_pathid": 64817,
   "_file": "sharedassets0.assets",
   "Species": 0,
   "Rarity": 1,
@@ -2053,23 +2218,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20303
+   "pathID": 21581
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4936
+    "pathID": 5078
    },
    "Volume": 0.699999988079071,
    "Pitch": 1.2000000476837158
   },
   "ZoomOutDistance": -0.30000001192092896,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5325
+     "pathID": 5472
     },
     "Title": "Gold Increase I",
     "Modifier": {
@@ -2086,18 +2253,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1746748395,
-       "cryptoKey": 1749229035,
-       "value": 0.0,
+       "hash": 557103469,
+       "hiddenValue": 2070972141,
+       "cryptoKey": 1207153250,
+       "value": 0.014999999664723873,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2106,7 +2274,7 @@
  },
  {
   "_name": "Ogre",
-  "_pathid": 60490,
+  "_pathid": 64818,
   "_file": "sharedassets0.assets",
   "Species": 0,
   "Rarity": 3,
@@ -2115,23 +2283,25 @@
   "Capacity": 30,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20330
+   "pathID": 21611
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4943
+    "pathID": 5085
    },
    "Volume": 1.0,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 2.0999999046325684,
+  "CastAnimSpeedMultiplier": 1.25,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5486
+     "pathID": 5644
     },
     "Title": "Damage to Stunned III",
     "Modifier": {
@@ -2140,33 +2310,34 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": -628755087,
-       "hiddenValue": 1885448316,
+       "hash": 1590307453,
+       "hiddenValue": 1882520875,
        "cryptoKey": 1311897830,
-       "value": 0.30000001192092896,
+       "value": 0.4000000059604645,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1335822738,
-       "cryptoKey": 1326030738,
-       "value": 0.0,
+       "hash": 1496042271,
+       "hiddenValue": 1972423802,
+       "cryptoKey": 1223640944,
+       "value": 0.03999999910593033,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    },
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5450
+     "pathID": 5607
     },
     "Title": "Iron Hide",
     "Modifier": {
@@ -2175,26 +2346,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": 1610992765,
-       "hiddenValue": -1732128006,
+       "hash": -649440399,
+       "hiddenValue": -1735096403,
        "cryptoKey": -1499591369,
-       "value": 0.20000000298023224,
+       "value": 0.15000000596046448,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 648323920,
-       "cryptoKey": 648258640,
-       "value": 0.0,
+       "hash": 557103469,
+       "hiddenValue": 1564953060,
+       "cryptoKey": 1631356267,
+       "value": 0.014999999664723873,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2203,7 +2375,7 @@
  },
  {
   "_name": "OrcWarrior",
-  "_pathid": 60491,
+  "_pathid": 64819,
   "_file": "sharedassets0.assets",
   "Species": 0,
   "Rarity": 2,
@@ -2212,23 +2384,25 @@
   "Capacity": 30,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20395
+   "pathID": 21677
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5030
+    "pathID": 5173
    },
    "Volume": 0.800000011920929,
    "Pitch": 0.8999999761581421
   },
   "ZoomOutDistance": 0.800000011920929,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5281
+     "pathID": 5426
     },
     "Title": "Strength I",
     "Modifier": {
@@ -2245,18 +2419,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1703834620,
-       "cryptoKey": 1702072060,
-       "value": 0.0,
+       "hash": 1479264653,
+       "hiddenValue": 1609856028,
+       "cryptoKey": 1666654998,
+       "value": 0.009999999776482582,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2265,7 +2440,7 @@
  },
  {
   "_name": "PoisonSpider",
-  "_pathid": 60492,
+  "_pathid": 64820,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -2274,23 +2449,25 @@
   "Capacity": 16,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20387
+   "pathID": 21669
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4890
+    "pathID": 5030
    },
    "Volume": 0.6000000238418579,
    "Pitch": 1.2000000476837158
   },
   "ZoomOutDistance": 0.30000001192092896,
   "RunAnimSpeedMultiplier": 1.600000023841858,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5496
+     "pathID": 5654
     },
     "Title": "Mana I",
     "Modifier": {
@@ -2307,10 +2484,10 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1437409949,
-       "cryptoKey": 1428336029,
-       "value": 0.0,
+       "hash": 1802738785,
+       "hiddenValue": 81400178,
+       "cryptoKey": 1144117874,
+       "value": 2.5,
        "__tail__": "00000000000000000000000000000000"
       }
      },
@@ -2318,7 +2495,8 @@
       "Name": "value",
       "Format": "0.#",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2327,7 +2505,7 @@
  },
  {
   "_name": "Raptor",
-  "_pathid": 60493,
+  "_pathid": 64821,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 3,
@@ -2336,23 +2514,25 @@
   "Capacity": 35,
   "Prefab": {
    "fileID": 0,
-   "pathID": 26215
+   "pathID": 27882
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4810
+    "pathID": 4950
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.2999999523162842
   },
   "ZoomOutDistance": 0.4000000059604645,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5354
+     "pathID": 5502
     },
     "Title": "Serrated Talons",
     "Modifier": {
@@ -2369,25 +2549,26 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": -1293445245,
-       "cryptoKey": -1298667645,
-       "value": 0.0,
+       "hash": 536418157,
+       "hiddenValue": 1848020094,
+       "cryptoKey": 1383720177,
+       "value": 0.029999999329447746,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    },
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5869
+     "pathID": 6042
     },
     "Title": "Keen Instinct",
     "Modifier": {
@@ -2404,25 +2585,26 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1976143468,
-       "cryptoKey": 1972291948,
-       "value": 0.0,
+       "hash": -1702352593,
+       "hiddenValue": 1545934405,
+       "cryptoKey": 1733476067,
+       "value": 0.003000000026077032,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    },
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5932
+     "pathID": 6106
     },
     "Title": "Killing Precision",
     "Modifier": {
@@ -2439,18 +2621,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": -1805414115,
-       "cryptoKey": -1802411235,
-       "value": 0.0,
+       "hash": 1556752217,
+       "hiddenValue": 1474627310,
+       "cryptoKey": 1808410915,
+       "value": 0.02500000037252903,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2459,7 +2642,7 @@
  },
  {
   "_name": "RedDesertAirWarlord",
-  "_pathid": 60494,
+  "_pathid": 64822,
   "_file": "sharedassets0.assets",
   "Species": 5,
   "Rarity": 3,
@@ -2468,23 +2651,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20384
+   "pathID": 21666
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4957
+    "pathID": 5099
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5386
+     "pathID": 5537
     },
     "Title": "RedDesertAirWarlord",
     "Modifier": {
@@ -2501,18 +2686,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 536418157,
+       "hiddenValue": 1510991098,
+       "cryptoKey": 1712442741,
+       "value": 0.029999999329447746,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2520,13 +2706,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60447
+    "pathID": 64774
    }
   ]
  },
  {
   "_name": "RedDesertCrocodile",
-  "_pathid": 60495,
+  "_pathid": 64823,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -2535,23 +2721,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20348
+   "pathID": 21629
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4823
+    "pathID": 4963
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.100000023841858,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5607
+     "pathID": 5767
     },
     "Title": "RedDesertCrocodile",
     "Modifier": {
@@ -2560,26 +2748,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": 1610992765,
-       "hiddenValue": 1085813157,
+       "hash": 132727037,
+       "hiddenValue": 1081408872,
        "cryptoKey": 2122151016,
-       "value": 0.20000000298023224,
+       "value": 0.25,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 1556752217,
+       "hiddenValue": 1115280682,
+       "cryptoKey": 2115614183,
+       "value": 0.02500000037252903,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2588,7 +2777,7 @@
  },
  {
   "_name": "RedDesertImp",
-  "_pathid": 60496,
+  "_pathid": 64824,
   "_file": "sharedassets0.assets",
   "Species": 3,
   "Rarity": 1,
@@ -2597,23 +2786,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20306
+   "pathID": 21584
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4998
+    "pathID": 5141
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5739
+     "pathID": 5909
     },
     "Title": "RedDesertImp",
     "Modifier": {
@@ -2630,18 +2821,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 1458579341,
+       "hiddenValue": 1627994680,
+       "cryptoKey": 1570364978,
+       "value": 0.019999999552965164,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2650,7 +2842,7 @@
  },
  {
   "_name": "RedDesertRockGolem",
-  "_pathid": 60497,
+  "_pathid": 64825,
   "_file": "sharedassets0.assets",
   "Species": 5,
   "Rarity": 1,
@@ -2659,23 +2851,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20355
+   "pathID": 21636
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4871
+    "pathID": 5011
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.149999976158142,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5357
+     "pathID": 5506
     },
     "Title": "RedDesertRockGolem",
     "Modifier": {
@@ -2692,18 +2886,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 1458579341,
+       "hiddenValue": 1700919884,
+       "cryptoKey": 1499051590,
+       "value": 0.019999999552965164,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2712,7 +2907,7 @@
  },
  {
   "_name": "RedDesertSatyr",
-  "_pathid": 60498,
+  "_pathid": 64826,
   "_file": "sharedassets0.assets",
   "Species": 3,
   "Rarity": 1,
@@ -2721,23 +2916,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20356
+   "pathID": 21637
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4974
+    "pathID": 5117
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5333
+     "pathID": 5480
     },
     "Title": "RedDesertSatyr",
     "Modifier": {
@@ -2754,18 +2951,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 1458579341,
+       "hiddenValue": 1323350362,
+       "cryptoKey": 1914320720,
+       "value": 0.019999999552965164,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2774,7 +2972,7 @@
  },
  {
   "_name": "RedDesertSerparmat",
-  "_pathid": 60499,
+  "_pathid": 64827,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 3,
@@ -2783,23 +2981,25 @@
   "Capacity": 30,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20382
+   "pathID": 21663
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4833
+    "pathID": 4973
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5659
+     "pathID": 5823
     },
     "Title": "RedDesertSerparmat1",
     "Modifier": {
@@ -2808,33 +3008,34 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": -628755087,
-       "hiddenValue": 1658204490,
+       "hash": 1590307453,
+       "hiddenValue": 1652778013,
        "cryptoKey": 1554534352,
-       "value": 0.30000001192092896,
+       "value": 0.4000000059604645,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 0,
-       "hiddenValue": 0,
-       "cryptoKey": 0,
-       "value": 0.0,
+       "hash": 1496042271,
+       "hiddenValue": 1350258324,
+       "cryptoKey": 1835904158,
+       "value": 0.03999999910593033,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    },
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5334
+     "pathID": 5481
     },
     "Title": "RedDesertSerparmat2",
     "Modifier": {
@@ -2851,10 +3052,10 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 21948405,
-       "cryptoKey": 31936245,
-       "value": 0.0,
+       "hash": 1807961569,
+       "hiddenValue": 311971807,
+       "cryptoKey": 1376753887,
+       "value": 3.0,
        "__tail__": "00000000000000000000000000000000"
       }
      },
@@ -2862,7 +3063,8 @@
       "Name": "value",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2871,7 +3073,7 @@
  },
  {
   "_name": "RedForestBear",
-  "_pathid": 60500,
+  "_pathid": 64828,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -2880,23 +3082,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20373
+   "pathID": 21654
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4811
+    "pathID": 4951
    },
    "Volume": 0.8999999761581421,
    "Pitch": 0.8500000238418579
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.2000000476837158,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5309
+     "pathID": 5455
     },
     "Title": "Deep Slumber",
     "Modifier": {
@@ -2913,10 +3117,10 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 595343825,
-       "cryptoKey": 590970065,
-       "value": 0.0,
+       "hash": 1627770383,
+       "hiddenValue": 1568648725,
+       "cryptoKey": 1659024344,
+       "value": 0.800000011920929,
        "__tail__": "00000000000000000000000000000000"
       }
      },
@@ -2924,7 +3128,8 @@
       "Name": "value",
       "Format": "0.#",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2933,7 +3138,7 @@
  },
  {
   "_name": "RedForestDragon",
-  "_pathid": 60501,
+  "_pathid": 64829,
   "_file": "sharedassets0.assets",
   "Species": 4,
   "Rarity": 3,
@@ -2942,23 +3147,25 @@
   "Capacity": 30,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20333
+   "pathID": 21614
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4865
+    "pathID": 5005
    },
    "Volume": 0.800000011920929,
    "Pitch": 0.75
   },
   "ZoomOutDistance": 2.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5789
+     "pathID": 5961
     },
     "Title": "Crimson Dominion",
     "Modifier": {
@@ -2975,18 +3182,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": -1293445245,
-       "cryptoKey": -1298667645,
-       "value": 0.0,
+       "hash": 536418157,
+       "hiddenValue": 1389604985,
+       "cryptoKey": 1850020342,
+       "value": 0.029999999329447746,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -2994,13 +3202,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60450
+    "pathID": 64777
    }
   ]
  },
  {
   "_name": "RedForestFaeDragon",
-  "_pathid": 60502,
+  "_pathid": 64830,
   "_file": "sharedassets0.assets",
   "Species": 4,
   "Rarity": 2,
@@ -3009,23 +3217,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20305
+   "pathID": 21583
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4907
+    "pathID": 5047
    },
    "Volume": 0.6000000238418579,
    "Pitch": 2.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5331
+     "pathID": 5478
     },
     "Title": "Arcane Wing",
     "Modifier": {
@@ -3042,18 +3252,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": -1805414115,
-       "cryptoKey": -1802411235,
-       "value": 0.0,
+       "hash": 1556752217,
+       "hiddenValue": 1660522985,
+       "cryptoKey": 1583166756,
+       "value": 0.02500000037252903,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3062,7 +3273,7 @@
  },
  {
   "_name": "RedForestGiant",
-  "_pathid": 60503,
+  "_pathid": 64831,
   "_file": "sharedassets0.assets",
   "Species": 5,
   "Rarity": 1,
@@ -3071,23 +3282,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20329
+   "pathID": 21609
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4871
+    "pathID": 5011
    },
    "Volume": 0.800000011920929,
    "Pitch": 0.8500000238418579
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5247
+     "pathID": 5392
     },
     "Title": "Stoneheart",
     "Modifier": {
@@ -3096,18 +3309,18 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": 149504655,
-       "hiddenValue": 937787009,
+       "hash": 1797618913,
+       "hiddenValue": 1223032449,
        "cryptoKey": 150922625,
-       "value": 1.0,
+       "value": 2.0,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 893972856,
-       "cryptoKey": 905005176,
-       "value": 0.0,
+       "hash": -628755087,
+       "hiddenValue": 1564770519,
+       "cryptoKey": 1662639437,
+       "value": 0.30000001192092896,
        "__tail__": "00000000000000000000000000000000"
       }
      },
@@ -3115,7 +3328,8 @@
       "Name": "value",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": true
      }
     }
    }
@@ -3124,7 +3338,7 @@
  },
  {
   "_name": "RedForestHobgoblin",
-  "_pathid": 60504,
+  "_pathid": 64832,
   "_file": "sharedassets0.assets",
   "Species": 0,
   "Rarity": 3,
@@ -3133,23 +3347,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20381
+   "pathID": 21662
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4936
+    "pathID": 5078
    },
    "Volume": 0.8999999761581421,
    "Pitch": 0.75
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.100000023841858,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5325
+     "pathID": 5472
     },
     "Title": "Goblin Hoard",
     "Modifier": {
@@ -3166,18 +3382,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1642989495,
-       "cryptoKey": 1627909815,
-       "value": 0.0,
+       "hash": 1496042271,
+       "hiddenValue": 1882885701,
+       "cryptoKey": 1303244111,
+       "value": 0.03999999910593033,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3185,13 +3402,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60453
+    "pathID": 64780
    }
   ]
  },
  {
   "_name": "RedForestTiger",
-  "_pathid": 60505,
+  "_pathid": 64833,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -3200,23 +3417,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20326
+   "pathID": 21606
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4823
+    "pathID": 4963
    },
    "Volume": 0.8999999761581421,
    "Pitch": 1.149999976158142
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5898
+     "pathID": 6072
     },
     "Title": "Ambush",
     "Modifier": {
@@ -3225,26 +3444,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": -649440399,
-       "hiddenValue": -103534519,
+       "hash": 132727037,
+       "hiddenValue": -112350765,
        "cryptoKey": -953594413,
-       "value": 0.15000000596046448,
+       "value": 0.25,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": -1512082783,
-       "cryptoKey": -1519198303,
-       "value": 0.0,
+       "hash": 1556752217,
+       "hiddenValue": 1853578931,
+       "cryptoKey": 1385346942,
+       "value": 0.02500000037252903,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3253,7 +3473,7 @@
  },
  {
   "_name": "SkeletonArcher",
-  "_pathid": 60506,
+  "_pathid": 64834,
   "_file": "sharedassets0.assets",
   "Species": 2,
   "Rarity": 1,
@@ -3262,23 +3482,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20357
+   "pathID": 21638
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4928
+    "pathID": 5070
    },
    "Volume": 0.6000000238418579,
    "Pitch": 1.2000000476837158
   },
   "ZoomOutDistance": 0.0,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.149999976158142,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5338
+     "pathID": 5485
     },
     "Title": "Critical Hit Chance I",
     "Modifier": {
@@ -3295,18 +3517,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1976143468,
-       "cryptoKey": 1972291948,
-       "value": 0.0,
+       "hash": -1702352593,
+       "hiddenValue": 1333212624,
+       "cryptoKey": 1953623158,
+       "value": 0.003000000026077032,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3315,7 +3538,7 @@
  },
  {
   "_name": "SkeletonWarrior",
-  "_pathid": 60507,
+  "_pathid": 64835,
   "_file": "sharedassets0.assets",
   "Species": 2,
   "Rarity": 1,
@@ -3324,23 +3547,25 @@
   "Capacity": 30,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20368
+   "pathID": 21649
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4928
+    "pathID": 5070
    },
    "Volume": 0.6000000238418579,
    "Pitch": 1.2000000476837158
   },
   "ZoomOutDistance": 0.0,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.0499999523162842,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5468
+     "pathID": 5625
     },
     "Title": "Physical Damage I",
     "Modifier": {
@@ -3349,26 +3574,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": 1573529835,
-       "hiddenValue": 1221952741,
+       "hash": -649440399,
+       "hiddenValue": 1266700722,
        "cryptoKey": 1967659304,
-       "value": 0.10000000149011612,
+       "value": 0.15000000596046448,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1944101079,
-       "cryptoKey": 1939923159,
-       "value": 0.0,
+       "hash": 557103469,
+       "hiddenValue": 1277593168,
+       "cryptoKey": 1895032031,
+       "value": 0.014999999664723873,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3377,7 +3603,7 @@
  },
  {
   "_name": "SnowHillFrostDragon",
-  "_pathid": 60508,
+  "_pathid": 64836,
   "_file": "sharedassets0.assets",
   "Species": 4,
   "Rarity": 3,
@@ -3386,23 +3612,25 @@
   "Capacity": 35,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20336
+   "pathID": 21617
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4811
+    "pathID": 4951
    },
    "Volume": 0.8999999761581421,
    "Pitch": 0.75
   },
   "ZoomOutDistance": 2.0,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.149999976158142,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5828
+     "pathID": 6000
     },
     "Title": "Frozen Reach",
     "Modifier": {
@@ -3411,26 +3639,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": -628755087,
-       "hiddenValue": -1011889412,
+       "hash": 1590307453,
+       "hiddenValue": -1006985301,
        "cryptoKey": -44878234,
-       "value": 0.30000001192092896,
+       "value": 0.4000000059604645,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": -1293445245,
-       "cryptoKey": -1298667645,
-       "value": 0.0,
+       "hash": 1496042271,
+       "hiddenValue": 2131302771,
+       "cryptoKey": 1111154297,
+       "value": 0.03999999910593033,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3438,13 +3667,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60452
+    "pathID": 64779
    }
   ]
  },
  {
   "_name": "SnowHillIceHound",
-  "_pathid": 60509,
+  "_pathid": 64837,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 3,
@@ -3453,23 +3682,25 @@
   "Capacity": 35,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20378
+   "pathID": 21659
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4811
+    "pathID": 4951
    },
    "Volume": 0.800000011920929,
    "Pitch": 0.8500000238418579
   },
   "ZoomOutDistance": 0.800000011920929,
   "RunAnimSpeedMultiplier": 1.100000023841858,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5238
+     "pathID": 5383
     },
     "Title": "Thunderfang",
     "Modifier": {
@@ -3486,18 +3717,55 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1754014876,
-       "cryptoKey": 1747225756,
-       "value": 0.0,
+       "hash": 536418157,
+       "hiddenValue": 1990101227,
+       "cryptoKey": 1249729636,
+       "value": 0.029999999329447746,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
+     }
+    }
+   },
+   {
+    "Icon": {
+     "fileID": 0,
+     "pathID": 5442
+    },
+    "Title": "Frostclaw",
+    "Modifier": {
+     "Stat": 25,
+     "Type": 0,
+     "Value": {
+      "Base": {
+       "__type__": "ObscuredFloat",
+       "hash": -628755087,
+       "hiddenValue": 1397128555,
+       "cryptoKey": 1843716081,
+       "value": 0.30000001192092896,
+       "__tail__": "00000000000000000000000000000000"
+      },
+      "PerLevel": {
+       "__type__": "ObscuredFloat",
+       "hash": 536418157,
+       "hiddenValue": 1990101227,
+       "cryptoKey": 1249729636,
+       "value": 0.029999999329447746,
+       "__tail__": "00000000000000000000000000000000"
+      }
+     },
+     "Token": {
+      "Name": "value",
+      "Format": "0.#%",
+      "Suffix": "",
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3505,13 +3773,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60455
+    "pathID": 64782
    }
   ]
  },
  {
   "_name": "SnowHillRockElemental",
-  "_pathid": 60510,
+  "_pathid": 64838,
   "_file": "sharedassets0.assets",
   "Species": 5,
   "Rarity": 2,
@@ -3520,23 +3788,25 @@
   "Capacity": 30,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20331
+   "pathID": 21612
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4811
+    "pathID": 4951
    },
    "Volume": 0.8999999761581421,
    "Pitch": 0.699999988079071
   },
   "ZoomOutDistance": 1.2999999523162842,
   "RunAnimSpeedMultiplier": 0.8999999761581421,
+  "CastAnimSpeedMultiplier": 1.2999999523162842,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5327
+     "pathID": 5474
     },
     "Title": "Grounded Core",
     "Modifier": {
@@ -3553,18 +3823,55 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": -494466330,
-       "cryptoKey": -502626330,
-       "value": 0.0,
+       "hash": 1458579341,
+       "hiddenValue": 1642889330,
+       "cryptoKey": 1562590072,
+       "value": 0.019999999552965164,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
+     }
+    }
+   },
+   {
+    "Icon": {
+     "fileID": 0,
+     "pathID": 5474
+    },
+    "Title": "Runic Ward",
+    "Modifier": {
+     "Stat": 55,
+     "Type": 0,
+     "Value": {
+      "Base": {
+       "__type__": "ObscuredFloat",
+       "hash": 1610992765,
+       "hiddenValue": -833534403,
+       "cryptoKey": -267739664,
+       "value": 0.20000000298023224,
+       "__tail__": "00000000000000000000000000000000"
+      },
+      "PerLevel": {
+       "__type__": "ObscuredFloat",
+       "hash": 1458579341,
+       "hiddenValue": 1642889330,
+       "cryptoKey": 1562590072,
+       "value": 0.019999999552965164,
+       "__tail__": "00000000000000000000000000000000"
+      }
+     },
+     "Token": {
+      "Name": "value",
+      "Format": "0.#%",
+      "Suffix": "",
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3573,7 +3880,7 @@
  },
  {
   "_name": "SnowHillSlime",
-  "_pathid": 60511,
+  "_pathid": 64839,
   "_file": "sharedassets0.assets",
   "Species": 5,
   "Rarity": 1,
@@ -3582,23 +3889,25 @@
   "Capacity": 20,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20310
+   "pathID": 21588
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4911
+    "pathID": 5051
    },
    "Volume": 0.699999988079071,
    "Pitch": 1.2000000476837158
   },
   "ZoomOutDistance": 0.4000000059604645,
   "RunAnimSpeedMultiplier": 1.100000023841858,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5353
+     "pathID": 5501
     },
     "Title": "Reconstituting Gel",
     "Modifier": {
@@ -3615,18 +3924,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 17597192,
-       "cryptoKey": 25365512,
-       "value": 0.0,
+       "hash": 1479264653,
+       "hiddenValue": 1792953840,
+       "cryptoKey": 1450052090,
+       "value": 0.009999999776482582,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3635,7 +3945,7 @@
  },
  {
   "_name": "SnowHillWhelp",
-  "_pathid": 60512,
+  "_pathid": 64840,
   "_file": "sharedassets0.assets",
   "Species": 4,
   "Rarity": 2,
@@ -3644,23 +3954,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20316
+   "pathID": 21596
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4811
+    "pathID": 4951
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.149999976158142
   },
   "ZoomOutDistance": 0.800000011920929,
   "RunAnimSpeedMultiplier": 1.100000023841858,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5423
+     "pathID": 5578
     },
     "Title": "Budding Sorcery",
     "Modifier": {
@@ -3669,26 +3981,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": -649440399,
-       "hiddenValue": 1230897401,
+       "hash": 132727037,
+       "hiddenValue": 1237817699,
        "cryptoKey": 1998178147,
-       "value": 0.15000000596046448,
+       "value": 0.25,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1080260281,
-       "cryptoKey": 1081500601,
-       "value": 0.0,
+       "hash": 1556752217,
+       "hiddenValue": 1222744045,
+       "cryptoKey": 1952132384,
+       "value": 0.02500000037252903,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3697,7 +4010,7 @@
  },
  {
   "_name": "SnowHillZombieWarrior",
-  "_pathid": 60513,
+  "_pathid": 64841,
   "_file": "sharedassets0.assets",
   "Species": 2,
   "Rarity": 1,
@@ -3706,23 +4019,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20335
+   "pathID": 21616
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4811
+    "pathID": 4951
    },
    "Volume": 0.800000011920929,
    "Pitch": 0.8999999761581421
   },
   "ZoomOutDistance": 0.800000011920929,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5318
+     "pathID": 5465
     },
     "Title": "Frozen Might",
     "Modifier": {
@@ -3731,26 +4046,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": 536418157,
-       "hiddenValue": 1796078577,
+       "hash": 1594215147,
+       "hiddenValue": 1778598579,
        "cryptoKey": 1460588414,
-       "value": 0.029999999329447746,
+       "value": 0.05000000074505806,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1080260281,
-       "cryptoKey": 1081500601,
-       "value": 0.0,
+       "hash": 1374691251,
+       "hiddenValue": 1617847559,
+       "cryptoKey": 1539750157,
+       "value": 0.004999999888241291,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3759,7 +4075,7 @@
  },
  {
   "_name": "Spider",
-  "_pathid": 60514,
+  "_pathid": 64842,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -3768,23 +4084,25 @@
   "Capacity": 15,
   "Prefab": {
    "fileID": 0,
-   "pathID": 13971
+   "pathID": 14728
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4890
+    "pathID": 5030
    },
    "Volume": 0.6000000238418579,
    "Pitch": 1.399999976158142
   },
   "ZoomOutDistance": 0.30000001192092896,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5720
+     "pathID": 5888
     },
     "Title": "Poison Damage I",
     "Modifier": {
@@ -3801,18 +4119,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1656963028,
-       "cryptoKey": 1648346068,
-       "value": 0.0,
+       "hash": 557103469,
+       "hiddenValue": 1784155076,
+       "cryptoKey": 1451137611,
+       "value": 0.014999999664723873,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3821,7 +4140,7 @@
  },
  {
   "_name": "Stumplin",
-  "_pathid": 60515,
+  "_pathid": 64843,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -3830,23 +4149,25 @@
   "Capacity": 16,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20345
+   "pathID": 21626
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4939
+    "pathID": 5081
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.7999999523162842
   },
   "ZoomOutDistance": 1.2000000476837158,
   "RunAnimSpeedMultiplier": 1.7999999523162842,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5674
+     "pathID": 5839
     },
     "Title": "Thorn I",
     "Modifier": {
@@ -3863,18 +4184,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 2130905255,
-       "cryptoKey": 2131231655,
-       "value": 0.0,
+       "hash": 1479264653,
+       "hiddenValue": 1696592163,
+       "cryptoKey": 1506986025,
+       "value": 0.009999999776482582,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3883,7 +4205,7 @@
  },
  {
   "_name": "TazanCamel",
-  "_pathid": 60516,
+  "_pathid": 64844,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 2,
@@ -3892,23 +4214,25 @@
   "Capacity": 32,
   "Prefab": {
    "fileID": 0,
-   "pathID": 16608
+   "pathID": 17601
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4859
+    "pathID": 4999
    },
    "Volume": 0.8999999761581421,
    "Pitch": 0.75
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.7999999523162842,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5665
+     "pathID": 5830
     },
     "Title": "Caravan Bearer",
     "Modifier": {
@@ -3925,18 +4249,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1658785656,
-       "cryptoKey": 1645207416,
-       "value": 0.0,
+       "hash": 536418157,
+       "hiddenValue": 66207164,
+       "cryptoKey": 1070084147,
+       "value": 0.029999999329447746,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -3945,7 +4270,7 @@
  },
  {
   "_name": "VolcanoCinderlash",
-  "_pathid": 60517,
+  "_pathid": 64845,
   "_file": "sharedassets0.assets",
   "Species": 3,
   "Rarity": 2,
@@ -3954,23 +4279,25 @@
   "Capacity": 28,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20370
+   "pathID": 21651
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4974
+    "pathID": 5117
    },
    "Volume": 0.800000011920929,
    "Pitch": 0.8999999761581421
   },
   "ZoomOutDistance": 0.8999999761581421,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.2000000476837158,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5388
+     "pathID": 5539
     },
     "Title": "Lash of Cinders",
     "Modifier": {
@@ -3987,18 +4314,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 66230277,
-       "cryptoKey": 60355077,
-       "value": 0.0,
+       "hash": 1556752217,
+       "hiddenValue": 13446013,
+       "cryptoKey": 1021772208,
+       "value": 0.02500000037252903,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -4007,7 +4335,7 @@
  },
  {
   "_name": "VolcanoDemonLord",
-  "_pathid": 60518,
+  "_pathid": 64846,
   "_file": "sharedassets0.assets",
   "Species": 3,
   "Rarity": 3,
@@ -4016,23 +4344,25 @@
   "Capacity": 35,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20383
+   "pathID": 21664
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4957
+    "pathID": 5099
    },
    "Volume": 0.8999999761581421,
    "Pitch": 0.800000011920929
   },
   "ZoomOutDistance": 0.5,
   "RunAnimSpeedMultiplier": 1.350000023841858,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5435
+     "pathID": 5590
     },
     "Title": "Cinder Sovereign",
     "Modifier": {
@@ -4049,18 +4379,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 17597192,
-       "cryptoKey": 25365512,
-       "value": 0.0,
+       "hash": -751185867,
+       "hiddenValue": 1804348923,
+       "cryptoKey": 1462673044,
+       "value": 0.00800000037997961,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -4068,13 +4399,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60449
+    "pathID": 64776
    }
   ]
  },
  {
   "_name": "VolcanoDragon",
-  "_pathid": 60519,
+  "_pathid": 64847,
   "_file": "sharedassets0.assets",
   "Species": 4,
   "Rarity": 3,
@@ -4083,23 +4414,25 @@
   "Capacity": 30,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20351
+   "pathID": 21632
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4865
+    "pathID": 5005
    },
    "Volume": 1.0,
    "Pitch": 0.8500000238418579
   },
   "ZoomOutDistance": 2.0,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.100000023841858,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5969
+     "pathID": 6143
     },
     "Title": "Tyrant's Bane",
     "Modifier": {
@@ -4116,18 +4449,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": -1738761918,
-       "cryptoKey": -1734779838,
-       "value": 0.0,
+       "hash": 536418157,
+       "hiddenValue": 1587389093,
+       "cryptoKey": 1649893162,
+       "value": 0.029999999329447746,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -4135,13 +4469,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60451
+    "pathID": 64778
    }
   ]
  },
  {
   "_name": "VolcanoEmberBat",
-  "_pathid": 60520,
+  "_pathid": 64848,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -4150,23 +4484,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20314
+   "pathID": 21594
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4992
+    "pathID": 5135
    },
    "Volume": 0.699999988079071,
    "Pitch": 1.5
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.2999999523162842,
+  "CastAnimSpeedMultiplier": 1.149999976158142,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5945
+     "pathID": 6120
     },
     "Title": "Cinder Hide",
     "Modifier": {
@@ -4183,18 +4519,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": -494466330,
-       "cryptoKey": -502626330,
-       "value": 0.0,
+       "hash": 1458579341,
+       "hiddenValue": 51263918,
+       "cryptoKey": 1067112868,
+       "value": 0.019999999552965164,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -4203,7 +4540,7 @@
  },
  {
   "_name": "VolcanoHellguard",
-  "_pathid": 60521,
+  "_pathid": 64849,
   "_file": "sharedassets0.assets",
   "Species": 3,
   "Rarity": 2,
@@ -4212,23 +4549,25 @@
   "Capacity": 28,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20321
+   "pathID": 21601
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4871
+    "pathID": 5011
    },
    "Volume": 0.800000011920929,
    "Pitch": 0.8500000238418579
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.100000023841858,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5417
+     "pathID": 5571
     },
     "Title": "Infernal Bulwark",
     "Modifier": {
@@ -4245,18 +4584,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 408054092,
-       "cryptoKey": 409555532,
-       "value": 0.0,
+       "hash": 1458579341,
+       "hiddenValue": 1523730560,
+       "cryptoKey": 1726678410,
+       "value": 0.019999999552965164,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -4265,7 +4605,7 @@
  },
  {
   "_name": "VolcanoMagmaGolem",
-  "_pathid": 60522,
+  "_pathid": 64850,
   "_file": "sharedassets0.assets",
   "Species": 5,
   "Rarity": 2,
@@ -4274,23 +4614,25 @@
   "Capacity": 28,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20361
+   "pathID": 21642
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5002
+    "pathID": 5145
    },
    "Volume": 0.8999999761581421,
    "Pitch": 0.699999988079071
   },
   "ZoomOutDistance": 0.8999999761581421,
   "RunAnimSpeedMultiplier": 1.2000000476837158,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5682
+     "pathID": 5847
     },
     "Title": "Molten Core",
     "Modifier": {
@@ -4307,18 +4649,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": -768887785,
-       "cryptoKey": -759944425,
-       "value": 0.0,
+       "hash": 1458579341,
+       "hiddenValue": 1127196256,
+       "cryptoKey": 2131097706,
+       "value": 0.019999999552965164,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -4327,7 +4670,7 @@
  },
  {
   "_name": "Werewolf",
-  "_pathid": 60523,
+  "_pathid": 64851,
   "_file": "sharedassets0.assets",
   "Species": 3,
   "Rarity": 3,
@@ -4336,23 +4679,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 23975
+   "pathID": 25514
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 5002
+    "pathID": 5145
    },
    "Volume": 1.0,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 0.0,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.7000000476837158,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5245
+     "pathID": 5390
     },
     "Title": "Bloodthirst I",
     "Modifier": {
@@ -4369,18 +4714,55 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1435503722,
-       "cryptoKey": 1426886762,
-       "value": 0.0,
+       "hash": 1479264653,
+       "hiddenValue": 1242844372,
+       "cryptoKey": 1987036126,
+       "value": 0.009999999776482582,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
+     }
+    }
+   },
+   {
+    "Icon": {
+     "fileID": 0,
+     "pathID": 5480
+    },
+    "Title": "Savage Strikes",
+    "Modifier": {
+     "Stat": 33,
+     "Type": 0,
+     "Value": {
+      "Base": {
+       "__type__": "ObscuredFloat",
+       "hash": -649440399,
+       "hiddenValue": 1278880108,
+       "cryptoKey": 1915790326,
+       "value": 0.15000000596046448,
+       "__tail__": "00000000000000000000000000000000"
+      },
+      "PerLevel": {
+       "__type__": "ObscuredFloat",
+       "hash": 557103469,
+       "hiddenValue": 1241586257,
+       "cryptoKey": 1987036126,
+       "value": 0.014999999664723873,
+       "__tail__": "00000000000000000000000000000000"
+      }
+     },
+     "Token": {
+      "Name": "value",
+      "Format": "0.#%",
+      "Suffix": "",
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -4388,13 +4770,13 @@
   "Abilities": [
    {
     "fileID": 0,
-    "pathID": 60460
+    "pathID": 64788
    }
   ]
  },
  {
   "_name": "WhiteHorse",
-  "_pathid": 60524,
+  "_pathid": 64852,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 2,
@@ -4403,23 +4785,25 @@
   "Capacity": 25,
   "Prefab": {
    "fileID": 0,
-   "pathID": 25440
+   "pathID": 27064
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4897
+    "pathID": 5037
    },
    "Volume": 1.0,
    "Pitch": 1.100000023841858
   },
   "ZoomOutDistance": 0.5,
   "RunAnimSpeedMultiplier": 0.8999999761581421,
+  "CastAnimSpeedMultiplier": 1.5,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5321
+     "pathID": 5468
     },
     "Title": "Fast Travel III",
     "Modifier": {
@@ -4436,18 +4820,19 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1162354914,
-       "cryptoKey": 1159743714,
-       "value": 0.0,
+       "hash": 557103469,
+       "hiddenValue": 1800173910,
+       "cryptoKey": 1460440793,
+       "value": 0.014999999664723873,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -4456,7 +4841,7 @@
  },
  {
   "_name": "Wolf",
-  "_pathid": 60525,
+  "_pathid": 64853,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 1,
@@ -4465,23 +4850,25 @@
   "Capacity": 15,
   "Prefab": {
    "fileID": 0,
-   "pathID": 13972
+   "pathID": 14729
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4808
+    "pathID": 4948
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.2000000476837158,
   "RunAnimSpeedMultiplier": 1.0,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5565
+     "pathID": 5724
     },
     "Title": "Attack Speed I",
     "Modifier": {
@@ -4490,26 +4877,27 @@
      "Value": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": 1594215147,
-       "hiddenValue": 2033906693,
+       "hash": 1573529835,
+       "hiddenValue": 2033873925,
        "cryptoKey": 1152972488,
-       "value": 0.05000000074505806,
+       "value": 0.10000000149011612,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1036539929,
-       "cryptoKey": 1029228569,
-       "value": 0.0,
+       "hash": 1479264653,
+       "hiddenValue": 1253838228,
+       "cryptoKey": 1982753694,
+       "value": 0.009999999776482582,
        "__tail__": "00000000000000000000000000000000"
       }
      },
      "Token": {
       "Name": "value",
-      "Format": "0%",
+      "Format": "0.#%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }
@@ -4517,8 +4905,78 @@
   "Abilities": []
  },
  {
+  "_name": "WorldBossPumpkin",
+  "_pathid": 64854,
+  "_file": "sharedassets0.assets",
+  "Species": 2,
+  "Rarity": 3,
+  "IsLockedInDemo": false,
+  "Location": "WorldBossPumpkin",
+  "Capacity": 35,
+  "Prefab": {
+   "fileID": 0,
+   "pathID": 27878
+  },
+  "SummonSound": {
+   "Clip": {
+    "fileID": 0,
+    "pathID": 5054
+   },
+   "Volume": 1.0,
+   "Pitch": 0.699999988079071
+  },
+  "ZoomOutDistance": 1.2000000476837158,
+  "RunAnimSpeedMultiplier": 1.5,
+  "CastAnimSpeedMultiplier": 1.2000000476837158,
+  "ReinFreeSkillLevels": false,
+  "Passives": [
+   {
+    "Icon": {
+     "fileID": 0,
+     "pathID": 5767
+    },
+    "Title": "Damage to Injured III",
+    "Modifier": {
+     "Stat": 30,
+     "Type": 0,
+     "Value": {
+      "Base": {
+       "__type__": "ObscuredFloat",
+       "hash": 170189967,
+       "hiddenValue": 1516008638,
+       "cryptoKey": 1702124734,
+       "value": 0.5,
+       "__tail__": "00000000000000000000000000000000"
+      },
+      "PerLevel": {
+       "__type__": "ObscuredFloat",
+       "hash": 1594215147,
+       "hiddenValue": 1798846402,
+       "cryptoKey": 1450963983,
+       "value": 0.05000000074505806,
+       "__tail__": "00000000000000000000000000000000"
+      }
+     },
+     "Token": {
+      "Name": "value",
+      "Format": "0.#%",
+      "Suffix": "",
+      "Highlight": true,
+      "Floor": false
+     }
+    }
+   }
+  ],
+  "Abilities": [
+   {
+    "fileID": 0,
+    "pathID": 64784
+   }
+  ]
+ },
+ {
   "_name": "ZombieWolf",
-  "_pathid": 60526,
+  "_pathid": 64855,
   "_file": "sharedassets0.assets",
   "Species": 1,
   "Rarity": 2,
@@ -4527,23 +4985,25 @@
   "Capacity": 20,
   "Prefab": {
    "fileID": 0,
-   "pathID": 20397
+   "pathID": 21679
   },
   "SummonSound": {
    "Clip": {
     "fileID": 0,
-    "pathID": 4813
+    "pathID": 4953
    },
    "Volume": 0.800000011920929,
    "Pitch": 1.0
   },
   "ZoomOutDistance": 1.0,
   "RunAnimSpeedMultiplier": 2.0,
+  "CastAnimSpeedMultiplier": 1.0,
+  "ReinFreeSkillLevels": false,
   "Passives": [
    {
     "Icon": {
      "fileID": 0,
-     "pathID": 5334
+     "pathID": 5481
     },
     "Title": "Life On Hit I",
     "Modifier": {
@@ -4560,10 +5020,10 @@
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
-       "hash": 723851361,
-       "hiddenValue": 1527365410,
-       "cryptoKey": 1539246370,
-       "value": 0.0,
+       "hash": 159847311,
+       "hiddenValue": 1844911794,
+       "cryptoKey": 1390344114,
+       "value": 1.5,
        "__tail__": "00000000000000000000000000000000"
       }
      },
@@ -4571,7 +5031,8 @@
       "Name": "value",
       "Format": "0.#",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      }
     }
    }

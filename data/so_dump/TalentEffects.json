@@ -1,7 +1,7 @@
 [
  {
   "_name": "Beast Slave Bonus",
-  "_pathid": 5413,
+  "_pathid": 5787,
   "_file": "resources.assets",
   "_class": "TalentEffect_ActiveSlaveBonus",
   "RequiredSpecies": 1,
@@ -31,14 +31,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Demon Slave Bonus",
-  "_pathid": 5414,
+  "_pathid": 5788,
   "_file": "resources.assets",
   "_class": "TalentEffect_ActiveSlaveBonus",
   "RequiredSpecies": 3,
@@ -68,14 +69,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Dragon Slave Bonus",
-  "_pathid": 5415,
+  "_pathid": 5789,
   "_file": "resources.assets",
   "_class": "TalentEffect_ActiveSlaveBonus",
   "RequiredSpecies": 4,
@@ -105,7 +107,8 @@
      "Name": "maxHealth",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -133,14 +136,15 @@
      "Name": "dodge",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Beast Slave Bonus",
-  "_pathid": 5416,
+  "_pathid": 5790,
   "_file": "resources.assets",
   "_class": "TalentEffect_ActiveSlaveBonus",
   "RequiredSpecies": 1,
@@ -170,14 +174,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Demon Slave Bonus",
-  "_pathid": 5417,
+  "_pathid": 5791,
   "_file": "resources.assets",
   "_class": "TalentEffect_ActiveSlaveBonus",
   "RequiredSpecies": 3,
@@ -207,14 +212,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Basic Attack Gain Armor",
-  "_pathid": 5432,
+  "_pathid": 5806,
   "_file": "resources.assets",
   "_class": "TalentEffect_AbilityApplyStatus",
   "Ability": null,
@@ -223,7 +229,7 @@
   "RequireDirectHit": false,
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 5406
+   "pathID": 5780
   },
   "ScaleStatusByPoints": false,
   "Chance": {
@@ -248,7 +254,8 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "StacksPerCast": {
    "Base": {
@@ -272,12 +279,13 @@
    "Name": "",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Beast Slave Bonus",
-  "_pathid": 5433,
+  "_pathid": 5807,
   "_file": "resources.assets",
   "_class": "TalentEffect_ActiveSlaveBonus",
   "RequiredSpecies": 1,
@@ -307,19 +315,20 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Enhance Molten Might Buff",
-  "_pathid": 5434,
+  "_pathid": 5808,
   "_file": "resources.assets",
   "_class": "TalentEffect_StatusStatBonus",
   "Status": {
    "fileID": 2,
-   "pathID": 60606
+   "pathID": 64937
   },
   "Modifiers": [
    {
@@ -347,7 +356,8 @@
      "Name": "damage",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -375,25 +385,26 @@
      "Name": "manaCost",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Hook Always Crit On Bleeding",
-  "_pathid": 5435,
+  "_pathid": 5809,
   "_file": "resources.assets",
   "_class": "TalentEffect_ConditionalCritChance",
   "Condition": 5,
   "Ability": {
    "fileID": 2,
-   "pathID": 59963
+   "pathID": 64254
   },
   "Tag": 9999,
   "SpecifiedStatus": {
    "fileID": 2,
-   "pathID": 60528
+   "pathID": 64857
   },
   "BonusCritChance": {
    "Base": {
@@ -417,21 +428,23 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Hook Bonus Damage On Bleeding",
-  "_pathid": 5436,
+  "_pathid": 5810,
   "_file": "resources.assets",
   "_class": "TalentEffect_ConditionalBonusDamage",
+  "Condition": 5,
   "RequiredStatus": {
    "fileID": 2,
-   "pathID": 60528
+   "pathID": 64857
   },
   "Ability": {
    "fileID": 2,
-   "pathID": 59963
+   "pathID": 64254
   },
   "Tag": 9999,
   "RequireOnSelf": false,
@@ -457,12 +470,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Human Slave Bonus",
-  "_pathid": 5437,
+  "_pathid": 5811,
   "_file": "resources.assets",
   "_class": "TalentEffect_ActiveSlaveBonus",
   "RequiredSpecies": 0,
@@ -492,19 +506,20 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Increase Flame Strike Damage",
-  "_pathid": 5438,
+  "_pathid": 5812,
   "_file": "resources.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 2,
-   "pathID": 59957
+   "pathID": 64248
   },
   "Tag": 9999,
   "Stat": 2,
@@ -530,12 +545,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Undead Slave Bonus",
-  "_pathid": 5439,
+  "_pathid": 5813,
   "_file": "resources.assets",
   "_class": "TalentEffect_ActiveSlaveBonus",
   "RequiredSpecies": 2,
@@ -565,14 +581,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Arcane Cast Gain Arcane Charge",
-  "_pathid": 60648,
+  "_pathid": 64984,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityApplyStatus",
   "Ability": null,
@@ -581,7 +598,7 @@
   "RequireDirectHit": false,
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60588
+   "pathID": 64919
   },
   "ScaleStatusByPoints": false,
   "Chance": {
@@ -606,7 +623,8 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "StacksPerCast": {
    "Base": {
@@ -630,12 +648,13 @@
    "Name": "",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Arcane Corrosion Detonation 2 Stacks",
-  "_pathid": 60649,
+  "_pathid": 64985,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusStackTriggerEffect",
   "_managedRefs": {
@@ -650,11 +669,11 @@
      "__asm__": "Assembly-CSharp",
      "ImpactVFXPrefab": {
       "fileID": 0,
-      "pathID": 6833
+      "pathID": 7196
      },
      "ImpactSFX": {
       "fileID": 0,
-      "pathID": 4923
+      "pathID": 5064
      },
      "ImpactSFXVolume": [
       0.6000000238418579,
@@ -685,32 +704,35 @@
      },
      "CanCrit": true,
      "IsDirect": true,
+     "SuppressTargetHitVFX": false,
      "DamageType": 5,
      "MoveStutter": 0.0,
      "AttackScalingToken": {
       "Name": "damage2",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "BaseDamageToken": {
       "Name": "",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 357
+     "__end__": 369
     }
    ]
   },
   "Ability": {
    "fileID": 0,
-   "pathID": 59911
+   "pathID": 64202
   },
   "Tag": 9999,
   "RequiredStatus": {
    "fileID": 0,
-   "pathID": 60589
+   "pathID": 64920
   },
   "RequiredStacks": 2,
   "TriggeredEffects": [
@@ -723,7 +745,7 @@
  },
  {
   "_name": "Arcane Corrosion Detonation",
-  "_pathid": 60650,
+  "_pathid": 64986,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusStackTriggerEffect",
   "_managedRefs": {
@@ -738,11 +760,11 @@
      "__asm__": "Assembly-CSharp",
      "ImpactVFXPrefab": {
       "fileID": 0,
-      "pathID": 6833
+      "pathID": 7196
      },
      "ImpactSFX": {
       "fileID": 0,
-      "pathID": 4923
+      "pathID": 5064
      },
      "ImpactSFXVolume": [
       0.6000000238418579,
@@ -773,32 +795,35 @@
      },
      "CanCrit": true,
      "IsDirect": true,
+     "SuppressTargetHitVFX": false,
      "DamageType": 5,
      "MoveStutter": 0.0,
      "AttackScalingToken": {
       "Name": "damage1",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "BaseDamageToken": {
       "Name": "",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 349
+     "__end__": 361
     }
    ]
   },
   "Ability": {
    "fileID": 0,
-   "pathID": 59911
+   "pathID": 64202
   },
   "Tag": 9999,
   "RequiredStatus": {
    "fileID": 0,
-   "pathID": 60589
+   "pathID": 64920
   },
   "RequiredStacks": 1,
   "TriggeredEffects": [
@@ -811,7 +836,7 @@
  },
  {
   "_name": "Arcane Corrosion Multishot Detonation 2 Stacks",
-  "_pathid": 60651,
+  "_pathid": 64987,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusStackTriggerEffect",
   "_managedRefs": {
@@ -826,11 +851,11 @@
      "__asm__": "Assembly-CSharp",
      "ImpactVFXPrefab": {
       "fileID": 0,
-      "pathID": 6833
+      "pathID": 7196
      },
      "ImpactSFX": {
       "fileID": 0,
-      "pathID": 4923
+      "pathID": 5064
      },
      "ImpactSFXVolume": [
       0.6000000238418579,
@@ -861,32 +886,35 @@
      },
      "CanCrit": true,
      "IsDirect": true,
+     "SuppressTargetHitVFX": false,
      "DamageType": 5,
      "MoveStutter": 0.0,
      "AttackScalingToken": {
       "Name": "damage2",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "BaseDamageToken": {
       "Name": "",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 369
+     "__end__": 381
     }
    ]
   },
   "Ability": {
    "fileID": 0,
-   "pathID": 59915
+   "pathID": 64206
   },
   "Tag": 9999,
   "RequiredStatus": {
    "fileID": 0,
-   "pathID": 60589
+   "pathID": 64920
   },
   "RequiredStacks": 2,
   "TriggeredEffects": [
@@ -899,7 +927,7 @@
  },
  {
   "_name": "Arcane Corrosion Multishot Detonation",
-  "_pathid": 60652,
+  "_pathid": 64988,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusStackTriggerEffect",
   "_managedRefs": {
@@ -914,11 +942,11 @@
      "__asm__": "Assembly-CSharp",
      "ImpactVFXPrefab": {
       "fileID": 0,
-      "pathID": 6833
+      "pathID": 7196
      },
      "ImpactSFX": {
       "fileID": 0,
-      "pathID": 4923
+      "pathID": 5064
      },
      "ImpactSFXVolume": [
       0.6000000238418579,
@@ -949,32 +977,35 @@
      },
      "CanCrit": true,
      "IsDirect": true,
+     "SuppressTargetHitVFX": false,
      "DamageType": 5,
      "MoveStutter": 0.0,
      "AttackScalingToken": {
       "Name": "damage1",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "BaseDamageToken": {
       "Name": "",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 361
+     "__end__": 373
     }
    ]
   },
   "Ability": {
    "fileID": 0,
-   "pathID": 59915
+   "pathID": 64206
   },
   "Tag": 9999,
   "RequiredStatus": {
    "fileID": 0,
-   "pathID": 60589
+   "pathID": 64920
   },
   "RequiredStacks": 1,
   "TriggeredEffects": [
@@ -987,16 +1018,16 @@
  },
  {
   "_name": "Arcane Corrosion",
-  "_pathid": 60653,
+  "_pathid": 64989,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityAoEApplyStatus",
   "Ability": {
    "fileID": 0,
-   "pathID": 59921
+   "pathID": 64212
   },
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60589
+   "pathID": 64920
   },
   "Chance": {
    "Base": {
@@ -1020,12 +1051,47 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
+  "_name": "Attack Speed To Physical Damage",
+  "_pathid": 64990,
+  "_file": "sharedassets0.assets",
+  "_class": "TalentEffect_StatConversion",
+  "SourceStat": 6,
+  "TargetStat": 23,
+  "Fraction": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 153412349,
+    "hiddenValue": 2111241864,
+    "cryptoKey": 1140774536,
+    "value": 0.125,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 153412349,
+    "hiddenValue": 84211433,
+    "cryptoKey": 1005978857,
+    "value": 0.125,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "FractionToken": {
+   "Name": "attackSpeedConversion",
+   "Format": "0.#%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "RequiredStatus": null
+ },
+ {
   "_name": "Basic Ability Trigger Twice",
-  "_pathid": 60654,
+  "_pathid": 64991,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_TriggerAbilityTwice",
   "Tag": 0,
@@ -1052,13 +1118,14 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "Delay": 0.10000000149011612
  },
  {
   "_name": "Blinding Shot Cast Mana",
-  "_pathid": 60655,
+  "_pathid": 64992,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_CritTriggerEffect",
   "_managedRefs": {
@@ -1124,21 +1191,24 @@
       "Name": "mana",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "PercentMaxManaToken": {
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "StatScalingToken": {
       "Name": "",
       "Format": "0.##",
       "Suffix": "x",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 461
+     "__end__": 477
     }
    ]
   },
@@ -1174,12 +1244,13 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Cornered Beast",
-  "_pathid": 60656,
+  "_pathid": 64993,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_LowHPTriggerEffect",
   "_managedRefs": {
@@ -1194,11 +1265,11 @@
      "__asm__": "Assembly-CSharp",
      "ImpactVFXPrefab": {
       "fileID": 0,
-      "pathID": 5986
+      "pathID": 6160
      },
      "ImpactSFX": {
       "fileID": 0,
-      "pathID": 4825
+      "pathID": 4965
      },
      "ImpactSFXVolume": [
       0.6000000238418579,
@@ -1210,7 +1281,7 @@
      ],
      "StatusEffect": {
       "fileID": 0,
-      "pathID": 60587
+      "pathID": 64918
      },
      "Chance": {
       "Base": {
@@ -1237,9 +1308,10 @@
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 373
+     "__end__": 389
     }
    ]
   },
@@ -1255,24 +1327,145 @@
    "Name": "threshold",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "RadiusToken": {
    "Name": "radius",
    "Format": "0.#",
    "Suffix": "m",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "CooldownToken": {
    "Name": "cooldown",
    "Format": "0.#",
    "Suffix": "s",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
+  }
+ },
+ {
+  "_name": "Critical Injection Stack Limit",
+  "_pathid": 64994,
+  "_file": "sharedassets0.assets",
+  "_class": "TalentEffect_StatusPotency",
+  "Status": {
+   "fileID": 0,
+   "pathID": 64898
+  },
+  "PotencyBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1397959404,
+    "cryptoKey": 1395282924,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1081100868,
+    "cryptoKey": 1078620228,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "DurationBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1961475219,
+    "cryptoKey": 1958537619,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1714729674,
+    "cryptoKey": 1722954954,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "FlatDurationBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1126197543,
+    "cryptoKey": 1130962983,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1733435860,
+    "cryptoKey": 1730237140,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "TickSpeedBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1479482747,
+    "cryptoKey": 1478307707,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 2022448173,
+    "cryptoKey": 2015136813,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "TickSpeedToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "MaxStacksBonus": 300,
+  "MaxStacksToken": {
+   "Name": "maxStacks",
+   "Format": "0",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "PotencyToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "DurationToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "FlatDurationToken": {
+   "Name": "",
+   "Format": "0.#",
+   "Suffix": "s",
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Critical Injection",
-  "_pathid": 60657,
+  "_pathid": 64995,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_CritTriggerEffect",
   "_managedRefs": {
@@ -1297,7 +1490,7 @@
      ],
      "StatusEffect": {
       "fileID": 0,
-      "pathID": 60568
+      "pathID": 64898
      },
      "Chance": {
       "Base": {
@@ -1324,9 +1517,10 @@
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 381
+     "__end__": 389
     }
    ]
   },
@@ -1362,12 +1556,13 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "DoT Tick Life On Hit",
-  "_pathid": 60658,
+  "_pathid": 64996,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_DotTickLifeOnHit",
   "RequiredDamageType": 4,
@@ -1393,17 +1588,18 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Empowered Phantom Form",
-  "_pathid": 60659,
+  "_pathid": 64997,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusPotency",
   "Status": {
    "fileID": 0,
-   "pathID": 60569
+   "pathID": 64899
   },
   "PotencyBonus": {
    "Base": {
@@ -1459,33 +1655,69 @@
     "__tail__": "00000000000000000000000000000000"
    }
   },
+  "TickSpeedBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1332132458,
+    "cryptoKey": 1337615978,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1940840077,
+    "cryptoKey": 1943973517,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "TickSpeedToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "MaxStacksBonus": 0,
+  "MaxStacksToken": {
+   "Name": "",
+   "Format": "0",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
   "PotencyToken": {
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "DurationToken": {
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "FlatDurationToken": {
    "Name": "",
    "Format": "0.#",
    "Suffix": "s",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Extend Vulnerable Duration",
-  "_pathid": 60660,
+  "_pathid": 64998,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusPotency",
   "Status": {
    "fileID": 0,
-   "pathID": 60598
+   "pathID": 64929
   },
   "PotencyBonus": {
    "Base": {
@@ -1541,33 +1773,69 @@
     "__tail__": "00000000000000000000000000000000"
    }
   },
+  "TickSpeedBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1799015712,
+    "cryptoKey": 1808611872,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1066015912,
+    "cryptoKey": 1058835112,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "TickSpeedToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "MaxStacksBonus": 0,
+  "MaxStacksToken": {
+   "Name": "",
+   "Format": "0",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
   "PotencyToken": {
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "DurationToken": {
    "Name": "duration",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "FlatDurationToken": {
    "Name": "",
    "Format": "0.#",
    "Suffix": "s",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Flare Cooldown Reduction",
-  "_pathid": 60661,
+  "_pathid": 64999,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59923
+   "pathID": 64214
   },
   "Tag": 9999,
   "Stat": 0,
@@ -1593,12 +1861,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Higher Crit to Distant",
-  "_pathid": 60662,
+  "_pathid": 65000,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalCritChance",
   "Condition": 6,
@@ -1606,7 +1875,7 @@
   "Tag": 9999,
   "SpecifiedStatus": {
    "fileID": 0,
-   "pathID": 60567
+   "pathID": 64897
   },
   "BonusCritChance": {
    "Base": {
@@ -1630,17 +1899,18 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Arcane Bomb Splash Radius",
-  "_pathid": 60663,
+  "_pathid": 65001,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59911
+   "pathID": 64202
   },
   "Tag": 9999,
   "Stat": 12,
@@ -1666,12 +1936,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Basic Attack Range",
-  "_pathid": 60664,
+  "_pathid": 65002,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -1699,17 +1970,18 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Knife Barrage Crit Chance",
-  "_pathid": 60665,
+  "_pathid": 65003,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59912
+   "pathID": 64203
   },
   "Tag": 9999,
   "Stat": 5,
@@ -1735,17 +2007,18 @@
    "Name": "value",
    "Format": "0.0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Knife Barrage Target Count",
-  "_pathid": 60666,
+  "_pathid": 65004,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59912
+   "pathID": 64203
   },
   "Tag": 9999,
   "Stat": 9,
@@ -1771,17 +2044,18 @@
    "Name": "value",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Poison Shot Poison Chance",
-  "_pathid": 60667,
+  "_pathid": 65005,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59910
+   "pathID": 64201
   },
   "Tag": 9999,
   "Stat": 7,
@@ -1807,17 +2081,18 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Rapid Fire Channel Duration",
-  "_pathid": 60668,
+  "_pathid": 65006,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59916
+   "pathID": 64207
   },
   "Tag": 9999,
   "Stat": 13,
@@ -1843,17 +2118,18 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Rapid Fire Guard Duration",
-  "_pathid": 60669,
+  "_pathid": 65007,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusPotency",
   "Status": {
    "fileID": 0,
-   "pathID": 60560
+   "pathID": 64890
   },
   "PotencyBonus": {
    "Base": {
@@ -1909,28 +2185,64 @@
     "__tail__": "00000000000000000000000000000000"
    }
   },
+  "TickSpeedBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 2127376976,
+    "cryptoKey": 2117258576,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1220365219,
+    "cryptoKey": 1212923299,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "TickSpeedToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "MaxStacksBonus": 0,
+  "MaxStacksToken": {
+   "Name": "",
+   "Format": "0",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
   "PotencyToken": {
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "DurationToken": {
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "FlatDurationToken": {
    "Name": "",
    "Format": "0.#",
    "Suffix": "s",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Strong Attack Range",
-  "_pathid": 60670,
+  "_pathid": 65008,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -1958,12 +2270,13 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Trap Damage",
-  "_pathid": 60671,
+  "_pathid": 65009,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -1991,12 +2304,13 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Injured Gain Dodge",
-  "_pathid": 60672,
+  "_pathid": 65010,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalStat",
   "Condition": 5,
@@ -2028,19 +2342,20 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Multishot Knockback",
-  "_pathid": 60673,
+  "_pathid": 65011,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityKnockback",
   "Ability": {
    "fileID": 0,
-   "pathID": 59915
+   "pathID": 64206
   },
   "Tag": 9999,
   "Chance": {
@@ -2065,7 +2380,8 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "Distance": {
    "Base": {
@@ -2089,15 +2405,16 @@
    "Name": "distance",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "No Nearby Enemies Attack Speed",
-  "_pathid": 60674,
+  "_pathid": 65012,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalStat",
-  "Condition": 2,
+  "Condition": 6,
   "ChannelingAbility": null,
   "Radius": 6.0,
   "Modifiers": [
@@ -2126,19 +2443,20 @@
      "Name": "attackSpeed",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
-    "Stat": 65,
+    "Stat": 23,
     "Type": 0,
     "Value": {
      "Base": {
       "__type__": "ObscuredFloat",
-      "hash": -611977469,
-      "hiddenValue": 1728662560,
-      "cryptoKey": 1490391226,
-      "value": 1.2000000476837158,
+      "hash": 1732878445,
+      "hiddenValue": 261297571,
+      "cryptoKey": 1326189113,
+      "value": 2.4000000953674316,
       "__tail__": "00000000000000000000000000000000"
      },
      "PerLevel": {
@@ -2151,10 +2469,11 @@
      }
     },
     "Token": {
-     "Name": "damage",
+     "Name": "physicalDamage",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -2182,14 +2501,15 @@
      "Name": "strongAttack",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Out of Combat Mana Regen",
-  "_pathid": 60675,
+  "_pathid": 65013,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalStat",
   "Condition": 3,
@@ -2221,14 +2541,15 @@
      "Name": "value",
      "Format": "0.#",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Physical Crit Damage Increase",
-  "_pathid": 60676,
+  "_pathid": 65014,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -2256,12 +2577,170 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
+  }
+ },
+ {
+  "_name": "Physical Damage On Vulnerable",
+  "_pathid": 65015,
+  "_file": "sharedassets0.assets",
+  "_class": "TalentEffect_ConditionalBonusDamage",
+  "Condition": 5,
+  "RequiredStatus": {
+   "fileID": 0,
+   "pathID": 64929
+  },
+  "Ability": null,
+  "Tag": 7,
+  "RequireOnSelf": false,
+  "BonusDamage": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 1732878445,
+    "hiddenValue": 2100863641,
+    "cryptoKey": 1035706627,
+    "value": 2.4000000953674316,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1034009347,
+    "cryptoKey": 1035706627,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "BonusDamageToken": {
+   "Name": "value",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  }
+ },
+ {
+  "_name": "Poison Tick Speed",
+  "_pathid": 65016,
+  "_file": "sharedassets0.assets",
+  "_class": "TalentEffect_StatusPotency",
+  "Status": {
+   "fileID": 0,
+   "pathID": 64898
+  },
+  "PotencyBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 2030524753,
+    "cryptoKey": 2035877713,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1654776755,
+    "cryptoKey": 1659085235,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "DurationBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1332334467,
+    "cryptoKey": 1338993027,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1025575434,
+    "cryptoKey": 1024073994,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "FlatDurationBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1378410158,
+    "cryptoKey": 1390291118,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1228113115,
+    "cryptoKey": 1233400795,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "TickSpeedBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 170189967,
+    "hiddenValue": 1077159631,
+    "cryptoKey": 2133210319,
+    "value": 0.5,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1224906450,
+    "cryptoKey": 1234567890,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "TickSpeedToken": {
+   "Name": "tickSpeed",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "MaxStacksBonus": 0,
+  "MaxStacksToken": {
+   "Name": "",
+   "Format": "0",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "PotencyToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "DurationToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "FlatDurationToken": {
+   "Name": "",
+   "Format": "0.#",
+   "Suffix": "s",
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Reduce Strong Attack Mana Cost",
-  "_pathid": 60677,
+  "_pathid": 65017,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -2289,17 +2768,18 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Shockwave More Knockback",
-  "_pathid": 60678,
+  "_pathid": 65018,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityKnockback",
   "Ability": {
    "fileID": 0,
-   "pathID": 59919
+   "pathID": 64210
   },
   "Tag": 9999,
   "Chance": {
@@ -2324,7 +2804,8 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "Distance": {
    "Base": {
@@ -2348,17 +2829,18 @@
    "Name": "distance",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Steady Shot Pierce Damage",
-  "_pathid": 60679,
+  "_pathid": 65019,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityProjectilePierceDamage",
   "Ability": {
    "fileID": 0,
-   "pathID": 59914
+   "pathID": 64205
   },
   "DamageIncrease": {
    "Base": {
@@ -2382,12 +2864,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Strong Attack Reduce Traps CD",
-  "_pathid": 60680,
+  "_pathid": 65020,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_TriggerAbilityCooldownReduction",
   "Source": 0,
@@ -2418,7 +2901,8 @@
    "Name": "value",
    "Format": "0.##",
    "Suffix": "s",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "ProcChance": {
    "Base": {
@@ -2442,17 +2926,18 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Stronger Poison",
-  "_pathid": 60681,
+  "_pathid": 65021,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusPotency",
   "Status": {
    "fileID": 0,
-   "pathID": 60568
+   "pathID": 64898
   },
   "PotencyBonus": {
    "Base": {
@@ -2508,28 +2993,64 @@
     "__tail__": "00000000000000000000000000000000"
    }
   },
+  "TickSpeedBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1573000016,
+    "cryptoKey": 1561576016,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1864767171,
+    "cryptoKey": 1863722691,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "TickSpeedToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "MaxStacksBonus": 0,
+  "MaxStacksToken": {
+   "Name": "",
+   "Format": "0",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
   "PotencyToken": {
    "Name": "potency",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "DurationToken": {
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "FlatDurationToken": {
    "Name": "duration",
    "Format": "0.#",
    "Suffix": "s",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Trap Critical Damage",
-  "_pathid": 60682,
+  "_pathid": 65022,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -2538,10 +3059,10 @@
   "Modifier": {
    "Base": {
     "__type__": "ObscuredFloat",
-    "hash": 1607085071,
-    "hiddenValue": 2093767266,
+    "hash": 1807961569,
+    "hiddenValue": 50386607,
     "cryptoKey": 1133904047,
-    "value": 1.600000023841858,
+    "value": 3.0,
     "__tail__": "00000000000000000000000000000000"
    },
    "PerLevel": {
@@ -2557,12 +3078,13 @@
    "Name": "critdmg",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Trap Critical Hit Chance",
-  "_pathid": 60683,
+  "_pathid": 65023,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -2590,12 +3112,47 @@
    "Name": "value",
    "Format": "0.0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
+  }
+ },
+ {
+  "_name": "Trap Damage Vs Elite",
+  "_pathid": 65024,
+  "_file": "sharedassets0.assets",
+  "_class": "TalentEffect_AbilityModifier",
+  "Ability": null,
+  "Tag": 14,
+  "Stat": 18,
+  "Modifier": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 1573529835,
+    "hiddenValue": 1473313105,
+    "cryptoKey": 1781865628,
+    "value": 0.10000000149011612,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 1573529835,
+    "hiddenValue": 7616693,
+    "cryptoKey": 1039448184,
+    "value": 0.10000000149011612,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "ModifierToken": {
+   "Name": "eliteDamage",
+   "Format": "0%;0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Traps Apply Vulnerable",
-  "_pathid": 60684,
+  "_pathid": 65025,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityApplyStatus",
   "Ability": null,
@@ -2604,7 +3161,7 @@
   "RequireDirectHit": false,
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60598
+   "pathID": 64929
   },
   "ScaleStatusByPoints": false,
   "Chance": {
@@ -2629,7 +3186,8 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "StacksPerCast": {
    "Base": {
@@ -2653,12 +3211,13 @@
    "Name": "",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Traps Reduce CD",
-  "_pathid": 60685,
+  "_pathid": 65026,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -2686,17 +3245,18 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Twin Arrows Damage Increase",
-  "_pathid": 60686,
+  "_pathid": 65027,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59913
+   "pathID": 64204
   },
   "Tag": 9999,
   "Stat": 2,
@@ -2722,23 +3282,24 @@
    "Name": "damage",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Twin Arrows Ricochet",
-  "_pathid": 60687,
+  "_pathid": 65028,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityProjectileRicochet",
   "Ability": {
    "fileID": 0,
-   "pathID": 59913
+   "pathID": 64204
   },
   "Ricochets": 1
  },
  {
   "_name": "Basic Attack Mana Gain",
-  "_pathid": 60688,
+  "_pathid": 65029,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -2766,12 +3327,13 @@
    "Name": "value",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Burning Enemy Kill Explode",
-  "_pathid": 60689,
+  "_pathid": 65030,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_OnKillTriggerEffect",
   "_managedRefs": {
@@ -2786,11 +3348,11 @@
      "__asm__": "Assembly-CSharp",
      "ImpactVFXPrefab": {
       "fileID": 0,
-      "pathID": 11241
+      "pathID": 11847
      },
      "ImpactSFX": {
       "fileID": 0,
-      "pathID": 4803
+      "pathID": 4943
      },
      "ImpactSFXVolume": [
       0.800000011920929,
@@ -2804,10 +3366,10 @@
      "AttackScaling": {
       "Base": {
        "__type__": "ObscuredFloat",
-       "hash": 1807961569,
-       "hiddenValue": 861885161,
+       "hash": 738069043,
+       "hiddenValue": 845087465,
        "cryptoKey": 1930584041,
-       "value": 3.0,
+       "value": 9.0,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
@@ -2821,29 +3383,33 @@
      },
      "CanCrit": true,
      "IsDirect": true,
+     "SuppressTargetHitVFX": true,
      "DamageType": 1,
      "MoveStutter": 0.0,
      "AttackScalingToken": {
       "Name": "damage",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "BaseDamageToken": {
       "Name": "",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 533
+     "__end__": 557
     }
    ]
   },
+  "Source": 1,
   "Ability": null,
   "Tag": 9999,
   "RequiredVictimStatus": {
    "fileID": 0,
-   "pathID": 60530
+   "pathID": 64859
   },
   "Target": 0,
   "Radius": {
@@ -2867,10 +3433,10 @@
   "Chance": {
    "Base": {
     "__type__": "ObscuredFloat",
-    "hash": 170189967,
-    "hiddenValue": 1735263055,
+    "hash": -2115551783,
+    "hiddenValue": 1717416060,
     "cryptoKey": 1476619855,
-    "value": 0.5,
+    "value": 0.3499999940395355,
     "__tail__": "00000000000000000000000000000000"
    },
    "PerLevel": {
@@ -2882,11 +3448,11 @@
     "__tail__": "00000000000000000000000000000000"
    }
   },
-  "AllowChainReactions": true,
-  "ScalePayloadByPoints": false,
+  "AllowChainReactions": false,
+  "ScalePayloadByPoints": true,
   "CastVFXPrefab": {
    "fileID": 0,
-   "pathID": 21866
+   "pathID": 23263
   },
   "CastSFX": null,
   "CastSFXVolume": [
@@ -2906,27 +3472,29 @@
    "Name": "",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "ChanceToken": {
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Chill Might Freeze",
-  "_pathid": 60690,
+  "_pathid": 65031,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusApplyStatus",
   "TriggerStatus": {
    "fileID": 0,
-   "pathID": 60532
+   "pathID": 64861
   },
   "ResultStatus": {
    "fileID": 0,
-   "pathID": 60567
+   "pathID": 64897
   },
   "ProcChance": {
    "Base": {
@@ -2950,12 +3518,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Crit Apply Burn",
-  "_pathid": 60691,
+  "_pathid": 65032,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_CritTriggerEffect",
   "_managedRefs": {
@@ -2980,22 +3549,22 @@
      ],
      "StatusEffect": {
       "fileID": 0,
-      "pathID": 60530
+      "pathID": 64859
      },
      "Chance": {
       "Base": {
        "__type__": "ObscuredFloat",
        "hash": 149504655,
-       "hiddenValue": 1241530908,
-       "cryptoKey": 1975648284,
+       "hiddenValue": 1622587135,
+       "cryptoKey": 1597421311,
        "value": 1.0,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
        "hash": 723851361,
-       "hiddenValue": 2018177714,
-       "cryptoKey": 2029144754,
+       "hiddenValue": 1983148246,
+       "cryptoKey": 1987065046,
        "value": 0.0,
        "__tail__": "00000000000000000000000000000000"
       }
@@ -3007,9 +3576,10 @@
       "Name": "chance",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 385
+     "__end__": 393
     }
    ]
   },
@@ -3045,22 +3615,23 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Electrocute Trigger Lightning Storm",
-  "_pathid": 60692,
+  "_pathid": 65033,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityTriggerAbility",
   "Ability": {
    "fileID": 0,
-   "pathID": 59940
+   "pathID": 64231
   },
   "Tag": 9999,
   "TriggeredAbility": {
    "fileID": 0,
-   "pathID": 59950
+   "pathID": 64241
   },
   "UseTalentLevel": false,
   "Chance": {
@@ -3085,12 +3656,13 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Electrostatic Death Transfer",
-  "_pathid": 60693,
+  "_pathid": 65034,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_OnKillTriggerEffect",
   "_managedRefs": {
@@ -3115,7 +3687,7 @@
      ],
      "StatusEffect": {
       "fileID": 0,
-      "pathID": 60586
+      "pathID": 64917
      },
      "Chance": {
       "Base": {
@@ -3142,17 +3714,19 @@
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 525
+     "__end__": 541
     }
    ]
   },
+  "Source": 0,
   "Ability": null,
   "Tag": 9999,
   "RequiredVictimStatus": {
    "fileID": 0,
-   "pathID": 60586
+   "pathID": 64917
   },
   "Target": 0,
   "Radius": {
@@ -3212,23 +3786,25 @@
    "Name": "radius",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "ChanceToken": {
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Enhance Electrocute",
-  "_pathid": 60694,
+  "_pathid": 65035,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59940
+   "pathID": 64231
   },
   "Tag": 9999,
   "Stat": 3,
@@ -3254,12 +3830,13 @@
    "Name": "value",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Every Fourth Strong Attack Applies Vulnerable",
-  "_pathid": 60695,
+  "_pathid": 65036,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_NthAbilityApplyStatus",
   "Tag": 1,
@@ -3270,11 +3847,12 @@
    "Name": "casts",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60598
+   "pathID": 64929
   },
   "RequireDirectHit": false,
   "OncePerTargetPerCast": false,
@@ -3282,16 +3860,16 @@
    "Base": {
     "__type__": "ObscuredFloat",
     "hash": 149504655,
-    "hiddenValue": 1987296069,
-    "cryptoKey": 1228632901,
+    "hiddenValue": 1961800453,
+    "cryptoKey": 1261694469,
     "value": 1.0,
     "__tail__": "00000000000000000000000000000000"
    },
    "PerLevel": {
     "__type__": "ObscuredFloat",
     "hash": 723851361,
-    "hiddenValue": 1292517435,
-    "cryptoKey": 1296042555,
+    "hiddenValue": 1010824482,
+    "cryptoKey": 1022705442,
     "value": 0.0,
     "__tail__": "00000000000000000000000000000000"
    }
@@ -3300,17 +3878,18 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Extend Frozen Duration",
-  "_pathid": 60696,
+  "_pathid": 65037,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusPotency",
   "Status": {
    "fileID": 0,
-   "pathID": 60567
+   "pathID": 64897
   },
   "PotencyBonus": {
    "Base": {
@@ -3366,33 +3945,69 @@
     "__tail__": "00000000000000000000000000000000"
    }
   },
+  "TickSpeedBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1946124544,
+    "cryptoKey": 1937899264,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 2037843653,
+    "cryptoKey": 2030467013,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "TickSpeedToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "MaxStacksBonus": 0,
+  "MaxStacksToken": {
+   "Name": "",
+   "Format": "0",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
   "PotencyToken": {
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "DurationToken": {
    "Name": "duration",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "FlatDurationToken": {
    "Name": "",
    "Format": "0.#",
    "Suffix": "s",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Fire Elemental Attack Speed",
-  "_pathid": 60697,
+  "_pathid": 65038,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59943
+   "pathID": 64234
   },
   "Tag": 9999,
   "Stat": 14,
@@ -3418,35 +4033,36 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Fire Meteor Cooldown Increase",
-  "_pathid": 60698,
+  "_pathid": 65039,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59945
+   "pathID": 64236
   },
   "Tag": 9999,
   "Stat": 0,
   "Modifier": {
    "Base": {
     "__type__": "ObscuredFloat",
-    "hash": -553217045,
-    "hiddenValue": -1936388629,
+    "hash": -688955763,
+    "hiddenValue": -1920015828,
     "cryptoKey": 826366246,
-    "value": -0.05000000074505806,
+    "value": -0.019999999552965164,
     "__tail__": "00000000000000000000000000000000"
    },
    "PerLevel": {
     "__type__": "ObscuredFloat",
-    "hash": -553217045,
-    "hiddenValue": -1696312107,
+    "hash": -688955763,
+    "hiddenValue": -1677739246,
     "cryptoKey": 655894552,
-    "value": -0.05000000074505806,
+    "value": -0.019999999552965164,
     "__tail__": "00000000000000000000000000000000"
    }
   },
@@ -3454,35 +4070,36 @@
    "Name": "cooldown",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Fire Meteor Damage",
-  "_pathid": 60699,
+  "_pathid": 65040,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59945
+   "pathID": 64236
   },
   "Tag": 9999,
   "Stat": 2,
   "Modifier": {
    "Base": {
     "__type__": "ObscuredFloat",
-    "hash": 1475356959,
-    "hiddenValue": 787739746,
+    "hash": -649440399,
+    "hiddenValue": 767381234,
     "cryptoKey": 324478056,
-    "value": 0.07999999821186066,
+    "value": 0.15000000596046448,
     "__tail__": "00000000000000000000000000000000"
    },
    "PerLevel": {
     "__type__": "ObscuredFloat",
-    "hash": 1475356959,
-    "hiddenValue": 432327517,
+    "hash": -649440399,
+    "hiddenValue": 445280717,
     "cryptoKey": 610800471,
-    "value": 0.07999999821186066,
+    "value": 0.15000000596046448,
     "__tail__": "00000000000000000000000000000000"
    }
   },
@@ -3490,24 +4107,25 @@
    "Name": "damage",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "FireBall Apply Burn",
-  "_pathid": 60700,
+  "_pathid": 65041,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityApplyStatus",
   "Ability": {
    "fileID": 0,
-   "pathID": 59938
+   "pathID": 64229
   },
   "Tag": 0,
   "Target": 0,
   "RequireDirectHit": false,
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60530
+   "pathID": 64859
   },
   "ScaleStatusByPoints": false,
   "Chance": {
@@ -3532,7 +4150,8 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "StacksPerCast": {
    "Base": {
@@ -3556,17 +4175,18 @@
    "Name": "",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Flame Aura Defense",
-  "_pathid": 60701,
+  "_pathid": 65042,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusStatBonus",
   "Status": {
    "fileID": 0,
-   "pathID": 60571
+   "pathID": 64901
   },
   "Modifiers": [
    {
@@ -3594,7 +4214,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -3622,19 +4243,20 @@
      "Name": "",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Flame Breathe Crit Damage",
-  "_pathid": 60702,
+  "_pathid": 65043,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59948
+   "pathID": 64239
   },
   "Tag": 9999,
   "Stat": 6,
@@ -3660,21 +4282,23 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Flame Lightning Damage On Burn",
-  "_pathid": 60703,
+  "_pathid": 65044,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalBonusDamage",
+  "Condition": 5,
   "RequiredStatus": {
    "fileID": 0,
-   "pathID": 60530
+   "pathID": 64859
   },
   "Ability": {
    "fileID": 0,
-   "pathID": 59941
+   "pathID": 64232
   },
   "Tag": 9999,
   "RequireOnSelf": false,
@@ -3700,21 +4324,23 @@
    "Name": "burningDamage",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Flame Lightning Damage On Electrostatic",
-  "_pathid": 60704,
+  "_pathid": 65045,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalBonusDamage",
+  "Condition": 5,
   "RequiredStatus": {
    "fileID": 0,
-   "pathID": 60586
+   "pathID": 64917
   },
   "Ability": {
    "fileID": 0,
-   "pathID": 59941
+   "pathID": 64232
   },
   "Tag": 9999,
   "RequireOnSelf": false,
@@ -3740,22 +4366,23 @@
    "Name": "electrostaticDamage",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Flame Lightning Trigger Lightning Storm",
-  "_pathid": 60705,
+  "_pathid": 65046,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityTriggerAbility",
   "Ability": {
    "fileID": 0,
-   "pathID": 59941
+   "pathID": 64232
   },
   "Tag": 9999,
   "TriggeredAbility": {
    "fileID": 0,
-   "pathID": 59950
+   "pathID": 64241
   },
   "UseTalentLevel": false,
   "Chance": {
@@ -3780,12 +4407,13 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Frost Abilities Reduce CD",
-  "_pathid": 60706,
+  "_pathid": 65047,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -3813,17 +4441,18 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Frost Beam Size Increase",
-  "_pathid": 60707,
+  "_pathid": 65048,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59951
+   "pathID": 64242
   },
   "Tag": 9999,
   "Stat": 4,
@@ -3849,12 +4478,13 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Gain Mana On Being Hit",
-  "_pathid": 60708,
+  "_pathid": 65049,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_HitsTakenTriggerEffect",
   "_managedRefs": {
@@ -3920,21 +4550,24 @@
       "Name": "mana",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "PercentMaxManaToken": {
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "StatScalingToken": {
       "Name": "",
       "Format": "0.##",
       "Suffix": "x",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 589
+     "__end__": 613
     }
    ]
   },
@@ -3982,19 +4615,22 @@
    "Name": "",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "ProcChanceToken": {
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "RadiusToken": {
    "Name": "",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "CastVFXPrefab": null,
   "CastVFXScale": [
@@ -4011,13 +4647,13 @@
  },
  {
   "_name": "Higher Crit Damage to Frozen",
-  "_pathid": 60709,
+  "_pathid": 65050,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalCritDamage",
   "Condition": 5,
   "SpecifiedStatus": {
    "fileID": 0,
-   "pathID": 60567
+   "pathID": 64897
   },
   "BonusCritDamage": {
    "Base": {
@@ -4041,12 +4677,13 @@
    "Name": "critDamage",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Higher Crit to Frozen",
-  "_pathid": 60710,
+  "_pathid": 65051,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalCritChance",
   "Condition": 5,
@@ -4054,7 +4691,7 @@
   "Tag": 9999,
   "SpecifiedStatus": {
    "fileID": 0,
-   "pathID": 60567
+   "pathID": 64897
   },
   "BonusCritChance": {
    "Base": {
@@ -4078,12 +4715,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Ice Block Recovery",
-  "_pathid": 60711,
+  "_pathid": 65052,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatConversion",
   "SourceStat": 7,
@@ -4110,21 +4748,22 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "RequiredStatus": {
    "fileID": 0,
-   "pathID": 60570
+   "pathID": 64900
   }
  },
  {
   "_name": "Ice Meteor Less Mana",
-  "_pathid": 60712,
+  "_pathid": 65053,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59949
+   "pathID": 64240
   },
   "Tag": 9999,
   "Stat": 1,
@@ -4150,12 +4789,13 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Ice Nova Mana Gain",
-  "_pathid": 60713,
+  "_pathid": 65054,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_CritTriggerEffect",
   "_managedRefs": {
@@ -4221,21 +4861,24 @@
       "Name": "value",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "PercentMaxManaToken": {
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "StatScalingToken": {
       "Name": "",
       "Format": "0.##",
       "Suffix": "x",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 469
+     "__end__": 485
     }
    ]
   },
@@ -4243,7 +4886,7 @@
   "DirectHitsOnly": false,
   "Ability": {
    "fileID": 0,
-   "pathID": 59942
+   "pathID": 64233
   },
   "Tag": 9999,
   "NearbyEnemyRadius": 0.0,
@@ -4274,12 +4917,13 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Basic Attack Crit Chance",
-  "_pathid": 60714,
+  "_pathid": 65055,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -4307,12 +4951,13 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Basic Attack Range",
-  "_pathid": 60715,
+  "_pathid": 65056,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -4340,17 +4985,19 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Damage On Burning",
-  "_pathid": 60716,
+  "_pathid": 65057,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalBonusDamage",
+  "Condition": 5,
   "RequiredStatus": {
    "fileID": 0,
-   "pathID": 60530
+   "pathID": 64859
   },
   "Ability": null,
   "Tag": 9999,
@@ -4377,17 +5024,18 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Ice Shard Damage",
-  "_pathid": 60717,
+  "_pathid": 65058,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59939
+   "pathID": 64230
   },
   "Tag": 9999,
   "Stat": 2,
@@ -4413,12 +5061,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Lightning Ability Apply Static",
-  "_pathid": 60718,
+  "_pathid": 65059,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityApplyStatus",
   "Ability": null,
@@ -4427,7 +5076,7 @@
   "RequireDirectHit": false,
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60586
+   "pathID": 64917
   },
   "ScaleStatusByPoints": false,
   "Chance": {
@@ -4452,7 +5101,8 @@
    "Name": "stunChance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "StacksPerCast": {
    "Base": {
@@ -4476,17 +5126,18 @@
    "Name": "",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Lightning Cloud Ground Zone Duration",
-  "_pathid": 60719,
+  "_pathid": 65060,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59947
+   "pathID": 64238
   },
   "Tag": 9999,
   "Stat": 15,
@@ -4512,12 +5163,13 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Lightning Crit Damage Increase",
-  "_pathid": 60720,
+  "_pathid": 65061,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -4545,24 +5197,62 @@
    "Name": "critDamage",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
+  }
+ },
+ {
+  "_name": "Lightning Storm Damage",
+  "_pathid": 65062,
+  "_file": "sharedassets0.assets",
+  "_class": "TalentEffect_AbilityModifier",
+  "Ability": {
+   "fileID": 0,
+   "pathID": 64241
+  },
+  "Tag": 9999,
+  "Stat": 2,
+  "Modifier": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 170189967,
+    "hiddenValue": 740579176,
+    "cryptoKey": 324478056,
+    "value": 0.5,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 321148776,
+    "cryptoKey": 324478056,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "ModifierToken": {
+   "Name": "damage",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Lightning Storm Stun",
-  "_pathid": 60721,
+  "_pathid": 65063,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityApplyStatus",
   "Ability": {
    "fileID": 0,
-   "pathID": 59950
+   "pathID": 64241
   },
   "Tag": 9999,
   "Target": 0,
   "RequireDirectHit": false,
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60577
+   "pathID": 64905
   },
   "ScaleStatusByPoints": false,
   "Chance": {
@@ -4587,7 +5277,8 @@
    "Name": "stunChance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "StacksPerCast": {
    "Base": {
@@ -4611,12 +5302,13 @@
    "Name": "",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Max Mana To Intelligence",
-  "_pathid": 60722,
+  "_pathid": 65064,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatConversion",
   "SourceStat": 14,
@@ -4643,13 +5335,14 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "RequiredStatus": null
  },
  {
   "_name": "Melee Attackers Get Chill",
-  "_pathid": 60723,
+  "_pathid": 65065,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_HitsTakenTriggerEffect",
   "_managedRefs": {
@@ -4674,7 +5367,7 @@
      ],
      "StatusEffect": {
       "fileID": 0,
-      "pathID": 60532
+      "pathID": 64861
      },
      "Chance": {
       "Base": {
@@ -4701,9 +5394,10 @@
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 509
+     "__end__": 525
     }
    ]
   },
@@ -4751,19 +5445,22 @@
    "Name": "",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "ProcChanceToken": {
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "RadiusToken": {
    "Name": "",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "CastVFXPrefab": null,
   "CastVFXScale": [
@@ -4780,7 +5477,7 @@
  },
  {
   "_name": "Special Ability Empowers Basic Attacks",
-  "_pathid": 60724,
+  "_pathid": 65066,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityApplyStatus",
   "Ability": null,
@@ -4789,7 +5486,7 @@
   "RequireDirectHit": false,
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60595
+   "pathID": 64926
   },
   "ScaleStatusByPoints": false,
   "Chance": {
@@ -4814,7 +5511,8 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "StacksPerCast": {
    "Base": {
@@ -4838,17 +5536,18 @@
    "Name": "",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Stronger Chill Status",
-  "_pathid": 60725,
+  "_pathid": 65067,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusPotency",
   "Status": {
    "fileID": 0,
-   "pathID": 60532
+   "pathID": 64861
   },
   "PotencyBonus": {
    "Base": {
@@ -4904,28 +5603,64 @@
     "__tail__": "00000000000000000000000000000000"
    }
   },
+  "TickSpeedBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1006910769,
+    "cryptoKey": 1010631729,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1507187300,
+    "cryptoKey": 1507513700,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "TickSpeedToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "MaxStacksBonus": 0,
+  "MaxStacksToken": {
+   "Name": "",
+   "Format": "0",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
   "PotencyToken": {
    "Name": "potency",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "DurationToken": {
    "Name": "duration",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "FlatDurationToken": {
    "Name": "",
    "Format": "0.#",
    "Suffix": "s",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "AOE Ability Damage Increase",
-  "_pathid": 60767,
+  "_pathid": 65109,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -4953,12 +5688,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Alternating Chi Mana",
-  "_pathid": 60768,
+  "_pathid": 65110,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AlternatingAbilityMana",
   "Tag": 12,
@@ -4984,12 +5720,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Basic Attack Crit Damage Increase",
-  "_pathid": 60769,
+  "_pathid": 65111,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -5017,12 +5754,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Basic Attack Damage Increase",
-  "_pathid": 60770,
+  "_pathid": 65112,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -5050,12 +5788,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Basic Attack3 Apply Dazed",
-  "_pathid": 60771,
+  "_pathid": 65113,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_NthAbilityApplyStatus",
   "Tag": 0,
@@ -5066,11 +5805,12 @@
    "Name": "casts",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60551
+   "pathID": 64880
   },
   "RequireDirectHit": true,
   "OncePerTargetPerCast": true,
@@ -5096,24 +5836,25 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Charge Grant Dodge",
-  "_pathid": 60772,
+  "_pathid": 65114,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityApplyStatus",
   "Ability": {
    "fileID": 0,
-   "pathID": 59934
+   "pathID": 64225
   },
   "Tag": 9999,
   "Target": 1,
   "RequireDirectHit": false,
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60593
+   "pathID": 64924
   },
   "ScaleStatusByPoints": true,
   "Chance": {
@@ -5138,7 +5879,8 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "StacksPerCast": {
    "Base": {
@@ -5162,12 +5904,13 @@
    "Name": "",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Cheat Death Full Heal",
-  "_pathid": 60773,
+  "_pathid": 65115,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_CheatDeath",
   "HealPercent": {
@@ -5192,7 +5935,8 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "Cooldown": {
    "Base": {
@@ -5216,22 +5960,23 @@
    "Name": "cooldown",
    "Format": "0.#",
    "Suffix": "s",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "TriggerVFXPrefab": null,
   "StatusAfterPrevent": {
    "fileID": 0,
-   "pathID": 60591
+   "pathID": 64922
   }
  },
  {
   "_name": "Chi Bolt Heal Increase",
-  "_pathid": 60774,
+  "_pathid": 65116,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59927
+   "pathID": 64218
   },
   "Tag": 9999,
   "Stat": 16,
@@ -5257,37 +6002,39 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Direct Hit Exposed",
-  "_pathid": 60775,
+  "_pathid": 65117,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_DirectHitStackStatus",
   "StackStatus": {
    "fileID": 0,
-   "pathID": 60566
+   "pathID": 64896
   },
   "ResultStatus": {
    "fileID": 0,
-   "pathID": 60598
+   "pathID": 64929
   },
   "RequiredStacksToken": {
    "Name": "stacks",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Divine Thunder Damage Increase",
-  "_pathid": 60776,
+  "_pathid": 65118,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59937
+   "pathID": 64228
   },
   "Tag": 9999,
   "Stat": 2,
@@ -5313,12 +6060,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Dodge To Critical Damage",
-  "_pathid": 60777,
+  "_pathid": 65119,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatConversion",
   "SourceStat": 22,
@@ -5345,13 +6093,14 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "RequiredStatus": null
  },
  {
   "_name": "Gain Mana On Dodge",
-  "_pathid": 60778,
+  "_pathid": 65120,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_DodgeTriggerEffect",
   "_managedRefs": {
@@ -5417,21 +6166,24 @@
       "Name": "value",
       "Format": "0.#",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "PercentMaxManaToken": {
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "StatScalingToken": {
       "Name": "",
       "Format": "0.##",
       "Suffix": "x",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 433
+     "__end__": 449
     }
    ]
   },
@@ -5462,12 +6214,13 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Gain Physical Damage on Dodge",
-  "_pathid": 60779,
+  "_pathid": 65121,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_DodgeTriggerEffect",
   "_managedRefs": {
@@ -5492,7 +6245,7 @@
      ],
      "StatusEffect": {
       "fileID": 0,
-      "pathID": 60594
+      "pathID": 64925
      },
      "Chance": {
       "Base": {
@@ -5519,9 +6272,10 @@
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 357
+     "__end__": 365
     }
    ]
   },
@@ -5552,17 +6306,18 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Golden Palms Damage Increase",
-  "_pathid": 60780,
+  "_pathid": 65122,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59931
+   "pathID": 64222
   },
   "Tag": 9999,
   "Stat": 2,
@@ -5588,17 +6343,18 @@
    "Name": "damage",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Golden Palms Mana Reduction",
-  "_pathid": 60781,
+  "_pathid": 65123,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59931
+   "pathID": 64222
   },
   "Tag": 9999,
   "Stat": 1,
@@ -5624,17 +6380,18 @@
    "Name": "mana",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Heavy Attack2 Damage Increase",
-  "_pathid": 60782,
+  "_pathid": 65124,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59929
+   "pathID": 64220
   },
   "Tag": 9999,
   "Stat": 2,
@@ -5660,17 +6417,19 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Damage On Dazed",
-  "_pathid": 60783,
+  "_pathid": 65125,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalBonusDamage",
+  "Condition": 5,
   "RequiredStatus": {
    "fileID": 0,
-   "pathID": 60551
+   "pathID": 64880
   },
   "Ability": null,
   "Tag": 9999,
@@ -5697,12 +6456,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Lightning Ability Crit Chance Increase",
-  "_pathid": 60784,
+  "_pathid": 65126,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -5730,12 +6490,13 @@
    "Name": "value",
    "Format": "0.0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Lightning Ability Crit Trigger Mana On Kill",
-  "_pathid": 60785,
+  "_pathid": 65127,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_CritTriggerEffect",
   "_managedRefs": {
@@ -5762,16 +6523,16 @@
       "Base": {
        "__type__": "ObscuredFloat",
        "hash": 723851361,
-       "hiddenValue": 1860953864,
-       "cryptoKey": 1860692744,
+       "hiddenValue": 1434296961,
+       "cryptoKey": 1436712321,
        "value": 0.0,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
        "hash": 723851361,
-       "hiddenValue": 1157473010,
-       "cryptoKey": 1151532530,
+       "hiddenValue": 2100671162,
+       "cryptoKey": 2108831162,
        "value": 0.0,
        "__tail__": "00000000000000000000000000000000"
       }
@@ -5780,16 +6541,16 @@
       "Base": {
        "__type__": "ObscuredFloat",
        "hash": 723851361,
-       "hiddenValue": 1068192748,
-       "cryptoKey": 1062448108,
+       "hiddenValue": 1901771450,
+       "cryptoKey": 1908038330,
        "value": 0.0,
        "__tail__": "00000000000000000000000000000000"
       },
       "PerLevel": {
        "__type__": "ObscuredFloat",
        "hash": 723851361,
-       "hiddenValue": 1753699505,
-       "cryptoKey": 1750370225,
+       "hiddenValue": 1207024020,
+       "cryptoKey": 1203368340,
        "value": 0.0,
        "__tail__": "00000000000000000000000000000000"
       }
@@ -5801,21 +6562,24 @@
       "Name": "",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "PercentMaxManaToken": {
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "StatScalingToken": {
       "Name": "",
       "Format": "0.##",
       "Suffix": "x",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 485
+     "__end__": 501
     }
    ]
   },
@@ -5851,29 +6615,31 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Periodic Chi Shield",
-  "_pathid": 60786,
+  "_pathid": 65128,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_PeriodicStatus",
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60531
+   "pathID": 64860
   },
   "Interval": 3.0,
   "IntervalToken": {
    "Name": "interval",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Physical Ability Crit Chance Increase",
-  "_pathid": 60787,
+  "_pathid": 65129,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -5901,12 +6667,13 @@
    "Name": "value",
    "Format": "0.#%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Remaining Mana Strong Damage",
-  "_pathid": 60788,
+  "_pathid": 65130,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_RemainingManaDamage",
   "Tag": 1,
@@ -5932,21 +6699,22 @@
    "Name": "damagePerMana",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Sacred Judgment AoE Stun",
-  "_pathid": 60789,
+  "_pathid": 65131,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityAoEApplyStatus",
   "Ability": {
    "fileID": 0,
-   "pathID": 59928
+   "pathID": 64219
   },
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60587
+   "pathID": 64918
   },
   "Chance": {
    "Base": {
@@ -5970,17 +6738,18 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Sacred Orb Speed Increase",
-  "_pathid": 60790,
+  "_pathid": 65132,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityProjectileSpeed",
   "Ability": {
    "fileID": 0,
-   "pathID": 59932
+   "pathID": 64223
   },
   "SpeedIncrease": {
    "Base": {
@@ -6004,24 +6773,25 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Sacred Orbs Apply Static",
-  "_pathid": 60791,
+  "_pathid": 65133,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityApplyStatus",
   "Ability": {
    "fileID": 0,
-   "pathID": 59932
+   "pathID": 64223
   },
   "Tag": 9999,
   "Target": 0,
   "RequireDirectHit": false,
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60586
+   "pathID": 64917
   },
   "ScaleStatusByPoints": false,
   "Chance": {
@@ -6046,7 +6816,8 @@
    "Name": "chance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "StacksPerCast": {
    "Base": {
@@ -6070,12 +6841,13 @@
    "Name": "stacks",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Special Casts Store Strong Damage",
-  "_pathid": 60792,
+  "_pathid": 65134,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_CastSequenceDamage",
   "CountTag": 2,
@@ -6105,22 +6877,24 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "CastsToken": {
    "Name": "casts",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "ChargeStatus": {
    "fileID": 0,
-   "pathID": 60590
+   "pathID": 64921
   }
  },
  {
   "_name": "Spirit Stream Damage Reduction",
-  "_pathid": 60793,
+  "_pathid": 65135,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_CritTriggerEffect",
   "_managedRefs": {
@@ -6145,7 +6919,7 @@
      ],
      "StatusEffect": {
       "fileID": 0,
-      "pathID": 60592
+      "pathID": 64923
      },
      "Chance": {
       "Base": {
@@ -6172,9 +6946,10 @@
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 385
+     "__end__": 393
     }
    ]
   },
@@ -6182,7 +6957,7 @@
   "DirectHitsOnly": false,
   "Ability": {
    "fileID": 0,
-   "pathID": 59933
+   "pathID": 64224
   },
   "Tag": 9999,
   "NearbyEnemyRadius": 0.0,
@@ -6213,17 +6988,18 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Spirit Twin Duration Increase",
-  "_pathid": 60794,
+  "_pathid": 65136,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59935
+   "pathID": 64226
   },
   "Tag": 9999,
   "Stat": 10,
@@ -6249,12 +7025,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Static Stack Lightning Strike",
-  "_pathid": 60795,
+  "_pathid": 65137,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusStackTriggerEffect",
   "_managedRefs": {
@@ -6269,11 +7046,11 @@
      "__asm__": "Assembly-CSharp",
      "ImpactVFXPrefab": {
       "fileID": 0,
-      "pathID": 19109
+      "pathID": 20242
      },
      "ImpactSFX": {
       "fileID": 0,
-      "pathID": 4916
+      "pathID": 5057
      },
      "ImpactSFXVolume": [
       1.0,
@@ -6304,21 +7081,24 @@
      },
      "CanCrit": true,
      "IsDirect": true,
+     "SuppressTargetHitVFX": false,
      "DamageType": 3,
      "MoveStutter": 0.0,
      "AttackScalingToken": {
       "Name": "damage",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "BaseDamageToken": {
       "Name": "",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 353
+     "__end__": 365
     }
    ]
   },
@@ -6326,7 +7106,7 @@
   "Tag": 10,
   "RequiredStatus": {
    "fileID": 0,
-   "pathID": 60586
+   "pathID": 64917
   },
   "RequiredStacks": 5,
   "TriggeredEffects": [
@@ -6339,7 +7119,7 @@
  },
  {
   "_name": "Strong Attack Crit Damage Increase",
-  "_pathid": 60796,
+  "_pathid": 65138,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -6367,12 +7147,13 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Third Basic Attack Damage",
-  "_pathid": 60797,
+  "_pathid": 65139,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_CastSequenceDamage",
   "CountTag": 0,
@@ -6402,24 +7183,26 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "CastsToken": {
    "Name": "casts",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "ChargeStatus": null
  },
  {
   "_name": "Whirlwind Staff Knockback",
-  "_pathid": 60798,
+  "_pathid": 65140,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityKnockback",
   "Ability": {
    "fileID": 0,
-   "pathID": 59930
+   "pathID": 64221
   },
   "Tag": 9999,
   "Chance": {
@@ -6444,7 +7227,8 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "Distance": {
    "Base": {
@@ -6468,12 +7252,13 @@
    "Name": "value",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Basic Attack Gain Attack Speed Buff",
-  "_pathid": 60886,
+  "_pathid": 65228,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_CritTriggerEffect",
   "_managedRefs": {
@@ -6498,7 +7283,7 @@
      ],
      "StatusEffect": {
       "fileID": 0,
-      "pathID": 60597
+      "pathID": 64928
      },
      "Chance": {
       "Base": {
@@ -6525,9 +7310,10 @@
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 389
+     "__end__": 397
     }
    ]
   },
@@ -6563,12 +7349,13 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Basic Attack Stun",
-  "_pathid": 60887,
+  "_pathid": 65229,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityApplyStatus",
   "Ability": null,
@@ -6577,7 +7364,7 @@
   "RequireDirectHit": false,
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60587
+   "pathID": 64918
   },
   "ScaleStatusByPoints": false,
   "Chance": {
@@ -6602,7 +7389,8 @@
    "Name": "stunChance",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "StacksPerCast": {
    "Base": {
@@ -6626,49 +7414,13 @@
    "Name": "",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
-  }
- },
- {
-  "_name": "Bleed Death Burst",
-  "_pathid": 60888,
-  "_file": "sharedassets0.assets",
-  "_class": "TalentEffect_BleedDeathBurst",
-  "DamageFraction": {
-   "Base": {
-    "__type__": "ObscuredFloat",
-    "hash": -649440399,
-    "hiddenValue": 2006683465,
-    "cryptoKey": 1234567891,
-    "value": 0.15000000596046448,
-    "__tail__": "00000000000000000000000000000000"
-   },
-   "PerLevel": {
-    "__type__": "ObscuredFloat",
-    "hash": -649440399,
-    "hiddenValue": 2006683465,
-    "cryptoKey": 1234567891,
-    "value": 0.15000000596046448,
-    "__tail__": "00000000000000000000000000000000"
-   }
-  },
-  "Radius": 3.0,
-  "DamageFractionToken": {
-   "Name": "value",
-   "Format": "0%",
-   "Suffix": "",
-   "Highlight": true
-  },
-  "RadiusToken": {
-   "Name": "radius",
-   "Format": "0.#",
-   "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Bleed Execute",
-  "_pathid": 60889,
+  "_pathid": 65230,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityExecute",
   "Ability": null,
@@ -6695,19 +7447,21 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "HealthThreshold": 0.3,
   "HealthThresholdToken": {
    "Name": "threshold",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Bleed Kill Gain Bloodlust",
-  "_pathid": 60890,
+  "_pathid": 65231,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_OnKillTriggerEffect",
   "_managedRefs": {
@@ -6732,7 +7486,7 @@
      ],
      "StatusEffect": {
       "fileID": 0,
-      "pathID": 60599
+      "pathID": 64930
      },
      "Chance": {
       "Base": {
@@ -6759,17 +7513,19 @@
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 509
+     "__end__": 525
     }
    ]
   },
+  "Source": 0,
   "Ability": null,
   "Tag": 5,
   "RequiredVictimStatus": {
    "fileID": 0,
-   "pathID": 60528
+   "pathID": 64857
   },
   "Target": 1,
   "Radius": {
@@ -6829,39 +7585,42 @@
    "Name": "",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "ChanceToken": {
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Charged And Ready",
-  "_pathid": 60891,
+  "_pathid": 65232,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityHitStackBuff",
   "Tag": 0,
   "StackStatus": {
    "fileID": 0,
-   "pathID": 60602
+   "pathID": 64933
   },
   "BuffStatus": {
    "fileID": 0,
-   "pathID": 60601
+   "pathID": 64932
   },
   "StacksToken": {
    "Name": "stacks",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Counterattack Storm",
-  "_pathid": 60892,
+  "_pathid": 65233,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_HitsTakenTriggerEffect",
   "_managedRefs": {
@@ -6905,21 +7664,24 @@
      },
      "CanCrit": true,
      "IsDirect": true,
+     "SuppressTargetHitVFX": false,
      "DamageType": 0,
      "MoveStutter": 0.0,
      "AttackScalingToken": {
       "Name": "damage",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "BaseDamageToken": {
       "Name": "",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 521
+     "__end__": 545
     }
    ]
   },
@@ -6967,23 +7729,26 @@
    "Name": "hits",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "ProcChanceToken": {
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "RadiusToken": {
    "Name": "radius",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "CastVFXPrefab": {
    "fileID": 0,
-   "pathID": 20611
+   "pathID": 21910
   },
   "CastVFXScale": [
    1.0,
@@ -6992,7 +7757,7 @@
   ],
   "CastSFX": {
    "fileID": 0,
-   "pathID": 4980
+   "pathID": 5123
   },
   "TriggeredEffects": [
    {
@@ -7002,7 +7767,7 @@
  },
  {
   "_name": "Crit Apply Vulnerable",
-  "_pathid": 60893,
+  "_pathid": 65234,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_CritTriggerEffect",
   "_managedRefs": {
@@ -7027,7 +7792,7 @@
      ],
      "StatusEffect": {
       "fileID": 0,
-      "pathID": 60598
+      "pathID": 64929
      },
      "Chance": {
       "Base": {
@@ -7054,9 +7819,10 @@
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 377
+     "__end__": 385
     }
    ]
   },
@@ -7092,23 +7858,24 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Enable Thorn Crit",
-  "_pathid": 60894,
+  "_pathid": 65235,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ThornsCanCrit"
  },
  {
   "_name": "Enhance Rage Shout Buff",
-  "_pathid": 60895,
+  "_pathid": 65236,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatusPotency",
   "Status": {
    "fileID": 0,
-   "pathID": 60607
+   "pathID": 64938
   },
   "PotencyBonus": {
    "Base": {
@@ -7164,38 +7931,74 @@
     "__tail__": "00000000000000000000000000000000"
    }
   },
+  "TickSpeedBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1622338777,
+    "cryptoKey": 1626125017,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1075367718,
+    "cryptoKey": 1087313958,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "TickSpeedToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "MaxStacksBonus": 0,
+  "MaxStacksToken": {
+   "Name": "",
+   "Format": "0",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
   "PotencyToken": {
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "DurationToken": {
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "FlatDurationToken": {
    "Name": "duration",
    "Format": "0.#",
    "Suffix": "s",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Flame Strike Splash",
-  "_pathid": 60896,
+  "_pathid": 65237,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityTriggerAbility",
   "Ability": {
    "fileID": 0,
-   "pathID": 59957
+   "pathID": 64248
   },
   "Tag": 9999,
   "TriggeredAbility": {
    "fileID": 0,
-   "pathID": 59956
+   "pathID": 64247
   },
   "UseTalentLevel": true,
   "Chance": {
@@ -7220,12 +8023,13 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Focused Technique Damage",
-  "_pathid": 60897,
+  "_pathid": 65238,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -7253,12 +8057,13 @@
    "Name": "damage",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Focused Technique Mana Gain",
-  "_pathid": 60898,
+  "_pathid": 65239,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -7286,12 +8091,13 @@
    "Name": "manaGain",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Half Moon Slash Kill Restore Mana",
-  "_pathid": 60899,
+  "_pathid": 65240,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_OnKillTriggerEffect",
   "_managedRefs": {
@@ -7357,27 +8163,31 @@
       "Name": "",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "PercentMaxManaToken": {
       "Name": "mana",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "StatScalingToken": {
       "Name": "",
       "Format": "0.##",
       "Suffix": "x",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 601
+     "__end__": 625
     }
    ]
   },
+  "Source": 0,
   "Ability": {
    "fileID": 0,
-   "pathID": 59958
+   "pathID": 64249
   },
   "Tag": 9999,
   "RequiredVictimStatus": null,
@@ -7439,18 +8249,20 @@
    "Name": "",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "ChanceToken": {
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Healthy All Damage",
-  "_pathid": 60900,
+  "_pathid": 65241,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalStat",
   "Condition": 1,
@@ -7482,7 +8294,8 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -7510,7 +8323,8 @@
      "Name": "",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -7538,7 +8352,8 @@
      "Name": "",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -7566,7 +8381,8 @@
      "Name": "",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -7594,7 +8410,8 @@
      "Name": "",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    },
    {
@@ -7622,14 +8439,15 @@
      "Name": "",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Increase Blood Skill Damage",
-  "_pathid": 60901,
+  "_pathid": 65242,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -7657,17 +8475,19 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Damage On Bloodlust",
-  "_pathid": 60902,
+  "_pathid": 65243,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalBonusDamage",
+  "Condition": 5,
   "RequiredStatus": {
    "fileID": 0,
-   "pathID": 60599
+   "pathID": 64930
   },
   "Ability": null,
   "Tag": 9999,
@@ -7694,18 +8514,17 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Damage On Stunned",
-  "_pathid": 60903,
+  "_pathid": 65244,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalBonusDamage",
-  "RequiredStatus": {
-   "fileID": 0,
-   "pathID": 60587
-  },
+  "Condition": 1,
+  "RequiredStatus": null,
   "Ability": null,
   "Tag": 9999,
   "RequireOnSelf": false,
@@ -7731,17 +8550,18 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Half Moon Slash Damage",
-  "_pathid": 60904,
+  "_pathid": 65245,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59958
+   "pathID": 64249
   },
   "Tag": 9999,
   "Stat": 2,
@@ -7767,12 +8587,13 @@
    "Name": "damage",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Strong Attack Damage",
-  "_pathid": 60905,
+  "_pathid": 65246,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -7800,12 +8621,13 @@
    "Name": "strongAttackDamage",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Strong Attack Mana Cost",
-  "_pathid": 60906,
+  "_pathid": 65247,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -7833,17 +8655,18 @@
    "Name": "strongAttackManaCost",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Valiant Strike Mana Gain",
-  "_pathid": 60907,
+  "_pathid": 65248,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59952
+   "pathID": 64243
   },
   "Tag": 9999,
   "Stat": 3,
@@ -7869,17 +8692,18 @@
    "Name": "value",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Increase Valiant Strike Vulnerable Chance",
-  "_pathid": 60908,
+  "_pathid": 65249,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59952
+   "pathID": 64243
   },
   "Tag": 9999,
   "Stat": 7,
@@ -7905,30 +8729,32 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Inner Furnace Upkeep",
-  "_pathid": 60909,
+  "_pathid": 65250,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ManaUpkeepStatus",
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60603
+   "pathID": 64934
   },
-  "MaxManaPercent": 0.009999999776482582,
+  "MaxManaPercent": 0.029999999329447746,
   "Interval": 1.0,
   "MaxManaPercentToken": {
    "Name": "mana",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Low HP Heal",
-  "_pathid": 60910,
+  "_pathid": 65251,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_LowHPHeal",
   "HealPercent": {
@@ -7953,14 +8779,15 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "HPThreshold": 0.5,
   "Cooldown": 6.0
  },
  {
   "_name": "Max HP To Thorns",
-  "_pathid": 60911,
+  "_pathid": 65252,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_StatConversion",
   "SourceStat": 7,
@@ -7987,13 +8814,14 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "RequiredStatus": null
  },
  {
   "_name": "Rage Return Mana",
-  "_pathid": 60912,
+  "_pathid": 65253,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_HitsTakenTriggerEffect",
   "_managedRefs": {
@@ -8059,21 +8887,24 @@
       "Name": "",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "PercentMaxManaToken": {
       "Name": "mana",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "StatScalingToken": {
       "Name": "",
       "Format": "0.##",
       "Suffix": "x",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 573
+     "__end__": 597
     }
    ]
   },
@@ -8121,19 +8952,22 @@
    "Name": "",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "ProcChanceToken": {
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "RadiusToken": {
    "Name": "",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "CastVFXPrefab": null,
   "CastVFXScale": [
@@ -8150,7 +8984,7 @@
  },
  {
   "_name": "Rage Shield Gain Mana",
-  "_pathid": 60913,
+  "_pathid": 65254,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_CritTriggerEffect",
   "_managedRefs": {
@@ -8216,21 +9050,24 @@
       "Name": "value",
       "Format": "0",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "PercentMaxManaToken": {
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
      "StatScalingToken": {
       "Name": "",
       "Format": "0.##",
       "Suffix": "x",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 465
+     "__end__": 481
     }
    ]
   },
@@ -8238,7 +9075,7 @@
   "DirectHitsOnly": false,
   "Ability": {
    "fileID": 0,
-   "pathID": 59961
+   "pathID": 64252
   },
   "Tag": 9999,
   "NearbyEnemyRadius": 0.0,
@@ -8269,12 +9106,13 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Reduce Strong Attack Mana Cost",
-  "_pathid": 60914,
+  "_pathid": 65255,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -8302,12 +9140,13 @@
    "Name": "value",
    "Format": "0%;0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Reduce Warcry Cooldown",
-  "_pathid": 60915,
+  "_pathid": 65256,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": null,
@@ -8335,17 +9174,18 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Rending Onslaught Extra Cuts",
-  "_pathid": 60916,
+  "_pathid": 65257,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59960
+   "pathID": 64251
   },
   "Tag": 9999,
   "Stat": 9,
@@ -8371,21 +9211,22 @@
    "Name": "value",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Steady Blow Grants Shield",
-  "_pathid": 60917,
+  "_pathid": 65258,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityApplyStatus",
   "Ability": null,
   "Tag": 0,
   "Target": 1,
-  "RequireDirectHit": true,
+  "RequireDirectHit": false,
   "StatusEffect": {
    "fileID": 0,
-   "pathID": 60605
+   "pathID": 64936
   },
   "ScaleStatusByPoints": false,
   "Chance": {
@@ -8410,7 +9251,8 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "StacksPerCast": {
    "Base": {
@@ -8434,12 +9276,131 @@
    "Name": "",
    "Format": "0",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
+  }
+ },
+ {
+  "_name": "Stronger Bleeding",
+  "_pathid": 65259,
+  "_file": "sharedassets0.assets",
+  "_class": "TalentEffect_StatusPotency",
+  "Status": {
+   "fileID": 0,
+   "pathID": 64857
+  },
+  "PotencyBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 1573529835,
+    "hiddenValue": 1169753622,
+    "cryptoKey": 2026534363,
+    "value": 0.10000000149011612,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 1573529835,
+    "hiddenValue": 1330291653,
+    "cryptoKey": 1919911432,
+    "value": 0.10000000149011612,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "DurationBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1895748490,
+    "cryptoKey": 1892941450,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1583563505,
+    "cryptoKey": 1581409265,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "FlatDurationBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1658455747,
+    "cryptoKey": 1644616387,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1496865780,
+    "cryptoKey": 1499150580,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "TickSpeedBonus": {
+   "Base": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1822869491,
+    "cryptoKey": 1825023731,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   },
+   "PerLevel": {
+    "__type__": "ObscuredFloat",
+    "hash": 723851361,
+    "hiddenValue": 1479265870,
+    "cryptoKey": 1489906510,
+    "value": 0.0,
+    "__tail__": "00000000000000000000000000000000"
+   }
+  },
+  "TickSpeedToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "MaxStacksBonus": 0,
+  "MaxStacksToken": {
+   "Name": "",
+   "Format": "0",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "PotencyToken": {
+   "Name": "value",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "DurationToken": {
+   "Name": "",
+   "Format": "0%",
+   "Suffix": "",
+   "Highlight": true,
+   "Floor": false
+  },
+  "FlatDurationToken": {
+   "Name": "",
+   "Format": "0.#",
+   "Suffix": "s",
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Surrounded Damage Reduction",
-  "_pathid": 60918,
+  "_pathid": 65260,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalStat",
   "Condition": 5,
@@ -8471,14 +9432,15 @@
      "Name": "value",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
  },
  {
   "_name": "Warcry Demoralize",
-  "_pathid": 60919,
+  "_pathid": 65261,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_CritTriggerEffect",
   "_managedRefs": {
@@ -8503,7 +9465,7 @@
      ],
      "StatusEffect": {
       "fileID": 0,
-      "pathID": 60596
+      "pathID": 64927
      },
      "Chance": {
       "Base": {
@@ -8530,9 +9492,10 @@
       "Name": "",
       "Format": "0%",
       "Suffix": "",
-      "Highlight": true
+      "Highlight": true,
+      "Floor": false
      },
-     "__end__": 373
+     "__end__": 381
     }
    ]
   },
@@ -8568,12 +9531,13 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Warcry Reset Special Cooldowns",
-  "_pathid": 60920,
+  "_pathid": 65262,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_TriggerAbilityCooldownReduction",
   "Source": 0,
@@ -8604,7 +9568,8 @@
    "Name": "value",
    "Format": "0.#",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   },
   "ProcChance": {
    "Base": {
@@ -8628,17 +9593,18 @@
    "Name": "",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Whirlwind Channel Speed",
-  "_pathid": 60921,
+  "_pathid": 65263,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_AbilityModifier",
   "Ability": {
    "fileID": 0,
-   "pathID": 59959
+   "pathID": 64250
   },
   "Tag": 9999,
   "Stat": 8,
@@ -8664,18 +9630,19 @@
    "Name": "value",
    "Format": "0%",
    "Suffix": "",
-   "Highlight": true
+   "Highlight": true,
+   "Floor": false
   }
  },
  {
   "_name": "Whirlwind Movement Speed",
-  "_pathid": 60922,
+  "_pathid": 65264,
   "_file": "sharedassets0.assets",
   "_class": "TalentEffect_ConditionalStat",
   "Condition": -1,
   "ChannelingAbility": {
    "fileID": 0,
-   "pathID": 59959
+   "pathID": 64250
   },
   "Radius": 6.0,
   "Modifiers": [
@@ -8704,7 +9671,8 @@
      "Name": "movement",
      "Format": "0%",
      "Suffix": "",
-     "Highlight": true
+     "Highlight": true,
+     "Floor": false
     }
    }
   ]
