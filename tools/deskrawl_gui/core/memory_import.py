@@ -135,7 +135,10 @@ class SnapshotBuilder:
 
     def _read_stat_dict(self, d, label):
         """Dictionary<StatType, ObscuredDouble>：键 i32@+8，值 ObscuredDouble@+0x10（0x28）。"""
-        entries, _free = self.il.dict_entries(d, self.off['entry_steps']['stat_double'])
+        try:
+            entries, _free = self.il.dict_entries(d, self.off['entry_steps']['stat_double'])
+        except MemoryReadError as e:
+            raise MemoryReadError(f'字典 {label} 读取失败：{e}') from e
         kv = {}
         for e in entries:
             key = self.il.dict_entry_key_i32(e)
@@ -152,7 +155,10 @@ class SnapshotBuilder:
         （dump.cs 两版均为 `double`），与面板字典（ObscuredDouble，步长 0x38）不同。照
         ObscuredDouble 解会在 buff 层非空时解出 nan（活体 buff 一旦存在即暴露）。
         """
-        entries, _free = self.il.dict_entries(d, self.off['entry_steps']['stat_plain_double'])
+        try:
+            entries, _free = self.il.dict_entries(d, self.off['entry_steps']['stat_plain_double'])
+        except MemoryReadError as e:
+            raise MemoryReadError(f'字典 {label} 读取失败：{e}') from e
         kv = {}
         for e in entries:
             key = self.il.dict_entry_key_i32(e)
@@ -279,10 +285,13 @@ class SnapshotBuilder:
         if not self.em or not self.uid2gid:
             return None
         eo = self.off['equipment_manager']
-        qz, _ = self.il.dict_entries(self.pr.u64(self.em + eo['slot_item']),
-                                     self.off['entry_steps']['ptr'])
-        ra, _ = self.il.dict_entries(self.pr.u64(self.em + eo['slot_uid']),
-                                     self.off['entry_steps']['ptr'])
+        try:
+            qz, _ = self.il.dict_entries(self.pr.u64(self.em + eo['slot_item']),
+                                         self.off['entry_steps']['ptr'])
+            ra, _ = self.il.dict_entries(self.pr.u64(self.em + eo['slot_uid']),
+                                         self.off['entry_steps']['ptr'])
+        except MemoryReadError as e:
+            raise MemoryReadError(f'装备槽字典读取失败：{e}') from e
         item_by_slot = {self.il.dict_entry_key_i32(e): self.il.dict_entry_value(e) for e in qz}
         uid_by_slot = {self.il.dict_entry_key_i32(e):
                        self.il.wstr(self.il.dict_entry_value(e)) for e in ra}
@@ -743,6 +752,10 @@ def import_snapshot(double_read=True) -> SnapshotResult:
                                 '。请重新导出 schema/so_dump 并更新 memory_offsets.json 后重试',
                                 'version', code='fingerprint')
     pid = ProcessReader.find_process(off['process_name'])
+    if not pid:
+        # 受保护/提权的游戏可能不出现在 Toolhelp 快照里，但 WMI 仍能查到 PID；
+        # 这时继续走打开流程，让 err=5 如实落到「权限不足」而不是误报「游戏未运行」。
+        pid = ProcessReader.find_process_wmi(off['process_name'])
     if not pid:
         raise MemoryImportError(f'未找到 {off["process_name"]} 进程——请先启动游戏并进入角色',
                                 'env', code='no_process')

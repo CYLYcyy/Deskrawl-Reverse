@@ -49,8 +49,8 @@ def _gem_category(equip_slot_type) -> int:
 def _panel_finals(payload: dict) -> dict:
     """游戏面板最终值 {stat: final}（build_panel 复算，与「属性」页逐行一致）。
 
-    基座必须用面板最终值而非 nsq 单字典：nsq 只是平坦层的一部分，其余值散在 nsu/ntc/nte/nsr
-    字典、BasePrimaryStat 基础字段与条件表里。实测（2026-10-10 ExampleHeroB，武器 A/B 两轮）：若拿 nsq
+    基座必须用面板最终值而非 nsq 单字典：nsq 只是平坦层的一部分，其余值散在 nsu/ntc/nte
+    字典、nsv/ntd/nsr 百分比层、BasePrimaryStat 基础字段与条件表里。实测（2026-10-10 ExampleHeroB，武器 A/B 两轮）：若拿 nsq
     当基座，暴伤少 230%、暴击率少 15%、物理伤害少 75%、对易伤少 80%、全伤害少 75%（且与武器无关），
     旋风斩单跳因此系统性偏低数倍。
     """
@@ -86,8 +86,8 @@ def _rune_items(player, gd, warns) -> list:
 def _align_primary_stat(prof, payload, gd):
     """把职业主属性键位的 base 对准游戏面板口径（bjr 伤害公式读 Final(主属性)＝bjd 复合值）。
 
-    nsq 只是聚合字典层；面板在其上还叠加 nsu/ntc/nte/nsr 平坦字典与 BasePrimaryStat 基础字段
-    （本构建实测 377+50+14+10=451）。差值除以该键位 (%) 因子后并入 base，使
+    nsq 只是聚合字典层；面板在其上还叠加 nsu/ntc/nte 平坦字典、nsv/ntd/nsr 百分比层与
+    BasePrimaryStat 基础字段（1.0.3 实测 377+50+14+10=451）。差值除以该键位 (%) 因子后并入 base，使
     sheet.final(主属性) ≡ 面板值——DPS 的主属性加成因此与游戏 tooltip「当前提升 451% 伤害」
     一致，且编辑仍按 +1%/点 生效（游戏公式本征斜率，编辑路径不受对齐影响）。
     """

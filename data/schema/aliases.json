@@ -582,10 +582,10 @@
       ]
     },
     "Player.ConversionSum": {
-      "说明": "属性换算求和：对 (SourceStat, TargetStat, Fraction, RequiredStatus) 列表里 TargetStat==入参 的条目累加 Final(SourceStat)×Fraction（带 RequiredStatus 的按状态门控、HashSet 防递归链）；PanelStat 对 +0x318/+0x350 两个列表各调一次并相加，结果进平坦层",
+      "说明": "属性换算求和：对 (SourceStat, TargetStat, Fraction, RequiredStatus) 列表里 TargetStat==入参 的条目累加 Final(SourceStat)×Fraction（带 RequiredStatus 的按状态门控、HashSet 防递归链）；1.0.4 PanelStat 对 +0x328/+0x370 两个列表各调一次并相加，结果进平坦层",
       "slot": null,
       "signature": "private double <m>(StatType a, List<ValueTuple<StatType, StatType, double, StatusEffectData>> conversions) { }",
-      "锚定依据": "全 dump 唯一「(StatType, List<ValueTuple<StatType,StatType,double,StatusEffectData>>)→double」签名；Player.PanelStat 内两处调用（+0x318/+0x350）",
+      "锚定依据": "全 dump 唯一「(StatType, List<ValueTuple<StatType,StatType,double,StatusEffectData>>)→double」签名；Player.PanelStat 内两处调用（+0x328/+0x370）",
       "current": {
         "klass": "Player",
         "name": "fvx",
@@ -643,7 +643,7 @@
       "说明": "条件属性表的取值函数（输入为 Player.conditional_mods 两张表）",
       "slot": null,
       "signature": "private double <m>(StatType a, ModifierType b) { }",
-      "锚定依据": "REA 反编译 FUN_1804fac90 实证：访问 Player +0x358/+0x360（= nuf/nug 两张条件属性表，见 memory_offsets.json），同签名兄弟 fdn 两个偏移都不访问",
+      "锚定依据": "当期 fvj@0x550610 反汇编实证：访问 Player +0x3A8/+0x3B0（= nuf/nug 两张条件属性表，见 memory_offsets.json；旧 +0x358/+0x360 属 1.0.3）",
       "current": {
         "klass": "Player",
         "name": "fvj",

@@ -203,10 +203,12 @@ cd tools
 ### 3. 从游戏内存导入角色（可选，游戏需运行中）
 
 GUI 右上「从游戏导入」按钮（或菜单「数据导入」）：只读快照联机角色（装备逐件词条、面板、背包武器），
-导入后自动翻译装备简中名并保留你的口径设置。命令行快照：
+导入后自动翻译装备简中名并保留你的口径设置。**游戏若以管理员身份运行，本工具也必须以管理员身份启动**，
+否则会报「权限不足」或「未找到游戏进程」。请用管理员 PowerShell 启动：
 
 ```powershell
 cd D:\workspace\Deskrawl-Reverse\tools
+..\.venv-gui\Scripts\python.exe -m deskrawl_gui              # 与游戏同权限的 GUI
 ..\.venv-gui\Scripts\python.exe -m deskrawl_gui.memdump --json   # 结构化快照
 ```
 

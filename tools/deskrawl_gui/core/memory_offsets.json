@@ -1,5 +1,5 @@
 {
-  "$comment": "Deskrawl 运行时内存导入偏移表。RVA 相对 GameAssembly.dll；实例字段偏移为 P1 spike 活体实测（2026-10-07，PID 28336，ExampleHeroB Lv70），并于 2026-10-10 补丁后经新构建 dump.cs 逐字段复核（偏移未变，仅字段改名）。2026-10-10 补丁（GameAssembly d46f0a32…）：方法 RVA 按「同名签名」在新 dump 中重算，指纹同步更新；注释里出现的旧方法名见 docs/08 §12.3 映射表。2026-10-13 补丁 1.0.2b（GameAssembly f8221364…）：方法 RVA 按「签名+Slot」重算（docs/08 §13），实例字段偏移复核未变。2026-10-16 补丁 1.0.3（GameAssembly f23ae23f…）：方法 RVA 按「类+签名+Slot」重算（docs/08 §14），实例字段偏移基本不变、惟 StatusEffectController 三字典随新增字段整体 +8（flat/pct/mult = 0x40/0x48/0x50），混淆类 gj→gm（物品生成）、hh→hk（巅峰）。游戏更新后应重跑 tools/scripts/mem_probe.py 全量再生本表。",
+  "$comment": "Deskrawl 运行时内存导入偏移表。RVA 相对 GameAssembly.dll；实例字段偏移为 P1 spike 活体实测（2026-10-07，PID 28336，ExampleHeroB Lv70），并于 2026-10-10 补丁后经新构建 dump.cs 逐字段复核（偏移未变，仅字段改名）。2026-10-10 补丁（GameAssembly d46f0a32…）：方法 RVA 按「同名签名」在新 dump 中重算，指纹同步更新；注释里出现的旧方法名见 docs/08 §12.3 映射表。2026-10-13 补丁 1.0.2b（GameAssembly f8221364…）：方法 RVA 按「签名+Slot」重算（docs/08 §13），实例字段偏移复核未变。2026-10-16 补丁 1.0.3（GameAssembly f23ae23f…）：方法 RVA 按「类+签名+Slot」重算（docs/08 §14），实例字段偏移基本不变、惟 StatusEffectController 三字典随新增字段整体 +8（flat/pct/mult = 0x40/0x48/0x50），混淆类 gj→gm（物品生成）、hh→hk（巅峰）。2026-11-25 补丁 1.0.4（GameAssembly de0896d9…）实机读字典报错后，按当期 dump.cs + PanelStat/条件表反汇编再次重锚 GameManager 控制器槽、Player 天赋/七字典/条件表/换算表与 ItemData.EquipSlot（详见 docs/08 §15）。游戏更新后应重跑 tools/scripts/mem_probe.py 全量再生本表。",
   "process_name": "Deskrawl.exe",
   "module": "GameAssembly.dll",
   "fingerprints": {
@@ -65,17 +65,17 @@
   },
   "generated_items": {
     "scan_rvas": [
-      "0x795720",
-      "0x7955A0",
-      "0x7954F0"
+      "0x81DE50",
+      "0x81DC80",
+      "0x81DBD0"
     ],
-    "klass": "GameConfig",
+    "klass": "gw",
     "items": "0x0",
-    "$comment": "1.0.3 补丁后：物品生成类 gj→gm（26 方法序列逐一对应，见 docs/08 §14.4），三扫描方法 dpv/dps/dpr → drc/dqz/dqy，RVA 重算 0x795720/0x7955A0/0x7954F0（10-10 版 0x784AB0/0x7848E0/0x784830；1.0.2b 版 gj 仍在、0x788980/0x788800/0x788750） 1.0.4：物品生成类 gm 并入 GameConfig（当期无独立 gm 类，GameConfig 26 方法序列承接），klass 改指 GameConfig；scan_rvas 仍是 1.0.3 实机锚点，待实机重锚。"
+    "$comment": "1.0.4 静态注册类为 gw（dump.cs TypeDefIndex 6100），静态字段 okr: Dictionary<string, GeneratedItemData>@static_fields+0x0；扫描方法 dyh@0x81DE50 / dye@0x81DC80 / dyd@0x81DBD0。旧 1.0.3 gm.drc/dqz/dqy@0x795720/0x7955A0/0x7954F0 已失效。"
   },
   "game_manager": {
-    "combat_controller": "0x40",
-    "town_controller": "0x48",
+    "combat_controller": "0x48",
+    "town_controller": "0x50",
     "hero_data": "0x38"
   },
   "hero_data": {
@@ -117,13 +117,13 @@
     "mod_per_stride": "0x14"
   },
   "talent_effect_conditional_bonus": {
-    "$comment": "天赋条件加伤（TalentEffect_ConditionalBonusDamage 的 TalentData.Effects 元素）：RequiredStatus@0x18 / Ability@0x20 / Tag@0x28 / RequireOnSelf(bool)@0x2C / BonusDamage(LeveledFloat，PerLevel=Base+0x14)@0x30。与条件暴击同源：按目标状态门控、不进面板聚合值；RequireOnSelf=True 指自身状态，静态工具无自身状态数据故跳过。",
+    "$comment": "天赋条件加伤（1.0.4 dump.cs TalentEffect_ConditionalBonusDamage）：Condition@0x18 / RequiredStatus@0x20 / Ability@0x28 / Tag@0x30 / RequireOnSelf(bool)@0x34 / BonusDamage(LeveledFloat，PerLevel=Base+0x14)@0x38。与条件暴击同源：按目标状态门控、不进面板聚合值；RequireOnSelf=True 指自身状态，静态工具无自身状态数据故跳过。",
     "klass": "TalentEffect_ConditionalBonusDamage",
-    "status": "0x18",
-    "ability": "0x20",
-    "tag": "0x28",
-    "self": "0x2c",
-    "value": "0x30"
+    "status": "0x20",
+    "ability": "0x28",
+    "tag": "0x30",
+    "self": "0x34",
+    "value": "0x38"
   },
   "talent_effect_conditional_crit": {
     "$comment": "天赋条件暴击/暴伤（TalentData.Effects 元素）。CritChance：Condition(TargetStateCondition)@0x18 / Ability@0x20 / Tag@0x28 / SpecifiedStatus@0x30 / BonusCritChance(LeveledFloat，PerLevel=Base+0x14)@0x38。CritDamage：Condition@0x18 / SpecifiedStatus@0x20 / BonusCritDamage@0x28（无 Ability/Tag 字段）。两者都不进面板聚合字典（按目标状态门控），漏读等于天赋白点；状态名只能由 profile 侧按 (Condition,Tag,有无Ability,Base,Per) 指纹反查静态表（运行时 SO 指针→名称的索引只覆盖 ItemData）。",
@@ -152,9 +152,9 @@
     "per_level_stride": "0x14"
   },
   "player_conversions": {
-    "$comment": "属性换算注册表：`Player.odd`@0x318（装备侧，EquipmentEffect_StatConversion.bzw 注册）与 `Player.odl`@0x350（天赋侧，TalentEffect_StatConversion.cjq 注册），两者类型相同、消费时被 `Player.ffq` 分别求和后一起加进平坦层。元素 = ValueTuple<StatType, StatType, double, StatusEffectData>：SourceStat@+0 / TargetStat@+4 / Fraction(double)@+8 / RequiredStatus@+0x10，**stride 0x18**（4+4+8+8 对齐）。为什么必须读内存：注册内容取决于角色当前装备与天赋点，静态表只有模板；且换算不写回聚合字典，面板复算得自己加这一层。",
-    "odd": "0x318",
-    "odl": "0x350",
+    "$comment": "属性换算注册表：1.0.4 当期 dump.cs `Player.pnc`@0x328（装备侧）与 `Player.pno`@0x370（天赋侧）；PanelStat helper @0x54fc80 两处调用 Player.ConversionSum fvx@0x5520f0 实证，旧表 +0x318/+0x350 属于 1.0.3。元素 = ValueTuple<StatType, StatType, double, StatusEffectData>：SourceStat@+0 / TargetStat@+4 / Fraction(double)@+8 / RequiredStatus@+0x10，stride 0x18。注册内容取决于当前装备与天赋点；换算不写回聚合字典，面板复算得自己加这一层。",
+    "odd": "0x328",
+    "odl": "0x370",
     "stride": "0x18",
     "source": "0x0",
     "target": "0x4",
@@ -181,21 +181,21 @@
     "base_life_on_hit": "0x1A4",
     "base_life_on_kill": "0x1B8",
     "base_cooldown_reduction": "0x1CC",
-    "talents": "0x248",
+    "talents": "0x238",
     "stat_dicts": {
-      "nsq": "0x218",
-      "nsr": "0x220",
-      "nsu": "0x238",
-      "nsv": "0x240",
+      "nsq": "0x208",
+      "nsr": "0x210",
+      "nsu": "0x228",
+      "nsv": "0x230",
       "ntc": "0x278",
       "ntd": "0x280",
       "nte": "0x288"
     },
-    "$stat_dicts_comment": "语义标注（2026-10-08 反汇编定案，RVA 见 PROGRESS）：面板 = bjd(stat) = (平坦层 × (1+百分比加算层)) × 特殊%区。平坦层 = nsq+nsu+ntc+nte+nsr 之和 + 基础字段 + far（护甲←力量、魔抗←智力） + 条件表；百分比加算层 = nsv+ntd（实测 nsv={护甲:+0.40}，护甲最终 ×1.4 实证）。nsq 本身已含装备/宝石/强化/nwo 运行时词条（逐键闭环）。强化缩放模型（2026-10-12 实机 +1/+2/+3/+4 武器 nsq[20]/[21] 逐位重定，GUI core/item_draft.apply_upgrade 同源）：每级给 2 条词条各 +5%（从 idx0 顺序推进、末尾绕回；即前 2L 槽位各吃一次 +5%，2L>词条数时溢出部分绕回使早期词条吃两次 = +10%，L=4 的 7 词条武器 [21](idx0) 即 ×1.10）；[20]/[21] 无特例——旧描述「词条数组前 2×UpgradeLevel 条 ×1.05；WeaponDamage(20) ×(1+0.0125L)、WeaponSpeed(21) ×(1+0.025L)」已证伪。【2026-10-10 补丁改名】nsq→nyx、nsr→nyy、nsu→nzb、nsv→nzc、ntc→nzj、ntd→nzk、nte→nzl（偏移不变，新 dump 逐字段核对）。",
+    "$stat_dicts_comment": "语义标注：面板 = (平坦层 × (1+百分比加算层)) × 特殊%区。1.0.4 当期 dump.cs Player 字段：plr@0x208 / pls@0x210 / plv@0x228 / plw@0x230 / pmf@0x278 / pmg@0x280 / pmh@0x288；旧 0x218/0x220/0x238/0x240 已被 AbilityTag 字典、AbilityData 字典、TalentData 字典、List<EquipmentEffectBehavior> 占用（2026-11-25 实机报对象类名 List of EquipmentEffectBehavior 后重锚）。语义映射 nsq→plr、nsr→pls、nsu→plv、nsv→plw、ntc/ntd/nte 不变。Player.PanelStat helper @0x54fc80 指令实证：平坦层读 0x208/0x228/0x278/0x288，百分比加算层读 0x210/0x230/0x280；calc_service 已按当期公式把 nsr 归入百分比层。强化缩放模型（2026-10-12 实机 +1/+2/+3/+4 武器 nsq[20]/[21] 逐位重定）：每级给 2 条词条各 +5%（从 idx0 顺序推进、末尾绕回），[20]/[21] 无特例。",
     "conditional_mods": {
-      "$comment": "条件属性表（fat/0x4F6720 的输入）nuf/nug：ValueTuple 内联 0x20 步长；nuf=(cond,radius,stat,type,value,ability) 字段 @0,4,8,12,16(d),24(p)；nug=(cond,pad,status,stat,type,value) @0,8,16,20,24(d)。cond 枚举 Injured=0/Healthy=1/NoNearbyEnemies=2/OutOfCombat=3/SingleEnemyInCombat=4/Surrounded=5/None=-1；Healthy=血>0.8、Injured=血<0.3（fgp/0x506060 实证），血比例=当前血[lss@0x118]/面板生命。",
-      "nuf": "0x358",
-      "nug": "0x360",
+      "$comment": "条件属性表（当期 Player.ConditionalModValue fvj@0x550610 的输入；反汇编实证 +0x3A8/+0x3B0，旧表 +0x358/+0x360 属于 1.0.3）。ValueTuple 内联 0x20 步长；nuf=(cond,radius,stat,type,value,ability) 字段 @0,4,8,12,16(d),24(p)；nug=(cond,pad,status,stat,type,value) @0,8,16,20,24(d)。cond 枚举 Injured=0/Healthy=1/NoNearbyEnemies=2/OutOfCombat=3/SingleEnemyInCombat=4/Surrounded=5/None=-1；Healthy=血>0.8、Injured=血<0.3。",
+      "nuf": "0x3A8",
+      "nug": "0x3B0",
       "tuple_stride": "0x20"
     },
     "status_controller": {
@@ -241,7 +241,7 @@
     "klass": "ItemData",
     "type": "0x20",
     "rarity": "0x24",
-    "equip_slot": "0x90"
+    "equip_slot": "0xA8"
   },
   "generated_item_klass": "GeneratedItemData",
   "entry_steps": {
@@ -250,10 +250,11 @@
     "ptr": "0x18"
   },
   "paragon": {
-    "$comment": "巅峰点数分配（2026-10-10 活体实测，2026-10-16 1.0.3 重锚定）。静态管理器（dump.cs hk，1.0.3 由 hh 改名；26 方法序列逐一对应，混淆名不校验）static_fields +0x40 = Dictionary<StatType,int>（1.0.3 eaa(StatType)@0x7B4850 反汇编定位，旧 dys@0x7A7BA0）。条目 stride 0x10：hashCode@0/next@4/key(StatType id)@8/value(点数)@C，数据区 @+0x20。定位走锚点方法用法槽 + 容器形状/值域双校验（类名每版混淆不可用）。读「当前角色」运行时分配；云端槽位 rec_profile 只是 GUID。",
+    "$comment": "巅峰点数分配：1.0.4 静态管理器为 dump.cs ij（TypeDefIndex 6162），static_fields +0x40 = Dictionary<StatType,int> osp；锚点 ekr(StatType)@0x4ED180 / ekq()@0x4ECF40 / eko()@0x4ECE20。旧 1.0.3 hk 类锚点 0x7B4610/0x7B5E50 已失效。条目 stride 0x10：hashCode@0/next@4/key@8/value@C，数据区 @+0x20。定位走锚点方法用法槽 + 容器形状/值域双校验。",
     "anchor_rvas": [
-      "0x7B4610",
-      "0x7B5E50"
+      "0x4ED180",
+      "0x4ECF40",
+      "0x4ECE20"
     ],
     "static_dict": "0x40",
     "entries": "0x18",

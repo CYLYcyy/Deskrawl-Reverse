@@ -16,6 +16,7 @@ from __future__ import annotations
 import ctypes
 import os
 import struct
+import subprocess
 from ctypes import wintypes
 
 # 只读句柄：PROCESS_QUERY_INFORMATION | PROCESS_VM_READ
@@ -131,6 +132,22 @@ class ProcessReader:
         return os.path.basename(buf.value)
 
     @staticmethod
+    def _pid_if_name_matches(pid, name):
+        """用 QUERY_LIMITED_INFORMATION 验证 PID 仍指向 name，防 PID 复用导致读错进程。"""
+        h = _k32.OpenProcess(0x1000, False, pid)
+        if not h:
+            return None
+        try:
+            buf = ctypes.create_unicode_buffer(260)
+            size = wintypes.DWORD(260)
+            if _k32.QueryFullProcessImageNameW(h, 0, buf, ctypes.byref(size)):
+                if os.path.basename(buf.value).lower() == str(name).lower():
+                    return pid
+        finally:
+            _k32.CloseHandle(h)
+        return None
+
+    @staticmethod
     def find_process(name):
         """Toolhelp 快照按文件名找 PID；只枚举进程，不触碰目标内存。"""
         class PROCESSENTRY32W(ctypes.Structure):
@@ -159,18 +176,35 @@ class ProcessReader:
         # 并用「进程名必须与 name 一致」自证，避免 PID 复用导致读错进程。
         raw = os.environ.get('DESKRAWL_PID')
         if raw and str(raw).isdigit():
-            cand = int(raw)
-            h = _k32.OpenProcess(0x1000, False, cand)  # QUERY_LIMITED_INFORMATION
-            if h:
-                try:
-                    buf = ctypes.create_unicode_buffer(260)
-                    size = wintypes.DWORD(260)
-                    if _k32.QueryFullProcessImageNameW(h, 0, buf, ctypes.byref(size)):
-                        if os.path.basename(buf.value).lower() == str(name).lower():
-                            return cand
-                finally:
-                    _k32.CloseHandle(h)
+            found = ProcessReader._pid_if_name_matches(int(raw), name)
+            if found:
+                return found
         return None
+
+    @staticmethod
+    def find_process_wmi(name):
+        """WMI 兜底：受保护/提权的游戏可能不出现在 Toolhelp 快照里，但 CIM 可见。
+
+        只查询进程名与 PID（不触碰目标内存），随后同样用 QUERY_LIMITED_INFORMATION
+        自证进程名，避免 PID 复用。任何查询失败都返回 None，由导入链自行报 no_process。
+        只在用户主动点「数据导入」时调用，不放进 find_process 热路径（DPS 轮询会反复触发）。
+        """
+        if os.name != 'nt':
+            return None
+        try:
+            escaped = str(name).replace("'", "''")
+            ps = ('$p = Get-CimInstance Win32_Process -Filter "Name=\'%s\'" | '
+                  'Select-Object -First 1; if ($p) { $p.ProcessId }' % escaped)
+            res = subprocess.run(
+                ['powershell.exe', '-NoProfile', '-NonInteractive', '-Command', ps],
+                capture_output=True, text=True, timeout=3,
+                creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0),
+            )
+            lines = (res.stdout or '').strip().splitlines()
+            pid = int(lines[0]) if lines else None
+        except (OSError, ValueError, IndexError, subprocess.SubprocessError):
+            return None
+        return ProcessReader._pid_if_name_matches(pid, name) if pid else None
 
 
 class Il2CppReader:

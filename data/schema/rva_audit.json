@@ -376,7 +376,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/calc_service.py",
-   "line": 605,
+   "line": 607,
    "token": "0x561B30",
    "value": "0x561b30",
    "annotation": "Player.EvaluateCondition",
@@ -434,7 +434,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_import.py",
-   "line": 316,
+   "line": 325,
    "token": "0x550610",
    "value": "0x550610",
    "annotation": "Player.ConditionalModValue",
@@ -449,7 +449,7 @@
   },
   {
    "file": "tools/deskrawl_gui/core/memory_import.py",
-   "line": 347,
+   "line": 356,
    "token": "0x4E8000",
    "value": "0x4e8000",
    "annotation": "StatusEffectController.SumStatBonus",
