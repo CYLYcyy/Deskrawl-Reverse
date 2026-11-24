@@ -3,11 +3,11 @@
   "process_name": "Deskrawl.exe",
   "module": "GameAssembly.dll",
   "fingerprints": {
-    "$comment": "P2 版本指纹（2026-10-16 补丁 1.0.3 后实测）。导入前校验：任一不符即拒绝导入并提示重新导出 schema/so_dump。游戏目录可用环境变量 DESKRAWL_GAME 覆盖。",
-    "game_dir": "d:\\steam\\steamapps\\common\\Deskrawl",
-    "game_assembly_sha256": "f23ae23f8714fa5a49b9ab4b8ae767c33f7e50afad47284d81121354d1677a46",
-    "global_metadata_sha256": "93f914c1e0119b82c98ca0647542c3afe0fade976d456f2212b03d699e6813de",
-    "so_dump_itemdata_entries": 353
+    "$comment": "P2 版本指纹（2026-11-12 补丁 1.0.4 后实测）。导入前校验：任一不符即拒绝导入并提示重新导出 schema/so_dump。游戏目录可用环境变量 DESKRAWL_GAME 覆盖。",
+    "game_dir": "C:\\Program Files\\Steam\\steamapps\\common\\Deskrawl",
+    "game_assembly_sha256": "de0896d9f6a20ed7b4137198fef86ba6a029ce001e01617c9aae78c1682d4113",
+    "global_metadata_sha256": "6637c2fcf57dc7d8b8d98ebb733b2b7f5054e355772fd82f1060c68e16f4ae45",
+    "so_dump_itemdata_entries": 391
   },
   "il2cpp": {
     "static_fields": "0xB8",
@@ -24,13 +24,34 @@
     "entry_value": "0x10"
   },
   "singleton_getters": {
-    "GameManager": {"rva": "0x77D960", "klass": "GameManager", "method": "dlo()"},
-    "Inventory": {"rva": "0x4FD1D0", "klass": "Inventory", "method": "fdi()"},
-    "Storage": {"rva": "0x52B390", "klass": "Storage", "method": "frm()"},
-    "EquipmentManager": {"rva": "0x775430", "klass": "EquipmentManager", "method": "deq()"}
+    "GameManager": {
+      "rva": "0x805880",
+      "klass": "GameManager",
+      "method": "dsl()"
+    },
+    "Inventory": {
+      "rva": "0x548050",
+      "klass": "Inventory",
+      "method": "ftk()"
+    },
+    "Storage": {
+      "rva": "0x57ac80",
+      "klass": "Storage",
+      "method": "gjf()"
+    },
+    "EquipmentManager": {
+      "rva": "0x7fd160",
+      "klass": "EquipmentManager",
+      "method": "dli()"
+    }
   },
   "save_system": {
-    "anchor_rvas": ["0x7C7350", "0x7C6ED0", "0x7C6AB0", "0x7C8C80"],
+    "anchor_rvas": [
+      "0x84BD50",
+      "0x84B8D0",
+      "0x84B4B0",
+      "0x84D680"
+    ],
     "klass": "SaveSystem",
     "field_slot_index": "0x24",
     "container": "0x28",
@@ -43,54 +64,106 @@
     "rec_summary_level": "0x28"
   },
   "generated_items": {
-    "scan_rvas": ["0x795720", "0x7955A0", "0x7954F0"],
-    "klass": "gm",
+    "scan_rvas": [
+      "0x795720",
+      "0x7955A0",
+      "0x7954F0"
+    ],
+    "klass": "GameConfig",
     "items": "0x0",
-    "$comment": "1.0.3 补丁后：物品生成类 gj→gm（26 方法序列逐一对应，见 docs/08 §14.4），三扫描方法 dpv/dps/dpr → drc/dqz/dqy，RVA 重算 0x795720/0x7955A0/0x7954F0（10-10 版 0x784AB0/0x7848E0/0x784830；1.0.2b 版 gj 仍在、0x788980/0x788800/0x788750）"
+    "$comment": "1.0.3 补丁后：物品生成类 gj→gm（26 方法序列逐一对应，见 docs/08 §14.4），三扫描方法 dpv/dps/dpr → drc/dqz/dqy，RVA 重算 0x795720/0x7955A0/0x7954F0（10-10 版 0x784AB0/0x7848E0/0x784830；1.0.2b 版 gj 仍在、0x788980/0x788800/0x788750） 1.0.4：物品生成类 gm 并入 GameConfig（当期无独立 gm 类，GameConfig 26 方法序列承接），klass 改指 GameConfig；scan_rvas 仍是 1.0.3 实机锚点，待实机重锚。"
   },
   "game_manager": {
-    "combat_controller": "0x40", "town_controller": "0x48", "hero_data": "0x38"
+    "combat_controller": "0x40",
+    "town_controller": "0x48",
+    "hero_data": "0x38"
   },
-  "hero_data": {"klass": "HeroData", "primary_stat": "0x2C", "class": "0x30", "abilities": "0x50"},
+  "hero_data": {
+    "klass": "HeroData",
+    "primary_stat": "0x2C",
+    "class": "0x30",
+    "abilities": "0x50"
+  },
   "ability_klass": "AbilityData",
-  "talent_data": {"effects": "0x48"},
+  "talent_data": {
+    "effects": "0x48"
+  },
   "talent_effect_ability_modifier": {
     "$comment": "TalentEffect_AbilityModifier（TalentData.Effects 里的元素对象）：Ability@0x18 / Tag@0x20 / Stat@0x24 / Modifier(LeveledFloat, Base@0x28+PerLevel@0x3C, ObscuredFloat 0x14)@0x28。Stat 枚举（AbilityModifiedStat）：0=Cooldown 2=Damage 5=CritChance 6=CritDamage 8=ChannelSpeed 9=StrikeCount 13=ChannelDuration。作用对象二选一：Ability 指针（按技能）或 Tag（按 AbilityTag，9999=None）。取值公式 = LeveledFloat 语义 `Base + (等级-1)×PerLevel`（不是每级累加求和）。活体实测：死神之刃(WarriorTalent61, 10/10) 给旋风斩 ChannelSpeed=1.0（0.1+9×0.1，与 tooltip 的 +100% 一致）。",
     "klass": "TalentEffect_AbilityModifier",
-    "ability": "0x18", "tag": "0x20", "stat": "0x24", "modifier": "0x28", "per_level_stride": "0x14"
+    "ability": "0x18",
+    "tag": "0x20",
+    "stat": "0x24",
+    "modifier": "0x28",
+    "per_level_stride": "0x14"
   },
-  "ability_mod_stat": {"cooldown": 0, "damage": 2, "crit_chance": 5, "crit_damage": 6,
-                       "channel_speed": 8, "strike_count": 9},
+  "ability_mod_stat": {
+    "cooldown": 0,
+    "damage": 2,
+    "crit_chance": 5,
+    "crit_damage": 6,
+    "channel_speed": 8,
+    "strike_count": 9
+  },
   "talent_effect_conditional_stat": {
     "$comment": "天赋条件属性（TalentEffect_ConditionalStat）：Condition(PlayerCondition)@0x18 / ChannelingAbility@0x20 / Radius@0x28 / Modifiers(LeveledStatModifier[]，内联 struct，stride 0x38：Stat@+0、Type@+4、Value Base@+8、PerLevel@+0x1C)@0x30。PlayerCondition：Injured=0 Healthy=1 NoNearbyEnemies=2 OutOfCombat=3 SingleEnemy=4 Surrounded=5 None=-1；实测『Injured Gain Dodge』的 Condition 其实是 5(Surrounded)，别按名字猜。",
     "klass": "TalentEffect_ConditionalStat",
-    "condition": "0x18", "channeling": "0x20", "radius": "0x28", "modifiers": "0x30",
-    "mod_stride": "0x38", "mod_value": "0x8", "mod_per_stride": "0x14"
+    "condition": "0x18",
+    "channeling": "0x20",
+    "radius": "0x28",
+    "modifiers": "0x30",
+    "mod_stride": "0x38",
+    "mod_value": "0x8",
+    "mod_per_stride": "0x14"
   },
   "talent_effect_conditional_bonus": {
     "$comment": "天赋条件加伤（TalentEffect_ConditionalBonusDamage 的 TalentData.Effects 元素）：RequiredStatus@0x18 / Ability@0x20 / Tag@0x28 / RequireOnSelf(bool)@0x2C / BonusDamage(LeveledFloat，PerLevel=Base+0x14)@0x30。与条件暴击同源：按目标状态门控、不进面板聚合值；RequireOnSelf=True 指自身状态，静态工具无自身状态数据故跳过。",
     "klass": "TalentEffect_ConditionalBonusDamage",
-    "status": "0x18", "ability": "0x20", "tag": "0x28", "self": "0x2c", "value": "0x30"
+    "status": "0x18",
+    "ability": "0x20",
+    "tag": "0x28",
+    "self": "0x2c",
+    "value": "0x30"
   },
   "talent_effect_conditional_crit": {
     "$comment": "天赋条件暴击/暴伤（TalentData.Effects 元素）。CritChance：Condition(TargetStateCondition)@0x18 / Ability@0x20 / Tag@0x28 / SpecifiedStatus@0x30 / BonusCritChance(LeveledFloat，PerLevel=Base+0x14)@0x38。CritDamage：Condition@0x18 / SpecifiedStatus@0x20 / BonusCritDamage@0x28（无 Ability/Tag 字段）。两者都不进面板聚合字典（按目标状态门控），漏读等于天赋白点；状态名只能由 profile 侧按 (Condition,Tag,有无Ability,Base,Per) 指纹反查静态表（运行时 SO 指针→名称的索引只覆盖 ItemData）。",
-    "crit_chance": {"klass": "TalentEffect_ConditionalCritChance", "condition": "0x18",
-                    "ability": "0x20", "tag": "0x28", "status": "0x30", "value": "0x38"},
-    "crit_damage": {"klass": "TalentEffect_ConditionalCritDamage", "condition": "0x18",
-                    "status": "0x20", "value": "0x28"}
+    "crit_chance": {
+      "klass": "TalentEffect_ConditionalCritChance",
+      "condition": "0x18",
+      "ability": "0x20",
+      "tag": "0x28",
+      "status": "0x30",
+      "value": "0x38"
+    },
+    "crit_damage": {
+      "klass": "TalentEffect_ConditionalCritDamage",
+      "condition": "0x18",
+      "status": "0x20",
+      "value": "0x28"
+    }
   },
   "talent_effect_stat_conversion": {
     "$comment": "天赋属性换算（TalentEffect_StatConversion）：SourceStat@0x18 / TargetStat@0x1C / Fraction(LeveledFloat，Base@0x20 + PerLevel@0x34，ObscuredFloat 0x14)@0x20 / FractionToken@0x48 / RequiredStatus@0x50。取值 = `Base + (点数-1)×PerLevel`。两个换算列表都是 `List<ValueTuple<StatType, StatType, double, StatusEffectData>>`（`Player.ffq` 签名），消费侧与装备侧同一条链：`Player.PanelStat`(bkj@0x503350) 对 `+0x318`/`+0x350` 各调一次 `ffq` 求和，结果**加进平坦层**（乘目标 %加算之前），不写回任何聚合字典 → 换算不存在于导入的 base。RequiredStatus 非空（如 SorcererTalent33 的 IceBlock）在游戏里是消费时按状态门控，静态工具无自身状态流 → profile 侧丢弃并告警。",
     "klass": "TalentEffect_StatConversion",
-    "source": "0x18", "target": "0x1c", "fraction": "0x20",
-    "status": "0x50", "per_level_stride": "0x14"
+    "source": "0x18",
+    "target": "0x1c",
+    "fraction": "0x20",
+    "status": "0x50",
+    "per_level_stride": "0x14"
   },
   "player_conversions": {
     "$comment": "属性换算注册表：`Player.odd`@0x318（装备侧，EquipmentEffect_StatConversion.bzw 注册）与 `Player.odl`@0x350（天赋侧，TalentEffect_StatConversion.cjq 注册），两者类型相同、消费时被 `Player.ffq` 分别求和后一起加进平坦层。元素 = ValueTuple<StatType, StatType, double, StatusEffectData>：SourceStat@+0 / TargetStat@+4 / Fraction(double)@+8 / RequiredStatus@+0x10，**stride 0x18**（4+4+8+8 对齐）。为什么必须读内存：注册内容取决于角色当前装备与天赋点，静态表只有模板；且换算不写回聚合字典，面板复算得自己加这一层。",
-    "odd": "0x318", "odl": "0x350",
-    "stride": "0x18", "source": "0x0", "target": "0x4", "fraction": "0x8", "status": "0x10"
+    "odd": "0x318",
+    "odl": "0x350",
+    "stride": "0x18",
+    "source": "0x0",
+    "target": "0x4",
+    "fraction": "0x8",
+    "status": "0x10"
   },
-  "controller": {"player": "0x20"},
+  "controller": {
+    "player": "0x20"
+  },
   "player": {
     "klass": "Player",
     "level": "0x20",
@@ -103,42 +176,85 @@
     "base_dodge_chance": "0xC0",
     "base_max_mana": "0xD8",
     "current_health": "0x118",
-    "current_xp": "0x180",
-    "base_primary_stat": "0x1A0",
-    "base_life_on_hit": "0x1B4",
-    "base_life_on_kill": "0x1C8",
-    "base_cooldown_reduction": "0x1DC",
+    "current_xp": "0x170",
+    "base_primary_stat": "0x190",
+    "base_life_on_hit": "0x1A4",
+    "base_life_on_kill": "0x1B8",
+    "base_cooldown_reduction": "0x1CC",
     "talents": "0x248",
     "stat_dicts": {
-      "nsq": "0x218", "nsr": "0x220", "nsu": "0x238", "nsv": "0x240",
-      "ntc": "0x278", "ntd": "0x280", "nte": "0x288"
+      "nsq": "0x218",
+      "nsr": "0x220",
+      "nsu": "0x238",
+      "nsv": "0x240",
+      "ntc": "0x278",
+      "ntd": "0x280",
+      "nte": "0x288"
     },
     "$stat_dicts_comment": "语义标注（2026-10-08 反汇编定案，RVA 见 PROGRESS）：面板 = bjd(stat) = (平坦层 × (1+百分比加算层)) × 特殊%区。平坦层 = nsq+nsu+ntc+nte+nsr 之和 + 基础字段 + far（护甲←力量、魔抗←智力） + 条件表；百分比加算层 = nsv+ntd（实测 nsv={护甲:+0.40}，护甲最终 ×1.4 实证）。nsq 本身已含装备/宝石/强化/nwo 运行时词条（逐键闭环）。强化缩放模型（2026-10-12 实机 +1/+2/+3/+4 武器 nsq[20]/[21] 逐位重定，GUI core/item_draft.apply_upgrade 同源）：每级给 2 条词条各 +5%（从 idx0 顺序推进、末尾绕回；即前 2L 槽位各吃一次 +5%，2L>词条数时溢出部分绕回使早期词条吃两次 = +10%，L=4 的 7 词条武器 [21](idx0) 即 ×1.10）；[20]/[21] 无特例——旧描述「词条数组前 2×UpgradeLevel 条 ×1.05；WeaponDamage(20) ×(1+0.0125L)、WeaponSpeed(21) ×(1+0.025L)」已证伪。【2026-10-10 补丁改名】nsq→nyx、nsr→nyy、nsu→nzb、nsv→nzc、ntc→nzj、ntd→nzk、nte→nzl（偏移不变，新 dump 逐字段核对）。",
     "conditional_mods": {
       "$comment": "条件属性表（fat/0x4F6720 的输入）nuf/nug：ValueTuple 内联 0x20 步长；nuf=(cond,radius,stat,type,value,ability) 字段 @0,4,8,12,16(d),24(p)；nug=(cond,pad,status,stat,type,value) @0,8,16,20,24(d)。cond 枚举 Injured=0/Healthy=1/NoNearbyEnemies=2/OutOfCombat=3/SingleEnemyInCombat=4/Surrounded=5/None=-1；Healthy=血>0.8、Injured=血<0.3（fgp/0x506060 实证），血比例=当前血[lss@0x118]/面板生命。",
-      "nuf": "0x358", "nug": "0x360", "tuple_stride": "0x20"
+      "nuf": "0x358",
+      "nug": "0x360",
+      "tuple_stride": "0x20"
     },
     "status_controller": {
       "$comment": "StatusEffectController（StatusEffectController.SumStatBonus@0x4DB980，2026-10-16 1.0.3 重算，旧 0x4D8510）：面板最终 = g3(stat)×(v+g1(stat))×(1+g2(stat))，三字典为增益(Buff)口径。值为**明文 double**（dump.cs 两版均为 Dictionary<StatType,double>），步长 0x18，须按 stat_plain_double 读——套面板字典的 ObscuredDouble(0x38) 会在 buff 层非空时解出 nan。【2026-10-16 1.0.3】该类在 0x38 处**新增一个 8 字节字段**（List，护盾/层数相关），其后字段整体 +8：三字典由旧 0x38/0x40/0x48 → **0x40/0x48/0x50**（活体实测 0x40 含 `移动速度%=0.15` 的 flat 项）；Character 侧的 ptr 仍 0x130。",
-      "ptr": "0x130", "flat": "0x40", "pct": "0x48", "mult": "0x50"
+      "ptr": "0x130",
+      "flat": "0x40",
+      "pct": "0x48",
+      "mult": "0x50"
     }
   },
-  "inventory": {"slots": "0x38"},
-  "storage": {"slots": "0x30"},
-  "inventory_slot": {"item": "0x10", "count": "0x18", "uid": "0x20"},
-  "equipment_manager": {"slot_item": "0x28", "slot_uid": "0x30"},
-  "generated_item": {
-    "item_level": "0x10", "rarity": "0x14", "modifiers": "0x18",
-    "upgrade_level": "0x20", "rune_level": "0x28", "socket_count": "0x38",
-    "socketed_gems": "0x40", "instance_id": "0x50"
+  "inventory": {
+    "slots": "0x38"
   },
-  "stat_modifier": {"size": "0x1C", "stat": "0x0", "type": "0x4", "value": "0x8"},
-  "item_data": {"klass": "ItemData", "type": "0x20", "rarity": "0x24", "equip_slot": "0x90"},
+  "storage": {
+    "slots": "0x30"
+  },
+  "inventory_slot": {
+    "item": "0x10",
+    "count": "0x18",
+    "uid": "0x20"
+  },
+  "equipment_manager": {
+    "slot_item": "0x28",
+    "slot_uid": "0x30"
+  },
+  "generated_item": {
+    "item_level": "0x10",
+    "rarity": "0x14",
+    "modifiers": "0x18",
+    "upgrade_level": "0x20",
+    "rune_level": "0x28",
+    "socket_count": "0x38",
+    "socketed_gems": "0x40",
+    "instance_id": "0x50"
+  },
+  "stat_modifier": {
+    "size": "0x1C",
+    "stat": "0x0",
+    "type": "0x4",
+    "value": "0x8"
+  },
+  "item_data": {
+    "klass": "ItemData",
+    "type": "0x20",
+    "rarity": "0x24",
+    "equip_slot": "0x90"
+  },
   "generated_item_klass": "GeneratedItemData",
-  "entry_steps": {"stat_double": "0x38", "stat_plain_double": "0x18", "ptr": "0x18"},
+  "entry_steps": {
+    "stat_double": "0x38",
+    "stat_plain_double": "0x18",
+    "ptr": "0x18"
+  },
   "paragon": {
     "$comment": "巅峰点数分配（2026-10-10 活体实测，2026-10-16 1.0.3 重锚定）。静态管理器（dump.cs hk，1.0.3 由 hh 改名；26 方法序列逐一对应，混淆名不校验）static_fields +0x40 = Dictionary<StatType,int>（1.0.3 eaa(StatType)@0x7B4850 反汇编定位，旧 dys@0x7A7BA0）。条目 stride 0x10：hashCode@0/next@4/key(StatType id)@8/value(点数)@C，数据区 @+0x20。定位走锚点方法用法槽 + 容器形状/值域双校验（类名每版混淆不可用）。读「当前角色」运行时分配；云端槽位 rec_profile 只是 GUID。",
-    "anchor_rvas": ["0x7B4610", "0x7B5E50"],
+    "anchor_rvas": [
+      "0x7B4610",
+      "0x7B5E50"
+    ],
     "static_dict": "0x40",
     "entries": "0x18",
     "count": "0x20",
@@ -149,18 +265,21 @@
   },
   "rune_manager": {
     "$comment": "符文槽（RuneManager，类名未混淆；单例 getter ebx@0x7B97E0，2026-10-16 1.0.3 重算，旧 eap@0x7ACB30）：runes = RuneData[]（6 槽，元素为 ItemData 子类，名称走 SaveSystem 名称倒排 name_map）；uids = string[]（6 槽实例 UID，经 uid2gid → rune_level@0x28 取符文等级）。符文同时提供属性（RuneData.Attributes）与「技能等级+N」（AbilityLevels）——旋风斩 10+8=18 级的唯一来源。",
-    "getter_rva": "0x7B97E0",
+    "getter_rva": "0x4F2190",
     "klass": "RuneManager",
     "runes": "0x30",
     "uids": "0x38",
     "set_counts": "0x40",
     "max_slots": 6
   },
-  "stat_key_range": [0, 66],
+  "stat_key_range": [
+    0,
+    66
+  ],
   "dps_meter": {
     "$comment": "训练假人 DPS 计实测值（TrainingDpsMeterUI，只读）。定位链（2026-10-16 1.0.3 实机重锚定）：TrainingDummy.bmv 用法槽 → 事件总线类（.ef，混淆名不校验，走链即可）→ static_fields[+0x28] = System.Action`1<long>（委托本身；1.0.2b 在 +0x20，本轮 +8 位移，与 StatusEffectController 同类现象）→ 委托 invocation list Delegate[] @ +0x78（未变）→ 元素 target@+0x20 中 klass==TrainingDpsMeterUI 自校验收尾。反汇编佐证：TrainingDummy.bmv@0x1805354D0 直接 invoke sf[+0x28]；TrainingDpsMeterUI.Start@0x657380 经 Delegate.Combine 把自身注册进同一字段。显示 DPS = total / max(now−start, 1.0)（getter hzh@0x657150，1.0.2b 旧名 hww；start<=0 时返回 0；now 取实时时钟，[+0x60] 是 UI 0.2s 节流缓存的 now，与实时值接近）。2026-10-16 1.0.3 实机（PID 18564）：total=97,388,708,301、start=19510.45、last=20567.68、复算 DPS≈92.12M（画面待核对）。",
-    "anchor_rva": "0x5354D0",
-    "anchor_method": "TrainingDummy.bmv(long, bool) Slot 26",
+    "anchor_rva": "0x584EC0",
+    "anchor_method": "TrainingDummy.bqm(long, bool) Slot 26",
     "handler_field": "0x28",
     "delegate_target": "0x20",
     "total": "0x50",
@@ -168,13 +287,36 @@
     "last_tick": "0x60",
     "klass": "TrainingDpsMeterUI"
   },
-  "player_level_range": [1, 70],
+  "player_level_range": [
+    1,
+    70
+  ],
   "equip_slot_id_to_type": {
-    "0": 1, "1": 2, "2": 3, "3": 4, "4": 5, "5": 6, "6": 7,
-    "7": 7, "8": 8, "9": 10, "10": 9, "11": 11
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 5,
+    "5": 6,
+    "6": 7,
+    "7": 7,
+    "8": 8,
+    "9": 10,
+    "10": 9,
+    "11": 11
   },
   "equip_slot_names": {
-    "0": "Weapon", "1": "Helm", "2": "Chest", "3": "Pants", "4": "Boots", "5": "Belt",
-    "6": "Ring1", "7": "Ring2", "8": "Necklace", "9": "Shoulder", "10": "Gloves", "11": "Back"
+    "0": "Weapon",
+    "1": "Helm",
+    "2": "Chest",
+    "3": "Pants",
+    "4": "Boots",
+    "5": "Belt",
+    "6": "Ring1",
+    "7": "Ring2",
+    "8": "Necklace",
+    "9": "Shoulder",
+    "10": "Gloves",
+    "11": "Back"
   }
 }

@@ -167,16 +167,24 @@ class DumpIndex:
 
     @classmethod
     def load_from_git(cls, ref, rel='data/schema/dump.cs', label=None):
-        """从 git 取历史构建的 dump.cs 流式解析（不落盘，避免仓库里躺 28 MB）。"""
+        """从 git 取历史构建的 dump.cs 流式解析（不落盘，避免仓库里躺 28 MB）。
+
+        ref 不存在（或该 ref 里没有 dump.cs，例如 dump.cs 从未被跟踪）时必须抛异常，
+        不能返回空索引——否则调用方会把「读不到旧构建」误判成「旧构建里查无此地址」，
+        把整份 history 全部报成失配（见 build_aliases.check / rva_audit.method_audit）。
+        """
         proc = subprocess.Popen(
             ['git', 'show', f'{ref}:{rel}'],
-            stdout=subprocess.PIPE, cwd=_repo_root(),
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=_repo_root(),
             text=True, encoding='utf-8', errors='replace')
         try:
             methods, fields = parse(proc.stdout)
+            err = proc.stderr.read()
         finally:
             proc.stdout.close()
             proc.wait()
+        if proc.returncode != 0:
+            raise FileNotFoundError(f'git show {ref}:{rel} 失败：{err.strip()}')
         return cls(methods, fields, label or f'{ref}:{rel}')
 
     def at(self, rva):

@@ -8,7 +8,7 @@
   bko : condMul = 1 + Σ(命中的条件伤害项)                                     ✅ 6.2.2
   crit: critChance = clamp(Final(CritChance)+buff+cond, 0, 0.85)             ✅ 6.2.3
         critMul    = 1 + Final(CritDamage)+equip
-  封顶 1.0.2b：CDR 0.85→0.80；通用/元素减伤上限 90%（StatCap.GetCap@0x4AECB0 实证）
+  封顶 1.0.2b：CDR 0.85→0.80；通用/元素减伤上限 90%（StatCap.GetCap@0x4B7B50 实证）
   armor: resist/(resist + 50 × max(1, level))                                ✅ 6.2.4
   减伤 : ×(1-armorResist)×(1-elemRed)×(1-DamageReduction)                    ✅
   最终减伤: − Final(FinalDamageReduction)，下限 0（乘区之后的一次绝对减法）      ✅ 6.2.7
@@ -151,7 +151,7 @@ class Target:
     elem_reduction: Dict[int, float] = field(default_factory=dict)  # DamageType -> 值
     damage_reduction: float = 0.0
     # 最终减伤（StatType.FinalDamageReduction=66，1.0.3 新增）：**绝对量**，在所有乘区之后一次性减法、下限 0。
-    # 指令级依据：Character.ApplyDamage@0x1806893E0 尾部 `subsd xmm6, clamp(Final(66))` → `max(0, trunc(·))`，
+    # 指令级依据：Character.ApplyDamage@0x180698180 尾部 `subsd xmm6, clamp(Final(66))` → `max(0, trunc(·))`，
     # 且该 stat 走 StatCap.Clamp（GetCap 落 inf 分支→无上限）。见 docs/04 §6.2.7。
     final_damage_reduction: float = 0.0
     # 暴击伤害减免（StatType.CritDamageReduction=60，**目标方**）：DOT 跳伤暴击按 (1−clamp01(·)) 折减。
@@ -175,7 +175,7 @@ class Target:
         return self.armor if int(damage_type) == int(DamageType.Physical) else self.magic_resist
 
     def armor_resist(self, damage_type: int) -> float:
-        """armorResist = resist / (resist + 50 × max(1, level))。常量 50 @ 0x183681610（补丁前 0x18363F120，见 docs/08 §13.2）。"""
+        """armorResist = resist / (resist + 50 × max(1, level))。常量 50 @ 0x1837353C0（补丁前 0x18363F120，见 docs/08 §13.2）。"""
         r = self.resist(damage_type)
         return r / (r + 50.0 * max(1, self.level)) if (r + 50.0) > 0 else 0.0
 
@@ -272,7 +272,7 @@ class DamageModel:
     def crit_multiplier(self) -> float:
         return 1.0 + self.sheet.final(StatType.CritDamage) + self.equip_crit_damage
 
-    # --- 攻击方基础伤害（Player.CalcDamage@0x518230：武器伤害 + 通用增伤(3)，再乘主属性加成）---
+    # --- 攻击方基础伤害（Player.CalcDamage@0x5670C0：武器伤害 + 通用增伤(3)，再乘主属性加成）---
     def primary_stat_multiplier(self) -> float:
         """×(1 + Final(职业主属性)/100)。主属性由 Player.PrimaryStatValue@0x500CA0 给出
         （英雄职业主属性：0=力量/1=敏捷/2=智力，Barbarian=0 实证）；None=不启用。

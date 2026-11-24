@@ -563,7 +563,7 @@ def rank_candidates(profile: CharacterProfile, gd, kind: str, *,
 
 
 # --------------------------------------------------------------------------- #
-# 游戏面板口径复算（Player.PanelStat@0x503350 反汇编还原；2026-10-08 与游戏「属性」页逐行对拍）
+# 游戏面板口径复算（Player.PanelStat@0x54F950 反汇编还原；2026-10-08 与游戏「属性」页逐行对拍）
 # --------------------------------------------------------------------------- #
 # 面板行序 = 游戏「属性」页顺序（进攻 18 行 + 防御 5 行；21=攻击速度显示式行）
 PANEL_ORDER = [0, 3, 21, 6, 4, 5, 23, 24, 25, 26, 27, 28, 29, 31, 45, 32, 40, 65,
@@ -572,7 +572,7 @@ PANEL_ORDER = [0, 3, 21, 6, 4, 5, 23, 24, 25, 26, 27, 28, 29, 31, 45, 32, 40, 65
 # 面板按「百分比」显示的行（其余按整数千分位 / 攻速一位小数）。表已下沉内核
 # stattype.PERCENT_DISPLAY_STATS（E6）：新增属性只登记一处，避免「填了小数却没提示」这类漂移。
 
-# 基础字段 → 属性（Character.BaseFieldToStat@0x686F60 与 Player.BaseFieldToStat@0x503A60 逐分支反汇编）
+# 基础字段 → 属性（Character.BaseFieldToStat@0x695CC0 与 Player.BaseFieldToStat@0x503A60 逐分支反汇编）
 _BASE_FIELD_STAT = {
     'BaseDamage': 3, 'BaseCritChance': 4, 'BaseCritDamage': 5, 'BaseAttackSpeed': 6,
     'BaseMaxHealth': 7, 'BaseMoveSpeed': 10, 'BaseLifeOnHit': 11, 'BaseLifeOnKill': 12,
@@ -602,7 +602,7 @@ def build_panel(payload: dict, with_conversions: bool = True) -> dict:
     core(stat)  = (Σ平坦字典 + 基础字段 + 主属性 + far(护甲←力量/魔抗←智力) + 条件表平坦
                    + Σ换算(源面板值×系数))
                   × (1 + Σ百分比字典 + 条件表百分比)   [7/8/9/10 再 ×(1+对应%属性的 core)]
-    条件求值：None(-1) 恒真；Healthy=血比例>0.8；Injured<0.3（Player.EvaluateCondition@0x513490 实证）；
+    条件求值：None(-1) 恒真；Healthy=血比例>0.8；Injured<0.3（Player.EvaluateCondition@0x561B30 实证）；
     敌情类（2/3/4/5）与带技能/状态门控的条目无法从快照静态判定 → 不计入并记告警。
 
     `with_conversions` 为什么可关：换算（`Player.odd`/`odl` → `ffq`）加在平坦层、不写回聚合字典，

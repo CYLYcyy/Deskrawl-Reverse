@@ -581,7 +581,13 @@ def main(argv=None):
     hits = scan_hits(cfg, with_docs=args.docs)
     img = pe_file.load()
     new_idx = dump_index.DumpIndex.load(paths.DUMP_CS)
-    old_idx = dump_index.DumpIndex.load_from_git(args.base_ref)
+    # 旧构建 dump 可能根本没进 git（本项目 dump.cs 被 .gitignore 排除），
+    # 此时不能崩在加载上：降级为空索引，让 method_audit 只按当期方法表判定。
+    try:
+        old_idx = dump_index.DumpIndex.load_from_git(args.base_ref)
+    except (FileNotFoundError, OSError) as e:
+        print(f'! 旧构建 dump 不可用（{e}），仅按当期 dump 判定')
+        old_idx = dump_index.DumpIndex([], [], f'{args.base_ref}:<不可用>')
     # script.json 只按需要的地址/字面量过滤加载：文件 95 MB，全量建表毫无必要。
     # 键一律用 RVA——dumper 导出的 Address 列就是槽的 RVA；两张表都按它过滤，⑥⑦ 才谈得上。
     want_rvas = {h.value - img.image_base if h.value >= img.image_base else h.value

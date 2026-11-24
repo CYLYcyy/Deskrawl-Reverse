@@ -152,7 +152,25 @@ class ProcessReader:
                 break
             ok = _k32.Process32NextW(snap, ctypes.byref(ent))
         _k32.CloseHandle(snap)
-        return pid
+        if pid:
+            return pid
+        # 兜底：某些受保护进程（DRM/反作弊）不出现在 Toolhelp 快照里，
+        # 但 OpenProcess + QueryFullProcessImageName 仍可打开。允许显式传 PID，
+        # 并用「进程名必须与 name 一致」自证，避免 PID 复用导致读错进程。
+        raw = os.environ.get('DESKRAWL_PID')
+        if raw and str(raw).isdigit():
+            cand = int(raw)
+            h = _k32.OpenProcess(0x1000, False, cand)  # QUERY_LIMITED_INFORMATION
+            if h:
+                try:
+                    buf = ctypes.create_unicode_buffer(260)
+                    size = wintypes.DWORD(260)
+                    if _k32.QueryFullProcessImageNameW(h, 0, buf, ctypes.byref(size)):
+                        if os.path.basename(buf.value).lower() == str(name).lower():
+                            return cand
+                finally:
+                    _k32.CloseHandle(h)
+        return None
 
 
 class Il2CppReader:
@@ -296,21 +314,21 @@ class ActkCodec:
     def __init__(self, pr: ProcessReader):
         self.pr = pr
 
-    def obsc_int(self, addr):     # (hidden - key) ^ key；Actk.ObscuredInt.Decrypt @0x459960
+    def obsc_int(self, addr):     # (hidden - key) ^ key；Actk.ObscuredInt.Decrypt @0x4608E0
         hidden = self.pr.u32(addr + 4)
         key = self.pr.u32(addr + 8)
         if hidden is None or key is None:
             return None
         return _s32(((hidden - key) & 0xFFFFFFFF) ^ key)
 
-    def obsc_long(self, addr):    # (hidden - key) ^ key；Actk.ObscuredLong.Decrypt @0x456400
+    def obsc_long(self, addr):    # (hidden - key) ^ key；Actk.ObscuredLong.Decrypt @0x45D400
         hidden = self.pr.u64(addr + 8)
         key = self.pr.u64(addr + 0x10)
         if hidden is None or key is None:
             return None
         return _s64(((hidden - key) & 0xFFFFFFFFFFFFFFFF) ^ key)
 
-    def obsc_float(self, addr):   # bswap12(hidden) ^ key（字节 1<->2 互换）；Actk.ObscuredFloat.Decrypt @0x4588D0
+    def obsc_float(self, addr):   # bswap12(hidden) ^ key（字节 1<->2 互换）；Actk.ObscuredFloat.Decrypt @0x45F850
         hidden = self.pr.u32(addr + 4)
         key = self.pr.u32(addr + 8)
         if hidden is None or key is None:
@@ -319,7 +337,7 @@ class ActkCodec:
         swapped = (hidden & 0xFF0000FF) | (b1 << 16) | (b2 << 8)
         return struct.unpack('<f', struct.pack('<I', swapped ^ key))[0]
 
-    def obsc_double(self, addr):  # 字节置换（swap01 + 4->5->7->4 三循环）后 ^ key；Actk.ObscuredDouble.Decrypt @0x457C30
+    def obsc_double(self, addr):  # 字节置换（swap01 + 4->5->7->4 三循环）后 ^ key；Actk.ObscuredDouble.Decrypt @0x45EC30
         hidden = self.pr.u64(addr + 8)
         key = self.pr.u64(addr + 0x10)
         if hidden is None or key is None:

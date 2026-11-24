@@ -81,7 +81,7 @@ def _snapshot_checks(rep: Report):
             f'= {sheet.final(prof.primary_stat):.0f}（面板 {float(prow[5]):.0f}）；'
             f'模式={prof.import_mode}，宝石 {len(prof.assembled)} 颗')
 
-    # 主属性伤害加成（Player.CalcDamage@0x518230）：DPS 的攻击伤害 = (武器伤害 + 通用增伤) ×(1+Final/100)
+    # 主属性伤害加成（Player.CalcDamage@0x5670C0）：DPS 的攻击伤害 = (武器伤害 + 通用增伤) ×(1+Final/100)
     fac = calc_service.compare(prof, gd).current_model.primary_stat_multiplier()
     rep.add(abs(fac - 5.51) < 1e-9, 'β 主属性伤害加成 = ×5.510（力量 451，游戏 tooltip 同源）',
             f'主属性={stat_name(prof.primary_stat)}；因子 ×{fac:.4f}')
@@ -141,7 +141,7 @@ def _snapshot_checks(rep: Report):
             '装配件简中本地化（符文/套装走 Equipments 表，天赋走 Talents 表）',
             f'HunterSetRune1_1 → {rune_zh}；HunterTalent19 → {talent_zh}')
 
-    # 符文「技能等级+N」：游戏侧 bonus = Levels + runeLevel // EveryN（cjb@0x18071B670 是 idiv 后 add）。
+    # 符文「技能等级+N」：游戏侧 bonus = Levels + runeLevel // EveryN（cjb@0x1807A1B80 是 idiv 后 add）。
     # 必须锚 Levels=4 的 WarriorSetRune2_1：Levels=2 那档乘/加同值（2×2=2+2=4），抓不出乘法误实现。
     from types import SimpleNamespace
 

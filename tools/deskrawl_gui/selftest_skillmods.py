@@ -80,15 +80,15 @@ def _talent_bonus_checks(rep) -> None:
             'base': 0.05999999865889549, 'per': 0.05999999865889549, 'value': 0.06}]
     dup_ok = _talent_bonus_effects(dup, gd) == []
     # 状态门控：目标带 [恍惚] 才计入
-    sn = snames.get(60551, '')
+    sn = snames.get(64880, '')  # 1.0.4: Dazed（旧 60551）
     on = effects.conditional_bonus_damage(effs, Target(level=70, statuses={sn: 1}),
                                           status_names=snames)
     off = effects.conditional_bonus_damage(effs, Target(level=70), status_names=snames)
     # RequireOnSelf（嗜血：状态在自身）静态无自身状态数据 → 恒 0
     self_eff = {'_class': 'TalentEffect_ConditionalBonusDamage', 'RequireOnSelf': True,
-                'RequiredStatus': {'pathID': 60599}, 'BonusDamage': 0.5}
+                'RequiredStatus': {'pathID': 64930}, 'BonusDamage': 0.5}  # 1.0.4: WarriorBloodlust（旧 60599）
     self_ok = effects.conditional_bonus_damage(
-        [self_eff], Target(level=70, statuses={snames.get(60599, ''): 1}),
+        [self_eff], Target(level=70, statuses={snames.get(64930, ''): 1}),
         status_names=snames) == 0.0
     rep.add(uniq_ok and dup_ok and abs(on - 0.30) < 1e-9 and off == 0.0 and self_ok,
             '天赋条件加伤（指纹反查 / 同指纹丢弃 / 目标状态门控 / RequireOnSelf 跳过）',
@@ -157,9 +157,9 @@ def _talent_crit_checks(rep) -> None:
     gate_ok = abs(cc_far - 0.09) < 1e-9 and cc_near == 0.0
     # 3) 技能限定：带 Ability 的条目只在命中该技能时计入，面板口径（无技能上下文）跳过
     bleeding = {'_class': 'TalentEffect_ConditionalCritChance', 'Condition': 5,
-                'Ability': {'pathID': 59963}, 'Tag': 9999,
-                'SpecifiedStatus': {'pathID': 60528}, 'BonusCritChance': 1.0}
-    sk, sn = anames.get(59963, ''), snames.get(60528, '')
+                'Ability': {'pathID': 64254}, 'Tag': 9999,  # 1.0.4: WarriorSpecial3（旧 59963）
+                'SpecifiedStatus': {'pathID': 64857}, 'BonusCritChance': 1.0}  # 1.0.4: Bleeding（旧 60528）
+    sk, sn = anames.get(64254, ''), snames.get(64857, '')
     t_on = Target(level=70, statuses={sn: 1} if sn else {})
     cc_hit, _ = effects.crit_terms([bleeding], t_on, status_names=snames, ability_names=anames,
                                    ability_name=sk, tags=[])

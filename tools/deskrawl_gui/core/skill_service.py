@@ -212,7 +212,7 @@ def ability_level_bonuses(profile, gd) -> dict:
 
     数据源：RuneData.AbilityLevels[{Ability(pathID), Levels, EveryNRuneLevels}]。
     加成公式（指令级证据，2026-10-18）：bonus = Levels + rune_level // EveryNRuneLevels——
-    `WarriorSetRune2` 符文授予链 `Player.cjb(int runeLevel, List<AbilityLevelGrant>)` @0x18071B670
+    `WarriorSetRune2` 符文授予链 `Player.cjb(int runeLevel, List<AbilityLevelGrant>)` @0x1807A1B80
     里是 `idiv` 后 `add`（`mov ecx,[EveryNRuneLevels]; mov r9d,[Levels]; mov eax,runeLevel;
     cdq; idiv ecx; add r9d,eax`），**不是乘法**：Levels 是基础授予，每满 EveryN 级符文再 +1。
     旧实现写成 Levels × 商，在 Levels=2 时与真值巧合相等（2×2=2+2=4，两条旧锚点都是这一档，

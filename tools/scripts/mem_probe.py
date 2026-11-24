@@ -12,10 +12,10 @@
 定位链（全部来自 data/schema/dump.cs，当前构建）：
   1) 锚点方法 RVA（反汇编前 192B 扫 rip 相对加载 -> 元数据用法槽）：
        2026-10-16 补丁 1.0.3 后按「类+签名+Slot」在新 dump 重算（旧名→新名见 docs/08 §14）：
-       SaveSystem.ehq(SaveContainer)       RVA 0x7C7350   （旧 egi 0x7BA6A0）
-       SaveSystem.ehn(string)              RVA 0x7C6ED0   （旧 egf 0x7BA220）
-       SaveSystem.ehl(CharacterMode)       RVA 0x7C6AB0   （旧 egd 0x7B9E00）
-       SaveSystem.eih()                    RVA 0x7C8C80   （旧 egz 0x7BBFD0）
+       SaveSystem.ehq(SaveContainer)       RVA 0x84BD50   （旧 egi 0x7BA6A0）
+       SaveSystem.ehn(string)              RVA 0x84B8D0   （旧 egf 0x7BA220）
+       SaveSystem.ehl(CharacterMode)       RVA 0x84B4B0   （旧 egd 0x7B9E00）
+       SaveSystem.eih()                    RVA 0x84D680   （旧 egz 0x7BBFD0）
   2) 槽值 = Il2CppClass*(SaveSystem)，以类名 "SaveSystem" 自校验（name @ +0x10）
   3) static_fields：Il2CppClass 内偏移候选扫描，用「实例对象 klass 指针回指」自校验；
      nfi 位于 static_fields+0x0（dump.cs L390396 <nfi>k__BackingField // 0x0）
@@ -214,8 +214,8 @@ def elem(h, first, i):
 # ---------------- ACTk (CodeStage Anti-Cheat Toolkit) 解码 ----------------
 # 算法经反汇编实证（GameAssembly 当前构建）：
 #   ObscuredInt/Long 读取 = (hiddenValue - currentCryptoKey) XOR currentCryptoKey
-#     （encrypt 为 key + (value ^ key)； Actk.ObscuredInt.Decrypt@0x459960 / Actk.ObscuredLong.Decrypt@0x456400）
-#   ObscuredFloat 读取 = bswap12(hiddenValue) XOR currentCryptoKey（Actk.ObscuredFloat.Decrypt@0x4588D0，
+#     （encrypt 为 key + (value ^ key)； Actk.ObscuredInt.Decrypt@0x4608E0 / Actk.ObscuredLong.Decrypt@0x45D400）
+#   ObscuredFloat 读取 = bswap12(hiddenValue) XOR currentCryptoKey（Actk.ObscuredFloat.Decrypt@0x45F850，
 #     加密 jyh = bswap12(bits ^ key)，b16<->b24 字节互换）
 # 布局：dump.cs L657166-657470；hash 字段为 FNV 校验（反篡改），读取时忽略
 def _s32(x):
@@ -247,7 +247,7 @@ def obsc_double(h, addr):  # 40B: hash@0 hidden@8 key@0x10 fake@0x18 oldByte8@0x
     if hidden is None or key is None:
         return None
     b = struct.pack('<Q', hidden)
-    # 字节置换（Actk.ObscuredDouble.Decrypt@0x457C30 反汇编实证）：swap(0,1) + 三循环 4->5->7->4
+    # 字节置换（Actk.ObscuredDouble.Decrypt@0x45EC30 反汇编实证）：swap(0,1) + 三循环 4->5->7->4
     r = bytes([b[1], b[0], b[2], b[3], b[7], b[4], b[6], b[5]])
     bits = struct.unpack('<Q', r)[0] ^ key
     return struct.unpack('<d', struct.pack('<Q', bits))[0]

@@ -598,7 +598,9 @@ def _rank_checks(rep: Report):
 
     gd = GameData()
     profile = CharacterProfile.demo()
-    expected = {'gem': 36, 'rune': 199, 'talent': 186, 'runeset': 13}
+    # 1.0.4 补丁后数据量：GemData 42 / RuneData 241 / TalentData 187 / RuneSetData 20。
+    # 这里的期望值须与 data/so_dump/ 的实际条目数一致（硬编码是为了防止数据意外缩水）。
+    expected = {'gem': 42, 'rune': 241, 'talent': 187, 'runeset': 20}
     params = {'gem': (1, 2), 'rune': (3, 2), 'talent': (5, 2), 'runeset': (2, 2)}
 
     def manual(kind, name, level, category):

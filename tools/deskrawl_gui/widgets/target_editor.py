@@ -14,7 +14,7 @@ from .common import QtySpinBox, ReloadGuard
 
 from deskrawl_calc import DamageType
 
-# 训练假人预设（2026-10-10 反汇编 TrainingDummy.bkk@0x180535580：StatType.MaxHealth → 1e17，
+# 训练假人预设（2026-10-10 反汇编 TrainingDummy.bkk@0x180584F70：StatType.MaxHealth → 1e17，
 # 其余属性走基座且假人无 Enemy 静态数据 → 护甲/魔抗/减伤全 0；血量近无限故生命百分比不影响计伤）
 _DUMMY_PRESET = {'level': 70, 'hp_fraction': 1.0, 'armor': 0.0,
                  'magic_resist': 0.0, 'damage_reduction': 0.0}

@@ -104,7 +104,7 @@ class DamageType(IntEnum):
     Arcane = 5
 
 
-# 硬编码分组表（ItemizationConfig.StaticInit @ 0x715FE0，补丁前 ..cctor @ 0x6F6360）
+# 硬编码分组表（ItemizationConfig.StaticInit @ 0x79AFF0，补丁前 ..cctor @ 0x6F6360）
 CORE = [StatType.Strength, StatType.Dexterity, StatType.Intelligence]
 ALL_ELEMENTS = [StatType.DamagePhysical, StatType.DamageFire, StatType.DamageCold,
                 StatType.DamageLightning, StatType.DamagePoison, StatType.DamageArcane]
@@ -113,7 +113,7 @@ CONDITIONAL_DAMAGE = [StatType.DamageVsHealthy, StatType.DamageVsInjured, StatTy
                       StatType.DamageVsBleeding, StatType.DamageVsPoisoned, StatType.DamageVsDistant,
                       StatType.DamageVsBurned]
 
-# DamageType → StatType（跳转表在 Character.ElementDamageMultiplier@0x6884E0 内，与 ALL_ELEMENTS 一致）
+# DamageType → StatType（跳转表在 Character.ElementDamageMultiplier@0x697240 内，与 ALL_ELEMENTS 一致）
 DAMAGE_TYPE_TO_STAT = {
     DamageType.Physical: StatType.DamagePhysical,
     DamageType.Fire: StatType.DamageFire,
@@ -123,7 +123,7 @@ DAMAGE_TYPE_TO_STAT = {
     DamageType.Arcane: StatType.DamageArcane,
 }
 
-# 属性封顶表（StatCap.GetCap@0x4AECB0 反汇编实证，1.0.2b；旧统一 0.85 掩码 0x402010 已拆分）：
+# 属性封顶表（StatCap.GetCap@0x4B7B50 反汇编实证，1.0.2b；旧统一 0.85 掩码 0x402010 已拆分）：
 #   0.85 = 暴击率(4)/闪避(22)/蓝耗缩减(37)；0.80 = 冷却缩减(13)（1.0.2b 由 0.85 下调，见更新说明）；
 #   0.90 = 通用减伤(64)与各元素减伤(49/51-55)（1.0.2b 由无上限收紧为 90%）；其余无上限（inf）。
 CAPPED_085 = {StatType.CritChance, StatType.Dodge, StatType.ManaCostReduction}
@@ -163,7 +163,7 @@ def is_percent_display(stat) -> bool:
     """该属性在面板口径里是否按百分比显示（决定格式化，不涉及输入单位）。"""
     return int(stat) in PERCENT_DISPLAY_STATS
 
-# 元素减伤 StatType 按伤害类型（跳转表在 Character.ApplyDamage@0x6893E0 内）
+# 元素减伤 StatType 按伤害类型（跳转表在 Character.ApplyDamage@0x698180 内）
 ELEM_REDUCTION_BY_DAMAGE = {
     DamageType.Physical: StatType.PhysicalDamageReduction,
     DamageType.Fire: StatType.FireDamageReduction,

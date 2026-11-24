@@ -239,7 +239,7 @@ def enemy_class_multiplier(effects: List[dict], target) -> float:
 def always_health_conditions(effects: List[dict]) -> bool:
     """`AlwaysHealthConditionalDamage`：`bzw` 只把 `Player+0x15c` 置 1。
 
-    指令级依据（`Character.ConditionalDamagePool` @`0x1806885C0`）：两处血线判断都是
+    指令级依据（`Character.ConditionalDamagePool` @`0x180697320`）：两处血线判断都是
     `if (this+0x15c || hp 阈值)` → 该标志让**健康(29)与受伤(30)同时成立**，不是「只视为健康」。
     """
     return any(_is(e, 'AlwaysHealthConditionalDamage') for e in (effects or []))
@@ -269,9 +269,9 @@ def ability_mods_for(effects: List[dict], ability_name: Optional[str], tags, *,
     · `AbilityChannelModifier`：`Ability` 名匹配 → ChannelSpeed(8) += `ChannelSpeedBonus`（比例）、
       ChannelDuration(13) += `AdditionalChannelDurationSeconds / channel_base`（秒 → 比例）。
 
-    指令级依据（REA 反编译 `EquipmentEffect_AbilityChannelModifier.bzw` 0x1806f4220）：
+    指令级依据（REA 反编译 `EquipmentEffect_AbilityChannelModifier.bzw` 0x180773180）：
     装备侧引导时长经 `FUN_18050ed40(player, Ability, AdditionalChannelDurationSeconds / *(float*)(Ability+0xd0), 0)`
-    注册——**先除以技能基础引导时长归一为比例**；`EquipmentEffect_AbilityModifier.bzw`（0x1806f4c70）
+    注册——**先除以技能基础引导时长归一为比例**；`EquipmentEffect_AbilityModifier.bzw`（0x180773E40）
     的 Stat=13 则把 `Modifier` **原值**（已是比例）走同一 `FUN_18050ed40`。故两者**同池按比例相加**，
     消费口径为 `dur = base × (1 + Σ比例)`（数值上等价于装备「秒数加算」：base×(1+s/base) = base+s）。
 

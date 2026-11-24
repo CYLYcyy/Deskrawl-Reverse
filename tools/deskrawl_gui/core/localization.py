@@ -41,6 +41,16 @@ def ability_display_name(gd, name: str) -> str:
     return zh or str(name)
 
 
+def status_display_name(gd, name: str) -> str:
+    """状态 _name（StatusEffectData 内部名，如 Dazed/Bleeding）→ 简中名。
+
+    状态显示名与技能同在 Abilities 表（如 `Bleeding` → `流血`）；
+    新特效文案模板里的 `{status}` 令牌要靠它填值。缺表/缺键回落内部名。
+    """
+    zh = _table(gd, 'abilities_zh.json').get(str(name))
+    return zh or str(name)
+
+
 def equipment_display_name(gd, name: str) -> str:
     """装备 _name（ItemData 内部名如 LegendarySword1）→ 游戏简中名。
 

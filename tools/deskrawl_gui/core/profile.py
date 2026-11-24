@@ -412,7 +412,7 @@ class CharacterProfile:
     # 由 widget 侧据此展示 α 降级提示（近似标注/对比降级），并存档往返保留语义。
     import_mode: str = ''
     import_time: str = ''
-    # 职业主属性（0=力量/1=敏捷/2=智力；None=不启用）：攻击伤害 ×(1+Final/100)（Player.CalcDamage@0x518230）。
+    # 职业主属性（0=力量/1=敏捷/2=智力；None=不启用）：攻击伤害 ×(1+Final/100)（Player.CalcDamage@0x5670C0）。
     # 内存导入自动取 HeroData.PrimaryStat（Player.PrimaryStatValue@0x500CA0 链）；手工构建由角色面板「职业主属性」选择。
     primary_stat: Optional[int] = None
     # 游戏面板口径复算结果（导入时冻结，见 calc_service.build_panel）：
@@ -446,7 +446,7 @@ class CharacterProfile:
     # 只有 Healthy/None 能静态判；其余是场景条件（无近敌/脱战/被围/单敌），装配时按条件过滤
     talent_stat_mods: List[dict] = field(default_factory=list)
     # 天赋的「属性换算」（`TalentEffect_StatConversion`）：换算在游戏里是面板**读取时**现算、
-    # 不写回聚合字典（PanelStat 0x503350 → ffq 0x5054B0），所以导入的 base 不含它，须与装备侧同池补上。
+    # 不写回聚合字典（PanelStat 0x54F950 → ffq 0x5520F0），所以导入的 base 不含它，须与装备侧同池补上。
     talent_conversions: List[dict] = field(default_factory=list)
 
     # --- 计算装配 ---

@@ -25,7 +25,8 @@ from typing import List
 
 from deskrawl_calc.effects import unmodeled_classes
 
-from .localization import ability_display_name, equipments_text, item_internal_name
+from .localization import (ability_display_name, equipments_text, item_internal_name,
+                           status_display_name)
 
 # 未计入提示的固定文案：与「传奇词条」行同处显示，措辞必须一眼看懂是 DPS 口径缺口
 _UNMODELED_NOTE = '（未计入 DPS）'
@@ -43,6 +44,10 @@ _POS_ARGS = {
 _FIELD_ALIAS = {
     ('EquipmentEffect.DivineHelmet3', 'damage'): 'NormalEnemyMultiplier',
     ('EquipmentEffect.DivineHelmet3', 'elitedamage'): 'EliteEnemyMultiplier',
+    # 1.0.4 新特效：{damage} 在文案里指引用的状态每层加成（ScalePerStack=0.2 → 20%）
+    ('EquipmentEffect.StatusOnCriticalCast', 'damage'): 'ScalePerStack',
+    # {maxTriggers} 文案是「每秒最多触发 N 次」，数据存的是冷却秒数（0.2 → 5）
+    ('EquipmentEffect.TriggerKillEffectsOnHit', 'maxtriggers'): 'Cooldown',
 }
 
 
@@ -101,6 +106,11 @@ def _pool(gd, effects: list) -> list:
                 rec = index.get(pid)
                 if rec:
                     pool.append(rec)
+                    # 1.0.4 新特效文案（如 LegendaryRing9）用 `{status}` 令牌，
+                    # 需要状态的简中显示名；以 StatusName 入池供后缀匹配命中。
+                    st_name = status_display_name(gd, str(rec.get('_name') or ''))
+                    if st_name:
+                        pool.append({'StatusName': st_name})
     return pool
 
 
@@ -145,7 +155,11 @@ def _class_key(cls: str) -> str:
 def _effect_text(table: dict, eff: dict, pool: list) -> str:
     name = str(eff.get('_name') or '')
     cls_key = _class_key(eff.get('_class'))
-    text = table.get(f'{name}.Desc') or _prefix_desc(table, name)
+    # 1.0.4 新特效（远古装备等）用 DescriptionKey 显式指定文案键，
+    # 键名不与特效 _name 同形（如 DivineBow1_ArcaneAOE.Desc），
+    # 必须优先取它，否则按 {name}.Desc 查不到 → 整件装备文案为空。
+    desc_key = str(eff.get('DescriptionKey') or '')
+    text = (table.get(desc_key) if desc_key else None) or table.get(f'{name}.Desc') or _prefix_desc(table, name)
     if text:
         return _fill(str(text), pool, cls_key)
     tpl = table.get(cls_key)
@@ -187,6 +201,13 @@ def _fill(text: str, pool: list, cls_key: str) -> str:
             # `*Multiplier` 是倍率，文案说的却是「提高多少」→ 1.2 读作 20%
             if fname.lower().endswith('multiplier'):
                 return f'{(val - 1.0) * 100:g}%'
+            # 1.0.4 新文案的两处换算（别名见 _FIELD_ALIAS）：
+            # - {maxTriggers}「每秒最多触发 N 次」的数据是冷却秒数 → 取倒数
+            if key.lower() == 'maxtriggers' and val > 0:
+                return f'{1.0 / val:g}'
+            # - StatusOnCriticalCast 的 {damage} 是每层加成比例 → 显示为百分比
+            if key.lower() == 'damage' and cls_key == 'EquipmentEffect.StatusOnCriticalCast':
+                return f'{val * 100:g}%'
             return _fmt(val, '', key)
         word = _text_field(pool, key)
         return word or m.group(0)

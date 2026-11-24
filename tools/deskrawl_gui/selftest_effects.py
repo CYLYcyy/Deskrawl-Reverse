@@ -45,7 +45,7 @@ def _conversion_panel_checks(rep) -> None:
 def _health_condition_checks(rep) -> None:
     """`AlwaysHealthConditionalDamage`：置位后健康(29)与受伤(30)两条件**同时**成立。
 
-    指令级依据（`Character.ConditionalDamagePool` @`0x1806885C0`）：两处血线判断都是
+    指令级依据（`Character.ConditionalDamagePool` @`0x180697320`）：两处血线判断都是
     `if (this+0x15c || hp 阈值)`，所以不是「只视为健康」——这条断言就是防止把它写回去。
     """
     from deskrawl_calc import DamageModel, StatSheet, StatType, Target, effects
