@@ -22,9 +22,31 @@ REPO = os.path.dirname(os.path.dirname(HERE))
 TOOLS = os.path.join(REPO, 'tools')
 GUI_PY = os.path.join(REPO, '.venv-gui', 'Scripts', 'python.exe')
 REPORT = os.path.join(REPO, 'docs', 'reports', '补丁回归报告.md')
+OFFSETS = os.path.join(TOOLS, 'deskrawl_gui', 'core', 'memory_offsets.json')
 FP_CODE = ('import json,rva_audit as R;'
            'print(json.dumps(R.rva_verify.verify_fingerprints('
            'json.load(open(R.CONFIG,encoding="utf-8"))),ensure_ascii=False))')
+
+
+def _child_env():
+    """子步骤环境：Windows 中文控制台下强制 UTF-8，并把游戏目录对齐到 offsets 声明。
+
+    两处历史坑：① 子进程默认走 GBK（cp936），内核/GUI 自检里的 U+2212 会直接
+    UnicodeEncodeError，报告里只留一个红字结果却看不出原因；② paths.py 的游戏目录
+    默认写死 d:\\steam，本机实际在 Program Files，不传 DESKRAWL_GAME 就会把「文件找不到」
+    误报成「指纹失配/补丁发生」。用户显式设置的 DESKRAWL_GAME 始终优先。
+    """
+    env = os.environ.copy()
+    env['PYTHONIOENCODING'] = 'utf-8'
+    env['PYTHONUTF8'] = '1'
+    if not env.get('DESKRAWL_GAME'):
+        try:
+            game_dir = json.load(open(OFFSETS, encoding='utf-8'))['fingerprints'].get('game_dir')
+            if game_dir and os.path.isdir(game_dir):
+                env['DESKRAWL_GAME'] = game_dir
+        except (OSError, ValueError):
+            pass
+    return env
 
 
 def run(name, argv, cwd=HERE, required=True, timeout=1800):
@@ -32,7 +54,8 @@ def run(name, argv, cwd=HERE, required=True, timeout=1800):
     t0 = time.time()
     try:
         p = subprocess.run(argv, cwd=cwd, capture_output=True, text=True,
-                           encoding='utf-8', errors='replace', timeout=timeout)
+                           encoding='utf-8', errors='replace', timeout=timeout,
+                           env=_child_env())
         code, out = p.returncode, (p.stdout or '') + (p.stderr or '')
     except FileNotFoundError as e:
         code, out = 127, f'解释器/命令不存在：{e}'
